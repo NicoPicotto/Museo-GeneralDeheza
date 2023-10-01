@@ -18,32 +18,47 @@ import {
 	MenuItem,
 	Divider,
 	Link,
+	Image,
 } from '@chakra-ui/react';
 import { Link as ReachLink } from 'react-router-dom';
 import { RiMenu3Line } from 'react-icons/ri';
 import { MdArrowDropDown } from 'react-icons/md';
 import Container from '../Atoms/Container';
 import CustomButton from '../Atoms/CustomButton';
+import logo from '../../assets/Navbar/logo.png';
 
 const Navbar = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
 	const [placement, setPlacement] = useState('right');
 
 	return (
-		<Stack bgColor='primario'>
+		<Stack
+			bgColor='primario'
+			boxShadow='md'
+			position='fixed'
+			minH='5em'
+			top={0}
+			w='100%'
+			zIndex={10}
+		>
 			<Container
 				direction={['row', 'row', 'row']}
 				justifyContent='space-between'
 				alignItems='center'
-				paddingBlock={5}
-				paddingInline={8}
-				boxShadow='md'
 			>
 				{/* Logo */}
 				<Link as={ReachLink} to='/' _hover={{ textDecor: 'none' }}>
-					<Text fontSize={['lg', 'lg', '2xl']} fontWeight='bold' color='blanco'>
-						Museo General Deheza
-					</Text>
+					<Stack flexDir='row' align='center'>
+						<Image src={logo} h={10} display={['none', 'none', 'flex']} />
+
+						<Text
+							fontSize={['lg', 'lg', '2xl']}
+							fontWeight='bold'
+							color='blanco'
+						>
+							Museo General Deheza
+						</Text>
+					</Stack>
 				</Link>
 
 				{/* Buttons - Desktop */}
@@ -77,6 +92,7 @@ const Navbar = () => {
 							as={Button}
 							variant='link'
 							color='blanco'
+							fontWeight='normal'
 							_hover={{
 								textDecoration: 'none',
 								_after: {
@@ -90,7 +106,7 @@ const Navbar = () => {
 								left: '50%',
 								transform: 'translateX(-50%)',
 								width: '0%',
-								height: '2px',
+								height: '1px',
 								background: 'white',
 								transition: 'width 0.2s ease-in-out',
 							}}
@@ -100,13 +116,17 @@ const Navbar = () => {
 							Interactuá
 						</MenuButton>
 						<MenuList>
-							<Link as={ReachLink} to='/leer'>
+							<Link as={ReachLink} to='/leer' _hover={{ textDecor: 'none' }}>
 								<MenuItem>Leer</MenuItem>
 							</Link>
-							<Link as={ReachLink} to='/mirar'>
+							<Link as={ReachLink} to='/mirar' _hover={{ textDecor: 'none' }}>
 								<MenuItem>Mirar</MenuItem>
 							</Link>
-							<Link as={ReachLink} to='/escuchar'>
+							<Link
+								as={ReachLink}
+								to='/escuchar'
+								_hover={{ textDecor: 'none' }}
+							>
 								<MenuItem>Escuchar</MenuItem>
 							</Link>
 						</MenuList>
@@ -153,7 +173,7 @@ const Navbar = () => {
 											color='secundario'
 											onClick={onClose}
 											variant='ghost'
-                                            _hover={{bgColor: "transparent"}}
+											_hover={{ bgColor: 'transparent' }}
 										>
 											Visita
 										</Button>
@@ -164,7 +184,7 @@ const Navbar = () => {
 											color='secundario'
 											onClick={onClose}
 											variant='ghost'
-                                            _hover={{bgColor: "transparent"}}
+											_hover={{ bgColor: 'transparent' }}
 										>
 											El Museo
 										</Button>
@@ -175,7 +195,7 @@ const Navbar = () => {
 											color='secundario'
 											onClick={onClose}
 											variant='ghost'
-                                            _hover={{bgColor: "transparent"}}
+											_hover={{ bgColor: 'transparent' }}
 										>
 											Colección
 										</Button>
@@ -186,7 +206,7 @@ const Navbar = () => {
 											color='secundario'
 											onClick={onClose}
 											variant='ghost'
-                                            _hover={{bgColor: "transparent"}}
+											_hover={{ bgColor: 'transparent' }}
 										>
 											Leer
 										</Button>
@@ -197,7 +217,7 @@ const Navbar = () => {
 											color='secundario'
 											onClick={onClose}
 											variant='ghost'
-                                            _hover={{bgColor: "transparent"}}
+											_hover={{ bgColor: 'transparent' }}
 										>
 											Mirar
 										</Button>
@@ -208,7 +228,7 @@ const Navbar = () => {
 											color='secundario'
 											onClick={onClose}
 											variant='ghost'
-                                            _hover={{bgColor: "transparent"}}
+											_hover={{ bgColor: 'transparent' }}
 										>
 											Escuchar
 										</Button>
@@ -219,7 +239,7 @@ const Navbar = () => {
 											color='secundario'
 											onClick={onClose}
 											variant='ghost'
-                                            _hover={{bgColor: "transparent"}}
+											_hover={{ bgColor: 'transparent' }}
 										>
 											Agenda
 										</Button>

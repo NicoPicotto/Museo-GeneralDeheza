@@ -1,12 +1,16 @@
 import React from 'react';
 import { Stack, Text } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
+import Hero from '../../Components/Home/Hero';
 
 const HomeView = () => {
 	return (
-		<Container bgColor='fondo'>
-			<Text>Home</Text>
-		</Container>
+		<Stack>
+			<Hero />
+			<Container>
+				<Text>Home</Text>
+			</Container>
+		</Stack>
 	);
 };
 

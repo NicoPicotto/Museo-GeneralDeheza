@@ -5,6 +5,7 @@ const CustomButton = ({ children, ...props }) => {
 		<Button
 			variant='link'
 			color='blanco'
+            fontWeight="normal"
 			_hover={{
 				textDecoration: 'none',
 				_after: {
@@ -14,11 +15,11 @@ const CustomButton = ({ children, ...props }) => {
 			_after={{
 				content: '""',
 				position: 'absolute',
-				bottom: 0,
+				bottom: -1,
 				left: '50%',
 				transform: 'translateX(-50%)',
 				width: '0%',
-				height: '2px',
+				height: '1px',
 				background: 'white',
 				transition: 'width 0.2s ease-in-out',
 			}}

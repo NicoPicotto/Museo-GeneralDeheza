@@ -5,6 +5,7 @@ import theme from './styles/theme';
 import HomeView from './Views/HomeView';
 import Navbar from './Components/Navbar';
 import VisitaView from './Views/VisitaView';
+import EscucharView from './Views/EscucharView';
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<HomeView />}/>
           <Route path='/visita' element={<VisitaView />}/>
+          <Route path='/escuchar' element={<EscucharView />}/>
         </Routes>
       </Router>
     </ChakraProvider>
