@@ -2,12 +2,12 @@ import React from 'react';
 import { Stack, Text } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
 
-const HomeView = () => {
+const VisitaView = () => {
 	return (
 		<Container bgColor='fondo'>
-			<Text>Home</Text>
+			<Text>Visita</Text>
 		</Container>
 	);
 };
 
-export default HomeView;
+export default VisitaView;
