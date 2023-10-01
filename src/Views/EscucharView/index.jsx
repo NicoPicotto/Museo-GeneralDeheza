@@ -7,9 +7,28 @@ import Sidebar from '../../Components/Atoms/Sidebar';
 
 const EscucharView = () => {
 	return (
-		<Stack direction='row' position='relative'>
-			<Sidebar title='Lo que los dehecinos tenemos para decir' />
-			<Container w='75%' paddingTop='7em'>
+		<Stack direction={['column', 'column', 'row']} position='relative'>
+			<Sidebar title='Voces de Deheza' subtitle='Relatos y memorias contados por los dehecinos, el corazón de nuestro pueblo.' />
+			<Container
+				w='100%'
+				paddingTop={['1em', '1em', '7em']}
+				direction='row'
+				flexWrap='wrap'
+				spacing={8}
+			>
+				<AudioCard title='Una esquina tradicional' src={esquina} />
+				<AudioCard title='Una esquina tradicional' src={esquina} />
+				<AudioCard title='Una esquina tradicional' src={esquina} />
+				<AudioCard title='Una esquina tradicional' src={esquina} />
+				<AudioCard title='Una esquina tradicional' src={esquina} />
+				<AudioCard title='Una esquina tradicional' src={esquina} />
+				<AudioCard title='Una esquina tradicional' src={esquina} />
+				<AudioCard title='Una esquina tradicional' src={esquina} />
+				<AudioCard title='Una esquina tradicional' src={esquina} />
+				<AudioCard title='Una esquina tradicional' src={esquina} />
+				<AudioCard title='Una esquina tradicional' src={esquina} />
+				<AudioCard title='Una esquina tradicional' src={esquina} />
+				<AudioCard title='Una esquina tradicional' src={esquina} />
 				<AudioCard title='Una esquina tradicional' src={esquina} />
 			</Container>
 		</Stack>
