@@ -19,6 +19,7 @@ import {
 	Divider,
 	Link,
 	Image,
+	useMediaQuery,
 } from '@chakra-ui/react';
 import { Link as ReachLink } from 'react-router-dom';
 import { RiMenu3Line } from 'react-icons/ri';
@@ -30,26 +31,27 @@ import logo from '../../assets/Navbar/logo.png';
 const Navbar = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
 	const [placement, setPlacement] = useState('right');
+	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 
 	return (
 		<Stack
 			bgColor='primario'
 			boxShadow='md'
-			position='fixed'
+			position='static'
 			minH='5em'
 			top={0}
 			w='100%'
 			zIndex={10}
 		>
 			<Container
-				direction={['row', 'row', 'row']}
+				direction='row'
 				justifyContent='space-between'
 				alignItems='center'
 			>
 				{/* Logo */}
 				<Link as={ReachLink} to='/' _hover={{ textDecor: 'none' }}>
 					<Stack flexDir='row' align='center'>
-						<Image src={logo} h={10} display={['none', 'none', 'flex']} />
+						<Image src={logo} h={10} />
 
 						<Text
 							fontSize={['lg', 'lg', '2xl']}
@@ -63,8 +65,8 @@ const Navbar = () => {
 
 				{/* Buttons - Desktop */}
 				<Stack
-					direction={['column', 'row', 'row']}
-					display={['none', 'none', 'flex']}
+					direction={isMobile ? 'column' : 'row'}
+					display={isMobile ? 'none' : 'flex'}
 					spacing={5}
 					divider={
 						<Divider
@@ -138,7 +140,7 @@ const Navbar = () => {
 
 				{/* Hamburger - Mobile */}
 				<IconButton
-					display={['flex', 'flex', 'none']}
+					display={isMobile ? 'flex' : 'none'}
 					aria-label='Open menu'
 					fontSize='20px'
 					variant='outline'

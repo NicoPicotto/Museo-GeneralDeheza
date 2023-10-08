@@ -6,21 +6,22 @@ import HomeView from './Views/HomeView';
 import Navbar from './Components/Navbar';
 import VisitaView from './Views/VisitaView';
 import EscucharView from './Views/EscucharView';
+import MuseoView from './Views/MuseoView';
 
 const App = () => {
+	return (
+		<ChakraProvider theme={theme}>
+			<Router>
+				<Navbar />
+				<Routes>
+					<Route path='/' element={<HomeView />} />
+					<Route path='/visita' element={<VisitaView />} />
+					<Route path='/museo' element={<MuseoView />} />
+					<Route path='/escuchar' element={<EscucharView />} />
+				</Routes>
+			</Router>
+		</ChakraProvider>
+	);
+};
 
-  return (
-    <ChakraProvider theme={theme}>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path='/' element={<HomeView />}/>
-          <Route path='/visita' element={<VisitaView />}/>
-          <Route path='/escuchar' element={<EscucharView />}/>
-        </Routes>
-      </Router>
-    </ChakraProvider>
-  )
-}
-
-export default App
+export default App;

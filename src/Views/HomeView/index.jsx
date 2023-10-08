@@ -7,9 +7,6 @@ const HomeView = () => {
 	return (
 		<Stack>
 			<Hero />
-			<Container>
-				<Text>Home</Text>
-			</Container>
 		</Stack>
 	);
 };

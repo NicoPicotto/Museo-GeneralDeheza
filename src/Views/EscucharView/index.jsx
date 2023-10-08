@@ -8,10 +8,14 @@ import Sidebar from '../../Components/Atoms/Sidebar';
 const EscucharView = () => {
 	return (
 		<Stack direction={['column', 'column', 'row']} position='relative'>
-			<Sidebar title='Voces de Deheza' subtitle='Relatos y memorias contados por los dehecinos, el corazón de nuestro pueblo.' />
+			<Sidebar
+				title='Voces de Deheza'
+				subtitle='Relatos y memorias contados por los dehecinos, el corazón de nuestro pueblo.'
+				h='100vh'
+			/>
 			<Container
 				w='100%'
-				paddingTop={['1em', '1em', '7em']}
+				padding={7}
 				direction='row'
 				flexWrap='wrap'
 				spacing={8}

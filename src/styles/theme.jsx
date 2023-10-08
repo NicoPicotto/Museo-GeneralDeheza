@@ -14,9 +14,13 @@ const styles = {
 	global: {
 		html: {
 			bgColor: 'lightgray',
+			margin: 0,
+			padding: 0,
 		},
 		body: {
 			bgColor: 'lightgray',
+			margin: 0,
+			padding: 0,
 		},
 	},
 };
