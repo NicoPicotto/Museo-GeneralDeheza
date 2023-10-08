@@ -13,13 +13,7 @@ const Sidebar = ({ title, subtitle, h, children }) => {
 			padding={7}
 			zIndex={5}
 		>
-			<Heading
-				color='blanco'
-				fontWeight='bold'
-				as='h1'
-				size='xl'
-				lineHeight={1}
-			>
+			<Heading color='blanco' fontWeight='bold' as='h1' size='xl' lineHeight={1}>
 				{title}
 			</Heading>
 			<Text as='i' fontSize='lg' color='fondo'>
