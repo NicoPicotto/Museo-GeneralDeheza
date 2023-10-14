@@ -71,7 +71,7 @@ const Navbar = () => {
 					divider={
 						<Divider
 							orientation='vertical'
-							borderColor='fondo'
+							borderColor='lightgray'
 							borderWidth={1}
 							height={5}
 						/>
@@ -152,7 +152,7 @@ const Navbar = () => {
 				{/* Drawer for mobile */}
 				<Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
 					<DrawerOverlay>
-						<DrawerContent bgColor='fondo'>
+						<DrawerContent bgColor='white'>
 							<DrawerCloseButton />
 							<DrawerHeader color='secundario'>
 								Museo General Deheza

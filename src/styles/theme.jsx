@@ -1,13 +1,13 @@
 import { extendTheme } from '@chakra-ui/react';
 
 const colors = {
-	primario: '#59573B',
-	secundario: '#40342A',
-	terciario: '#71734C',
-	cuarto: '#736048',
-	fondo: 'lightgray',
+	primario: '#A65858',
+	secundario: '#A66A65',
+	terciario: '#828C7D',
+	cuarto: '#D9C49C',
+	fondo: '#F2F2F2',
 	blanco: '#fff',
-	negro: '#BEBDBF',
+	negro: '#1F1F1F',
 };
 
 const styles = {

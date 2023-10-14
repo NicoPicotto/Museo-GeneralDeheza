@@ -32,8 +32,8 @@ const VisitaView = () => {
 				subtitle='Descubrí los tesoros históricos de General Deheza.'
 			/>
 			<Grid
-				templateRows={isMobile ? 'repeat(4, 1fr)' : 'repeat(2, 1fr)'}
-				templateColumns={isMobile ? 'repeat(1, 1fr)' : 'repeat(2, 1fr)'}
+				templateRows={isMobile ? 'repeat(4, 1fr)' : 'repeat(4, 1fr)'}
+				templateColumns={isMobile ? 'repeat(1, 1fr)' : 'repeat(1, 1fr)'}
 				w='100%'
 			>
 				<GridItem
@@ -41,8 +41,10 @@ const VisitaView = () => {
 					bgColor='#F2F2F2'
 					p={7}
 					transition='0.2s ease'
-					_hover={{ bgColor: 'terciario', color: 'fondo' }}
-					color='#40342A'
+					_hover={{ bgColor: 'cuarto' }}
+					color='negro'
+					borderBottom="1px solid"
+					borderBottomColor="cuarto"
 				>
 					<Stack direction='row'>
 						<Stack>
@@ -70,11 +72,13 @@ const VisitaView = () => {
 				</GridItem>
 				<GridItem
 					w='100%'
-					bgColor='#E6E6E6'
+					bgColor='#F2F2F2'
 					p={7}
 					transition='0.2s ease'
-					_hover={{ bgColor: 'terciario', color: 'fondo' }}
-					color='#40342A'
+					_hover={{ bgColor: 'cuarto' }}
+					color='negro'
+					borderBottom="1px solid"
+					borderBottomColor="cuarto"
 				>
 					<Stack direction='row'>
 						<Stack>
@@ -88,11 +92,13 @@ const VisitaView = () => {
 				</GridItem>
 				<GridItem
 					w='100%'
-					bgColor='#E6E6E6'
+					bgColor='#F2F2F2'
 					p={7}
 					transition='0.2s ease'
-					_hover={{ bgColor: 'terciario', color: 'fondo' }}
-					color='#40342A'
+					_hover={{ bgColor: 'cuarto' }}
+					color='negro'
+					borderBottom="1px solid"
+					borderBottomColor="cuarto"
 				>
 					<Stack direction='row'>
 						<Stack>
@@ -113,8 +119,8 @@ const VisitaView = () => {
 					bgColor='#F2F2F2'
 					p={7}
 					transition='0.2s ease'
-					_hover={{ bgColor: 'terciario', color: 'fondo' }}
-					color='#40342A'
+					_hover={{ bgColor: 'cuarto' }}
+					color='negro'
 				>
 					<Stack direction='row'>
 						<Stack>

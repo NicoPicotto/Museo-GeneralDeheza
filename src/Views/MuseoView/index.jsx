@@ -14,18 +14,12 @@ const MuseoView = () => {
 		switch (activeTab) {
 			case 'Introducción':
 				return <Introduccion />;
-			case 'Línea de tiempo general':
+			case 'Línea de tiempo':
 				// Retorna el segundo componente
 				return <LineaGeneral />;
-			case 'Eje Institucional':
+			case 'Ejes':
 				// Retorna el tercer componente
 				return <LineaInstituciones />;
-			case 'Eje Social':
-				// Retorna el cuarto componente
-				return <div>Eje Social</div>;
-			case 'Eje Agroindustrial':
-				// Retorna el quinto componente
-				return <div>Eje Agroindustrial</div>;
 			default:
 				return <Introduccion />;
 		}
@@ -36,17 +30,13 @@ const MuseoView = () => {
 			direction={isMobile ? 'column' : 'row'}
 			spacing={0}
 			height='calc(100vh - 5rem)'
+			bgColor='fondo'
 		>
 			<Sidebar title='Historia del museo'>
 				<Stack spacing={5}>
-					{[
-						'Introducción',
-						'Línea de tiempo general',
-						'Eje Institucional',
-						'Eje Social',
-						'Eje Agroindustrial',
-					].map((tab) => (
+					{['Introducción', 'Línea de tiempo', 'Ejes'].map((tab, index) => (
 						<Stack
+							key={index} // Add key prop here
 							direction='row'
 							align='center'
 							_hover={{ marginLeft: 2 }}
@@ -54,13 +44,12 @@ const MuseoView = () => {
 						>
 							<BsArrowRightShort color='white' />
 							<Text
-								key={tab}
 								color='fondo'
 								fontSize='lg'
 								onClick={() => setActiveTab(tab)}
 								cursor='pointer'
 								textDecoration={activeTab === tab ? 'underline' : 'none'}
-								as={activeTab === tab ? 'b' : 'none'}
+								as={activeTab === tab ? 'b' : 'span'} // Change 'none' to 'span'
 							>
 								{tab}
 							</Text>

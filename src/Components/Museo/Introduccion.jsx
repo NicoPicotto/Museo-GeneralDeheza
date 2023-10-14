@@ -6,7 +6,7 @@ const Introduccion = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 	return (
 		<Container overflowX='hidden'>
-			<Stack spacing={5} color='secundario' mb={5} maxW="60ch">
+			<Stack spacing={5} color='negro' mb={5} maxW="70ch">
 				<Heading>Introducción</Heading>
 				<Text fontSize='lg'>
 					La creación del Museo se origina a partir del programa “HERENCIAS”.
