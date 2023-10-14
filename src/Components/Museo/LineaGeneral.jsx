@@ -91,7 +91,6 @@ const LineaGeneral = () => {
 					align='flex-start'
 					position='sticky'
 					direction='row'
-					mb={3}
 					left={0}
 				>
 					<Button
