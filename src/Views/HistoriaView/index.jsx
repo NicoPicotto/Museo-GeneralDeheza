@@ -1,10 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Stack, Text, useMediaQuery } from '@chakra-ui/react';
-import Sidebar from '../../Components/Atoms/Sidebar';
 import Introduccion from '../../Components/Museo/Introduccion';
-import LineaGeneral from '../../Components/Museo/LineaGeneral';
-import { BsArrowRightShort } from 'react-icons/bs';
-import LineaInstituciones from '../../Components/Museo/LineaInstituciones';
 import Container from '../../Components/Atoms/Container';
 
 const HistoriaView = () => {

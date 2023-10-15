@@ -11,6 +11,8 @@ import {
 	Image,
 	Divider,
 	useMediaQuery,
+	Heading,
+	Tooltip,
 } from '@chakra-ui/react';
 
 const EventCard = ({ event }) => {
@@ -18,42 +20,45 @@ const EventCard = ({ event }) => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
 
 	return (
-		<>
-			<Stack
-				bg='white'
-				p={4}
-				spacing={5}
-				borderRadius='md'
-				boxShadow='md'
-				whiteSpace='normal'
-				minW={isMobile ? '100%' : '400px'}
-				onClick={onOpen}
-				cursor='pointer'
+		<Stack w='100%' align='center' pt={10}>
+			<Tooltip
+				label='Hacé click para ver más'
+				hasArrow
+				bg='terciario'
+				placement='top'
 			>
-				<Text as='b' color='secundario' fontSize='lg'>
-					{' '}
-					{event.date} - {event.title}
-				</Text>
-				<Divider borderColor='cuarto' />
-				<Text
-					textAlign='justify'
-					lineHeight={1.3}
-					whiteSpace='pre-line'
-					style={{
-						display: '-webkit-box',
-						WebkitBoxOrient: 'vertical',
-						overflow: 'hidden',
-						WebkitLineClamp: event.img ? 5 : 15,
-					}}
+				<Stack
+					w={isMobile ? '100%' : '50%'}
+					bgColor='white'
+					shadow='md'
+					p={5}
+					borderRadius={10}
+					onClick={onOpen}
 				>
-					{event.description}
-				</Text>
-				<Image src={event.img} borderRadius='sm' />
-			</Stack>
-
+					<Heading size='lg' color='terciario'>
+						{' '}
+						{event.date} - {event.title}
+					</Heading>
+					<Divider borderColor='cuarto' />
+					<Text
+						textAlign='justify'
+						lineHeight={1.3}
+						whiteSpace='pre-line'
+						style={{
+							display: '-webkit-box',
+							WebkitBoxOrient: 'vertical',
+							overflow: 'hidden',
+							WebkitLineClamp: event.img ? 5 : 15,
+						}}
+					>
+						{event.description}
+					</Text>
+					<Image maxHeight='400px' src={event.img} borderRadius='sm' />
+				</Stack>
+			</Tooltip>
 			<Modal isOpen={isOpen} onClose={onClose}>
 				<ModalOverlay />
-				<ModalContent minW='800px' p={5}>
+				<ModalContent minW={isMobile ? '100%' : '800px'} p={5}>
 					<ModalHeader color='primario'>
 						{event.date} - {event.title}
 					</ModalHeader>
@@ -64,7 +69,7 @@ const EventCard = ({ event }) => {
 					<Image src={event.img} borderRadius='md' p={5} />
 				</ModalContent>
 			</Modal>
-		</>
+		</Stack>
 	);
 };
 

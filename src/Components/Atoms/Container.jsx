@@ -4,7 +4,8 @@ const Container = ({ children, ...props }) => (
 	<Stack
 		maxWidth='1920px'
 		width='100%'
-		padding={5}
+		paddingBlock={5}
+		paddingInline={5}
 		{...props}
 	>
 		{children}

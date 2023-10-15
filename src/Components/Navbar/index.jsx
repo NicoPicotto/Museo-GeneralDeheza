@@ -69,6 +69,7 @@ const Navbar = () => {
 					direction={isMobile ? 'column' : 'row'}
 					display={isMobile ? 'none' : 'flex'}
 					spacing={5}
+					zIndex={100}
 					divider={
 						<Divider
 							orientation='vertical'

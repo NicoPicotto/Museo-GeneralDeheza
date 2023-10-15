@@ -9,6 +9,7 @@ import EscucharView from './Views/EscucharView';
 import ColeccionView from './Views/ColeccionView';
 import HistoriaView from './Views/HistoriaView';
 import LineaDeTiempoView from './Views/LineaDeTiempoView';
+import EjesView from './Views/EjesView';
 
 const App = () => {
 	return (
@@ -20,6 +21,7 @@ const App = () => {
 					<Route path='/visita' element={<VisitaView />} />
 					<Route path='/historia' element={<HistoriaView />} />
 					<Route path='/linea-de-tiempo' element={<LineaDeTiempoView />} />
+					<Route path='/ejes' element={<EjesView />} />
 					<Route path='/coleccion' element={<ColeccionView />} />
 					<Route path='/escuchar' element={<EscucharView />} />
 				</Routes>

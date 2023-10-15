@@ -1,133 +1,49 @@
-import React, { useEffect, useRef, useState } from 'react';
 import {
 	Stack,
 	Progress,
 	HStack,
 	Button,
+	Heading,
 	useMediaQuery,
 } from '@chakra-ui/react';
-import Container from '../Atoms/Container';
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+// import required modules
+import { Mousewheel, Pagination, Navigation } from 'swiper/modules';
+
 import EventCard from './EventCard';
-import events from './DatosLineaGeneral';
-import { GrFormNextLink, GrFormPreviousLink } from 'react-icons/gr';
 import './noScroll.css';
 
-const LineaGeneral = () => {
+const LineaGeneral = ({events}) => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
-	const timelineRef = useRef(null);
-	const [progress, setProgress] = useState(0);
 
-	//Horizontal scrolling
-	useEffect(() => {
-		const handleScroll = (e) => {
-			if (timelineRef.current) {
-				timelineRef.current.scrollLeft += e.deltaY;
-
-				const totalScrollWidth =
-					timelineRef.current.scrollWidth - timelineRef.current.clientWidth;
-				const currentScrollPosition = timelineRef.current.scrollLeft;
-
-				const progressPercentage =
-					(currentScrollPosition / totalScrollWidth) * 100;
-				setProgress(progressPercentage);
-			}
-		};
-
-		if (timelineRef.current) {
-			// Ensure timelineRef.current is not null before adding the event listener
-			timelineRef.current.addEventListener('wheel', handleScroll);
-		}
-		return () => {
-			if (timelineRef.current) {
-				// Ensure timelineRef.current is not null before removing the event listener
-				timelineRef.current.removeEventListener('wheel', handleScroll);
-			}
-		};
-	}, []);
-
-	const updateProgress = () => {
-		if (timelineRef.current) {
-			const totalScrollWidth = timelineRef.current.scrollWidth - 415;
-			const currentScrollPosition = timelineRef.current.scrollLeft;
-			const progressPercentage =
-				(currentScrollPosition / totalScrollWidth) * 100;
-			setProgress(progressPercentage);
-		}
-	};
-
-	const scrollToNext = () => {
-		if (timelineRef.current) {
-			const newScrollPosition = timelineRef.current.scrollLeft + 415;
-			timelineRef.current.scrollTo({
-				left: newScrollPosition,
-				behavior: 'smooth',
-			});
-			setTimeout(updateProgress, 300); // Allow time for scrolling animation to complete
-		}
-	};
-
-	const scrollToPrevious = () => {
-		if (timelineRef.current) {
-			const newScrollPosition = timelineRef.current.scrollLeft - 415;
-			timelineRef.current.scrollTo({
-				left: newScrollPosition,
-				behavior: 'smooth',
-			});
-			setTimeout(updateProgress, 300); // Allow time for scrolling animation to complete
-		}
-	};
 	return (
-		<Stack
-			ref={timelineRef}
-			overflowX='scroll'
-			whiteSpace='nowrap'
-			h='100%'
-			justify="space-between"
-			position='relative'
-			className='no-scroll'
+		<Swiper
+			direction={'horizontal'}
+			slidesPerView={1}
+			spaceBetween={30}
+			mousewheel={true}
+			navigation={isMobile ? false : true}
+			pagination={{
+				clickable: true,
+				type: 'progressbar',
+			}}
+			modules={[Mousewheel, Pagination, Navigation]}
+			className='mySwiper'
 		>
-			<Stack
-				align='flex-start'
-				position='sticky'
-				direction='row'
-				left={0}
-				display={isMobile ? 'none' : 'flex'}
-			>
-				<Button
-					onClick={scrollToPrevious}
-					variant='outline'
-					borderColor='cuarto'
-					paddingInline={10}
-					_hover={{ bgColor: 'cuarto' }}
-				>
-					<GrFormPreviousLink />
-				</Button>
-				<Button
-					onClick={scrollToNext}
-					variant='outline'
-					borderColor='cuarto'
-					paddingInline={10}
-					_hover={{ bgColor: 'cuarto' }}
-				>
-					<GrFormNextLink />
-				</Button>
-			</Stack>
-			<HStack spacing={4}>
-				{events.map((event, index) => (
+			{events.map((event, index) => (
+				<SwiperSlide>
 					<EventCard key={index} event={event} />
-				))}
-			</HStack>
-			<Progress
-				value={progress}
-				marginTop={5}
-				left={0}
-				position='sticky'
-				bgColor='cuarto'
-				colorScheme='gray'
-				size='sm'
-				display={isMobile && 'none'}
-			/>
-		</Stack>
+				</SwiperSlide>
+			))}
+		</Swiper>
 	);
 };
 

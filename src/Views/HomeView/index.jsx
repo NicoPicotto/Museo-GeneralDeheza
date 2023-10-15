@@ -12,7 +12,7 @@ import { Link as ReachLink } from 'react-router-dom';
 import heroImg from '../../assets/Home/hero.jpg';
 
 const HomeView = () => {
-	const [isMobile] = useMediaQuery('(max-width: 1100px)');
+	const [isMobile] = useMediaQuery('(max-width: 800px)');
 
 	return (
 		<Stack

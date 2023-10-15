@@ -27,12 +27,8 @@ const VisitaView = () => {
 			justify='center'
 		>
 			<Container>
-				<Stack direction='row' h='100%' spacing={10}>
-					<Stack
-						w='50%'
-						spacing={5}
-						divider={<Divider borderColor='cuarto' />}
-					>
+				<Stack direction='row' h='100%' spacing={10} align='center'>
+					<Stack w='50%' spacing={5} divider={<Divider borderColor='cuarto' />}>
 						<Stack>
 							<Stack direction='row'>
 								<MdLocationOn fontSize='1.7rem' color='#A65858' />
@@ -80,7 +76,13 @@ const VisitaView = () => {
 							</Stack>
 						</Stack>
 					</Stack>
-					<Stack w='50%' borderRadius={10} overflow='hidden' shadow='md'>
+					<Stack
+						w='50%'
+						h='100%'
+						borderRadius={10}
+						overflow='hidden'
+						shadow='md'
+					>
 						<iframe
 							src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d838.8329603652677!2d-63.7883881!3d-32.7569283!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cdc60c379b8e8d%3A0x175a5dec928a3d76!2sCasa%20Municipal%20de%20La%20Cultura!5e0!3m2!1ses-419!2sar!4v1697378076328!5m2!1ses-419!2sar'
 							allowFullScreen={true}
@@ -91,7 +93,6 @@ const VisitaView = () => {
 					</Stack>
 				</Stack>
 			</Container>
-			
 		</Stack>
 	);
 };
