@@ -6,7 +6,9 @@ import HomeView from './Views/HomeView';
 import Navbar from './Components/Navbar';
 import VisitaView from './Views/VisitaView';
 import EscucharView from './Views/EscucharView';
-import MuseoView from './Views/MuseoView';
+import ColeccionView from './Views/ColeccionView';
+import HistoriaView from './Views/HistoriaView';
+import LineaDeTiempoView from './Views/LineaDeTiempoView';
 
 const App = () => {
 	return (
@@ -16,7 +18,9 @@ const App = () => {
 				<Routes>
 					<Route path='/' element={<HomeView />} />
 					<Route path='/visita' element={<VisitaView />} />
-					<Route path='/museo' element={<MuseoView />} />
+					<Route path='/historia' element={<HistoriaView />} />
+					<Route path='/linea-de-tiempo' element={<LineaDeTiempoView />} />
+					<Route path='/coleccion' element={<ColeccionView />} />
 					<Route path='/escuchar' element={<EscucharView />} />
 				</Routes>
 			</Router>

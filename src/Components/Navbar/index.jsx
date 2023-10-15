@@ -42,6 +42,7 @@ const Navbar = () => {
 			top={0}
 			w='100%'
 			zIndex={10}
+			align='center'
 		>
 			<Container
 				direction='row'
@@ -80,9 +81,54 @@ const Navbar = () => {
 					<Link as={ReachLink} to='/visita'>
 						<CustomButton>Visita</CustomButton>
 					</Link>
-					<Link as={ReachLink} to='/museo'>
-						<CustomButton>El Museo</CustomButton>
-					</Link>
+					<Menu>
+						<MenuButton
+							as={Button}
+							variant='link'
+							color='blanco'
+							fontWeight='normal'
+							_hover={{
+								textDecoration: 'none',
+								_after: {
+									width: '100%',
+								},
+							}}
+							_after={{
+								content: '""',
+								position: 'absolute',
+								bottom: 0,
+								left: '50%',
+								transform: 'translateX(-50%)',
+								width: '0%',
+								height: '1px',
+								background: 'white',
+								transition: 'width 0.2s ease-in-out',
+							}}
+							_active={{ color: 'white' }}
+							rightIcon={<MdArrowDropDown />}
+						>
+							El Museo
+						</MenuButton>
+						<MenuList>
+							<Link
+								as={ReachLink}
+								to='/historia'
+								_hover={{ textDecor: 'none' }}
+							>
+								<MenuItem>Historia</MenuItem>
+							</Link>
+							<Link
+								as={ReachLink}
+								to='/linea-de-tiempo'
+								_hover={{ textDecor: 'none' }}
+							>
+								<MenuItem>Línea de tiempo</MenuItem>
+							</Link>
+							<Link as={ReachLink} to='/ejes' _hover={{ textDecor: 'none' }}>
+								<MenuItem>Ejes</MenuItem>
+							</Link>
+						</MenuList>
+					</Menu>
 					<Link as={ReachLink} to='/coleccion'>
 						<CustomButton>Colección</CustomButton>
 					</Link>

@@ -2,20 +2,18 @@ import React from 'react';
 import {
 	Stack,
 	Text,
-	Grid,
-	GridItem,
-	Heading,
-	Link,
+	Divider,
 	useMediaQuery,
 	Tooltip,
+	Heading,
 } from '@chakra-ui/react';
-import Sidebar from '../../Components/Atoms/Sidebar';
 import {
 	MdLocationOn,
 	MdAccessTimeFilled,
 	MdAccessibilityNew,
 	MdGroup,
 } from 'react-icons/md';
+import Container from '../../Components/Atoms/Container';
 
 const VisitaView = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
@@ -26,127 +24,74 @@ const VisitaView = () => {
 			position='relative'
 			spacing={0}
 			height='calc(100vh - 5rem)'
+			justify='center'
 		>
-			<Sidebar
-				title='¡Vení a visitarnos!'
-				subtitle='Descubrí los tesoros históricos de General Deheza.'
-			/>
-			<Grid
-				templateRows={isMobile ? 'repeat(4, 1fr)' : 'repeat(4, 1fr)'}
-				templateColumns={isMobile ? 'repeat(1, 1fr)' : 'repeat(1, 1fr)'}
-				w='100%'
-			>
-				<GridItem
-					w='100%'
-					bgColor='#F2F2F2'
-					p={7}
-					transition='0.2s ease'
-					_hover={{ bgColor: 'cuarto' }}
-					color='negro'
-					borderBottom="1px solid"
-					borderBottomColor="cuarto"
-				>
-					<Stack direction='row'>
+			<Container>
+				<Stack direction='row' h='100%' spacing={10}>
+					<Stack
+						w='50%'
+						spacing={5}
+						divider={<Divider borderColor='cuarto' />}
+					>
 						<Stack>
-							<MdLocationOn fontSize='2rem' />
-						</Stack>
-						<Stack>
-							<Heading>Ubicación</Heading>
-							<Tooltip
-								hasArrow
-								label='Cómo llegar con Google Maps'
-								placement='bottom'
-								bgColor='secundario'
-							>
-								<Text fontSize='lg'>
-									<Link
-										href='https://maps.app.goo.gl/ydRLEN6PtFRbaGNG6'
-										target='_blank'
-									>
-										Nuestra Señora de La Asunción 51 General Deheza.
-									</Link>
+							<Stack direction='row'>
+								<MdLocationOn fontSize='1.7rem' color='#A65858' />
+								<Heading size='lg'>Ubicación</Heading>
+							</Stack>
+							<Stack paddingLeft={10}>
+								<Text>
+									Nuestra Señora de La Asunción 51 General Deheza, Córdoba,
+									Argentina.
 								</Text>
-							</Tooltip>
+							</Stack>
+						</Stack>
+						<Stack>
+							<Stack direction='row'>
+								<MdAccessTimeFilled fontSize='1.7rem' color='#A65858' />
+								<Heading size='lg'>Horarios</Heading>
+							</Stack>
+							<Stack paddingLeft={10}>
+								<Text>Lunes a viernes, de 8:00 a 13:00 hs.</Text>
+							</Stack>
+						</Stack>
+						<Stack>
+							<Stack direction='row'>
+								<MdAccessibilityNew fontSize='1.7rem' color='#A65858' />
+								<Heading size='lg'>Accesibilidad</Heading>
+							</Stack>
+							<Stack paddingLeft={10}>
+								<Text>WiFi libre y gratuito.</Text>
+								<Text>
+									Rampas desde su ingreso y con acceso a todas sus salas.
+								</Text>
+								<Text>Baños accesibles.</Text>
+							</Stack>
+						</Stack>
+						<Stack>
+							<Stack direction='row'>
+								<MdGroup fontSize='1.7rem' color='#A65858' />
+								<Heading size='lg'>Visitas Grupales</Heading>
+							</Stack>
+							<Stack paddingLeft={10}>
+								<Text>
+									Te invitamos a programar las visitas grupales para cada nivel
+									educativo llamando al (358) 4057529.
+								</Text>
+							</Stack>
 						</Stack>
 					</Stack>
-				</GridItem>
-				<GridItem
-					w='100%'
-					bgColor='#F2F2F2'
-					p={7}
-					transition='0.2s ease'
-					_hover={{ bgColor: 'cuarto' }}
-					color='negro'
-					borderBottom="1px solid"
-					borderBottomColor="cuarto"
-				>
-					<Stack direction='row'>
-						<Stack>
-							<MdAccessTimeFilled fontSize='2rem' />
-						</Stack>
-						<Stack>
-							<Heading>Horarios</Heading>
-							<Text fontSize='lg'>Lunes a viernes, de 8:00 a 13:00 hs.</Text>
-						</Stack>
+					<Stack w='50%' borderRadius={10} overflow='hidden' shadow='md'>
+						<iframe
+							src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d838.8329603652677!2d-63.7883881!3d-32.7569283!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cdc60c379b8e8d%3A0x175a5dec928a3d76!2sCasa%20Municipal%20de%20La%20Cultura!5e0!3m2!1ses-419!2sar!4v1697378076328!5m2!1ses-419!2sar'
+							allowFullScreen={true}
+							height='100%'
+							loading='lazy'
+							referrerPolicy='no-referrer-when-downgrade'
+						></iframe>
 					</Stack>
-				</GridItem>
-				<GridItem
-					w='100%'
-					bgColor='#F2F2F2'
-					p={7}
-					transition='0.2s ease'
-					_hover={{ bgColor: 'cuarto' }}
-					color='negro'
-					borderBottom="1px solid"
-					borderBottomColor="cuarto"
-				>
-					<Stack direction='row'>
-						<Stack>
-							<MdAccessibilityNew fontSize='2rem' />
-						</Stack>
-						<Stack>
-							<Heading>Accesibilidad</Heading>
-							<Text fontSize='lg'>WiFi libre y gratuito.</Text>
-							<Text fontSize='lg'>
-								Rampas desde su ingreso y con acceso a todas sus salas.
-							</Text>
-							<Text fontSize='lg'>Baños accesibles.</Text>
-						</Stack>
-					</Stack>
-				</GridItem>
-				<GridItem
-					w='100%'
-					bgColor='#F2F2F2'
-					p={7}
-					transition='0.2s ease'
-					_hover={{ bgColor: 'cuarto' }}
-					color='negro'
-				>
-					<Stack direction='row'>
-						<Stack>
-							<MdGroup fontSize='2rem' />
-						</Stack>
-						<Stack>
-							<Heading>Visitas grupales</Heading>
-							<Text fontSize='lg'>
-								Te invitamos a programar las visitas grupales para cada nivel
-								educativo llamando al{' '}
-								<Tooltip
-									hasArrow
-									label='Tocá para llamar por teléfono'
-									placement='bottom'
-									bgColor='secundario'
-								>
-									<Link href='tel:+03584057529' as='b'>
-										(358) 4057529
-									</Link>
-								</Tooltip>
-								.
-							</Text>
-						</Stack>
-					</Stack>
-				</GridItem>
-			</Grid>
+				</Stack>
+			</Container>
+			
 		</Stack>
 	);
 };

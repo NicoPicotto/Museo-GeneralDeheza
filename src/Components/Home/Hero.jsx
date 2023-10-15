@@ -1,35 +1,45 @@
 import React from 'react';
-import { Stack, Heading, Button, Box, Link } from '@chakra-ui/react';
+import {
+	Stack,
+	Heading,
+	Button,
+	Box,
+	Link,
+	useMediaQuery,
+} from '@chakra-ui/react';
 import { Link as ReachLink } from 'react-router-dom';
 import heroImg from '../../assets/Home/hero.jpg';
 
 const Hero = () => {
+	const [isMobile] = useMediaQuery('(max-width: 1100px)');
+
 	return (
 		<Stack
 			height='calc(100vh - 5rem)'
 			backgroundImage={heroImg}
-			bgPos='center'
+			bgPos={isMobile ? 'left' : 'center'}
 			backgroundSize='cover'
 			justify='center'
-			paddingInline={20}
+			paddingInline={isMobile ? 10 : 20}
 		>
-			<Stack maxW='50ch'>
+			<Stack maxW={!isMobile && '50ch'}>
 				<Heading
 					color='blanco'
 					size='2xl'
+					textAlign={isMobile && 'center'}
 					lineHeight='1.2'
 					textShadow='dark-lg'
 				>
 					Bienvenidos al Museo de General Deheza
 				</Heading>
-				<Stack direction='row'>
+				<Stack direction={isMobile ? 'column' : 'row'}>
 					<Button
 						position='relative'
 						overflow='hidden'
 						bgColor='blanco'
 						color='secundario'
 						cursor='pointer'
-						width='40%'
+						width={isMobile ? '100%' : '40%'}
 						shadow='md'
 						_hover={{ bgColor: 'terciario' }}
 					>
@@ -70,7 +80,7 @@ const Hero = () => {
 						borderColor='blanco'
 						borderWidth={1}
 						color='blanco'
-						width='40%'
+						width={isMobile ? '100%' : '40%'}
 						shadow='md'
 						fontWeight='normal'
 						_hover={{ bgColor: 'terciario', borderColor: 'transparent' }}

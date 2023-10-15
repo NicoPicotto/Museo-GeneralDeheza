@@ -47,7 +47,7 @@ const LineaGeneral = () => {
 
 	const updateProgress = () => {
 		if (timelineRef.current) {
-			const totalScrollWidth = timelineRef.current.scrollWidth - 420;
+			const totalScrollWidth = timelineRef.current.scrollWidth - 415;
 			const currentScrollPosition = timelineRef.current.scrollLeft;
 			const progressPercentage =
 				(currentScrollPosition / totalScrollWidth) * 100;
@@ -57,7 +57,7 @@ const LineaGeneral = () => {
 
 	const scrollToNext = () => {
 		if (timelineRef.current) {
-			const newScrollPosition = timelineRef.current.scrollLeft + 420;
+			const newScrollPosition = timelineRef.current.scrollLeft + 415;
 			timelineRef.current.scrollTo({
 				left: newScrollPosition,
 				behavior: 'smooth',
@@ -68,7 +68,7 @@ const LineaGeneral = () => {
 
 	const scrollToPrevious = () => {
 		if (timelineRef.current) {
-			const newScrollPosition = timelineRef.current.scrollLeft - 420;
+			const newScrollPosition = timelineRef.current.scrollLeft - 415;
 			timelineRef.current.scrollTo({
 				left: newScrollPosition,
 				behavior: 'smooth',
@@ -77,58 +77,57 @@ const LineaGeneral = () => {
 		}
 	};
 	return (
-		<Container overflowY='hidden' position='relative'>
+		<Stack
+			ref={timelineRef}
+			overflowX='scroll'
+			whiteSpace='nowrap'
+			h='100%'
+			justify="space-between"
+			position='relative'
+			className='no-scroll'
+		>
 			<Stack
-				ref={timelineRef}
-				overflowX='scroll'
-				whiteSpace='nowrap'
-				h='100%'
-				justify='center'
-				position='relative'
-				className='no-scroll'
+				align='flex-start'
+				position='sticky'
+				direction='row'
+				left={0}
+				display={isMobile ? 'none' : 'flex'}
 			>
-				<Stack
-					align='flex-start'
-					position='sticky'
-					direction='row'
-					left={0}
+				<Button
+					onClick={scrollToPrevious}
+					variant='outline'
+					borderColor='cuarto'
+					paddingInline={10}
+					_hover={{ bgColor: 'cuarto' }}
 				>
-					<Button
-						onClick={scrollToPrevious}
-						variant='outline'
-						borderColor='cuarto'
-						paddingInline={10}
-						_hover={{ bgColor: 'cuarto' }}
-					>
-						<GrFormPreviousLink />
-					</Button>
-					<Button
-						onClick={scrollToNext}
-						variant='outline'
-						borderColor='cuarto'
-						paddingInline={10}
-						_hover={{ bgColor: 'cuarto' }}
-					>
-						<GrFormNextLink />
-					</Button>
-				</Stack>
-				<HStack spacing={4}>
-					{events.map((event, index) => (
-						<EventCard key={index} event={event} />
-					))}
-				</HStack>
-				<Progress
-					value={progress}
-					marginTop={5}
-					left={0}
-					position='sticky'
-					bgColor='cuarto'
-					colorScheme='gray'
-					size='sm'
-					display={isMobile && 'none'}
-				/>
+					<GrFormPreviousLink />
+				</Button>
+				<Button
+					onClick={scrollToNext}
+					variant='outline'
+					borderColor='cuarto'
+					paddingInline={10}
+					_hover={{ bgColor: 'cuarto' }}
+				>
+					<GrFormNextLink />
+				</Button>
 			</Stack>
-		</Container>
+			<HStack spacing={4}>
+				{events.map((event, index) => (
+					<EventCard key={index} event={event} />
+				))}
+			</HStack>
+			<Progress
+				value={progress}
+				marginTop={5}
+				left={0}
+				position='sticky'
+				bgColor='cuarto'
+				colorScheme='gray'
+				size='sm'
+				display={isMobile && 'none'}
+			/>
+		</Stack>
 	);
 };
 

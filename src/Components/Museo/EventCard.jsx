@@ -1,5 +1,4 @@
 import {
-	Box,
 	Text,
 	Modal,
 	useDisclosure,
@@ -8,11 +7,10 @@ import {
 	ModalHeader,
 	ModalCloseButton,
 	ModalBody,
-	Button,
 	Stack,
 	Image,
 	Divider,
-	useMediaQuery
+	useMediaQuery,
 } from '@chakra-ui/react';
 
 const EventCard = ({ event }) => {
@@ -28,8 +26,8 @@ const EventCard = ({ event }) => {
 				borderRadius='md'
 				boxShadow='md'
 				whiteSpace='normal'
-				minW={isMobile ? "100%" : '400px'}
-				onClick={onOpen} 
+				minW={isMobile ? '100%' : '400px'}
+				onClick={onOpen}
 				cursor='pointer'
 			>
 				<Text as='b' color='secundario' fontSize='lg'>
@@ -62,9 +60,8 @@ const EventCard = ({ event }) => {
 					<ModalCloseButton />
 					<ModalBody textAlign='justify' lineHeight={1.3} whiteSpace='pre-line'>
 						{event.description}
-                        
 					</ModalBody>
-                    <Image src={event.img} borderRadius='md' p={5} />
+					<Image src={event.img} borderRadius='md' p={5} />
 				</ModalContent>
 			</Modal>
 		</>

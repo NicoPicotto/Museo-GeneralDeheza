@@ -1,13 +1,14 @@
 import React from 'react';
-import { Stack, Text, useMediaQuery, Heading } from '@chakra-ui/react';
-import Container from '../Atoms/Container';
+import { Stack, Text, useMediaQuery, Heading, Image } from '@chakra-ui/react';
+import tanque from '/src/assets/Historia/tanque.jpg';
 
 const Introduccion = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
+
 	return (
-		<Container overflowX='hidden'>
-			<Stack spacing={5} color='negro' mb={5} maxW="70ch">
-				<Heading>Introducción</Heading>
+		<Stack direction='row' h='100%' spacing={10}>
+			<Stack spacing={5} color='negro' mb={5} w='50%'>
+				<Heading size="lg">Introducción</Heading>
 				<Text fontSize='lg'>
 					La creación del Museo se origina a partir del programa “HERENCIAS”.
 				</Text>
@@ -36,7 +37,10 @@ const Introduccion = () => {
 					nuestra ciudad; crear un espacio donde se atesore nuestra historia.
 				</Text>
 			</Stack>
-		</Container>
+			<Stack w='50%' borderRadius={10} overflow='hidden' shadow='md'>
+				<Image src={tanque} objectFit='cover' />
+			</Stack>
+		</Stack>
 	);
 };
 

@@ -13,12 +13,12 @@ const colors = {
 const styles = {
 	global: {
 		html: {
-			bgColor: 'lightgray',
+			bgColor: '#F2F2F2',
 			margin: 0,
 			padding: 0,
 		},
 		body: {
-			bgColor: 'lightgray',
+			bgColor: '#F2F2F2',
 			margin: 0,
 			padding: 0,
 		},
