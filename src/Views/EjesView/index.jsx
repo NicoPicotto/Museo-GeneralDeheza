@@ -12,8 +12,8 @@ import {
 	Text,
 } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
-import LineaGeneral from '../../Components/Museo/LineaGeneral';
-import events from '/src/Components/Museo/DatosLineaGeneral';
+import events from '/src/Components/Museo/DatosLineaInstituciones';
+import LineaInstituciones from '../../Components/Museo/LineaInstituciones';
 
 const EjesView = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
@@ -27,7 +27,13 @@ const EjesView = () => {
 			justify='center'
 		>
 			<Container>
-				<Tabs position='relative' variant='unstyled' w='100%' align='center' overflow="hidden">
+				<Tabs
+					position='relative'
+					variant='unstyled'
+					w='100%'
+					align='center'
+					overflow='hidden'
+				>
 					<TabList gap={10} color='negro'>
 						<Tab>
 							<Heading size='lg'>Instituciones</Heading>
@@ -52,7 +58,7 @@ const EjesView = () => {
 									Bueno acá les mostramos las instituciones de General Deheza a
 									lo largo del tiempo bla bla
 								</Text>
-								<LineaGeneral events={events} />
+								<LineaInstituciones events={events} />
 							</Stack>
 						</TabPanel>
 						<TabPanel>

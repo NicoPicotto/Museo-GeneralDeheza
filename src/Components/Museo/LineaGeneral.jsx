@@ -1,12 +1,5 @@
-import {
-	Stack,
-	Progress,
-	HStack,
-	Button,
-	Heading,
-	useMediaQuery,
-} from '@chakra-ui/react';
-import React, { useRef, useState } from 'react';
+import { useMediaQuery } from '@chakra-ui/react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -21,7 +14,7 @@ import { Mousewheel, Pagination, Navigation } from 'swiper/modules';
 import EventCard from './EventCard';
 import './noScroll.css';
 
-const LineaGeneral = ({events}) => {
+const LineaGeneral = ({ events }) => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 
 	return (

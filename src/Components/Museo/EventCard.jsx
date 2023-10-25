@@ -53,7 +53,9 @@ const EventCard = ({ event }) => {
 					>
 						{event.description}
 					</Text>
-					<Image maxHeight='400px' src={event.img} borderRadius='sm' />
+					{event.img && (
+						<Image maxHeight='400px' src={event.img} borderRadius='sm' />
+					)}
 				</Stack>
 			</Tooltip>
 			<Modal isOpen={isOpen} onClose={onClose}>

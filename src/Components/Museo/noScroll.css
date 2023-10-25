@@ -20,6 +20,10 @@
 	object-fit: cover;
 }
 
+.swiper-wrapper {
+	align-items: center;
+}
+
 .swiper-pagination-progressbar-fill {
 	background-color: #828c7d !important;
 }

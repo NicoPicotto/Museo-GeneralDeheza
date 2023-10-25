@@ -1,14 +1,42 @@
+import { useMediaQuery } from '@chakra-ui/react';
 import React from 'react';
-import { Stack } from '@chakra-ui/react';
-import Container from '../Atoms/Container';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-const LineaInstituciones = () => {
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+// import required modules
+import { Mousewheel, Pagination, Navigation } from 'swiper/modules';
+
+import EventCard from './EventCard';
+import './noScroll.css';
+
+const LineaInstituciones = ({ events }) => {
+	const [isMobile] = useMediaQuery('(max-width: 1100px)');
+
 	return (
-		<Container overflowX='hidden'>
-			<Stack h='100%'>
-				
-			</Stack>
-		</Container>
+		<Swiper
+			direction={'horizontal'}
+			slidesPerView={1}
+			spaceBetween={30}
+			mousewheel={true}
+			navigation={isMobile ? false : true}
+			pagination={{
+				clickable: true,
+				type: 'progressbar',
+			}}
+			modules={[Mousewheel, Pagination, Navigation]}
+			className='mySwiper'
+		>
+			{events.map((event, index) => (
+				<SwiperSlide align-items="center">
+					<EventCard key={index} event={event} />
+				</SwiperSlide>
+			))}
+		</Swiper>
 	);
 };
 
