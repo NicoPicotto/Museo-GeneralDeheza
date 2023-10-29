@@ -12,8 +12,10 @@ import {
 	Text,
 } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
-import events from '/src/Components/Museo/DatosLineaInstituciones';
+import events from '../../Components/Museo/DatosLineaInstituciones';
+import events2 from '../../Components/Museo/DatiosLineaBarrios';
 import LineaInstituciones from '../../Components/Museo/LineaInstituciones';
+import LineaBarrios from '../../Components/Museo/LineaBarrios';
 
 const EjesView = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
@@ -62,7 +64,10 @@ const EjesView = () => {
 							</Stack>
 						</TabPanel>
 						<TabPanel>
-							<p>two!</p>
+							<Stack>
+								<Text fontSize='lg'>Crecimiento Urbano y Rural</Text>
+								<LineaBarrios events={events2} />
+							</Stack>
 						</TabPanel>
 						<TabPanel>
 							<p>three!</p>

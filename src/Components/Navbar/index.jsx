@@ -26,7 +26,7 @@ import { RiMenu3Line } from 'react-icons/ri';
 import { MdArrowDropDown } from 'react-icons/md';
 import Container from '../Atoms/Container';
 import CustomButton from '../Atoms/CustomButton';
-import logo from '../../assets/Navbar/logo.png';
+import logo from '/assets/Navbar/logo.png';
 
 const Navbar = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();

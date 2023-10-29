@@ -2,7 +2,7 @@ import React from 'react';
 import { Stack, useMediaQuery } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
 import LineaGeneral from '../../Components/Museo/LineaGeneral';
-import events from "/src/Components/Museo/DatosLineaGeneral"
+import events from '../../Components/Museo/DatosLineaGeneral';
 
 const LineaDeTiempoView = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');

@@ -38,7 +38,7 @@ const events = [
 
         El 10 de diciembre de 1896 el Presidente de la Nación, doctor José Evaristo Uriburu, aprobó por decreto la autorización a la Dirección de Ferrocarriles Nacionales para librar al servicio público la estación provisoria que se denominaría "General Deheza". Con los años, nuestra localidad adoptaría la misma nominación. 
         `,
-		img: 'src/assets/LineaGeneral/1905 - Estación Ferrocarril.jpeg',
+		img: '/assets/LineaGeneral/1905 - Estación Ferrocarril.jpeg',
 	},
 	{
 		title: 'Teléfono',
@@ -154,13 +154,13 @@ const events = [
 		
 		Años más tarde, la municipalidad, a través de una Ordenanza, lo designa con el nombre de Hospital de la Comunidad “Doctor Rinaldo José Ángel Maino”, apoyado por un grupo de vecinos y en reconocimiento a su trayectoria como Médico, como intendente municipal y además por haberse desempeñado durante muchos años como Director de dicho nosocomio. 
 		`,
-		img: '/src/assets/LineaGeneral/1940 - Hospital Vecinal - Sala de primeros auxilios.jpg',
+		img: '/assets/LineaGeneral/1940 - Hospital Vecinal - Sala de primeros auxilios.jpg',
 	},
 	{
 		title: 'Edificio Municipal',
 		date: '1940',
 		description: '?????',
-		img: '/src/assets/LineaGeneral/1940 - EDIFICIO MUNICIPAL.jpg',
+		img: '/assets/LineaGeneral/1940 - EDIFICIO MUNICIPAL.jpg',
 	},
 	{
 		title: 'Taller de Tejeduría Angel Racca',
@@ -169,13 +169,13 @@ const events = [
 
 		Nació con el objetivo de impartir una preparación técnica que posibilitase una salida laboral. Por entonces "'el Telar”, como familiarmente lo llamaban, funcionaba subsidiado íntegramente por la Municipalidad. 
 		`,
-		img: '/src/assets/LineaGeneral/1947 - Taller de Tejeduría Angel Racca.jpg',
+		img: '/assets/LineaGeneral/1947 - Taller de Tejeduría Angel Racca.jpg',
 	},
 	{
 		title: 'Barrio Municipal',
 		date: '1948',
 		description: `El barrio municipal estaba ubicado a sólo una cuadra de la actual Plaza San Martín. Fue gestión del Intendente José Frouté en su intención de ser destinadas a personal policial. Fueron nada más que tres viviendas de las cuales ninguna se mantiene en pie.`,
-		img: '/src/assets/LineaGeneral/1948 - Barrio Municipal.jpg',
+		img: '/assets/LineaGeneral/1948 - Barrio Municipal.jpg',
 	},
 	{
 		title: 'Hogar de Ancianos',
@@ -193,13 +193,13 @@ const events = [
 		date: '1986',
 		description: `Constituyendo una elogiable labor arquitectónica, se remodeló el tanque de agua pionero de la localidad, ubicado en la primera cuadra de la calle Asunción, al lado del Edificio Municipal. Éste, que había permanecido varios años en desuso, quedó convertido en la coqueta sede donde funciona a partir de entonces la Casa Municipal de la Cultura.
 		`,
-		img: '/src/assets/LineaGeneral/1986 - Casa de la cultura2.jpg',
+		img: '/assets/LineaGeneral/1986 - Casa de la cultura2.jpg',
 	},
 	{
 		title: 'Biblioteca Leopoldo Lugones',
 		date: '1971',
 		description: '????',
-		img: '/src/assets/LineaGeneral/1971 - BIBLIOTECA.jpg',
+		img: '/assets/LineaGeneral/1971 - BIBLIOTECA.jpg',
 	},
 	{
 		title: 'A.F.I.P. Resguardo Aduanero',
@@ -221,7 +221,7 @@ const events = [
 		title: 'Polideportivo Municipal',
 		date: '2000',
 		description: '?????',
-		img: '/src/assets/LineaGeneral/1993 - POLIDEPORTIVO.jpg',
+		img: '/assets/LineaGeneral/1993 - POLIDEPORTIVO.jpg',
 	},
 	{
 		title: 'Oficina Legislativa',

@@ -2,7 +2,7 @@ const events = [
 	{
 		title: 'Comisión Festejos Patronales',
 		date: '1901',
-		img: 'src/assets/LineaSocial/1901 - Festejos patronales.jpg',
+		img: '/assets/LineaSocial/1901 - Festejos patronales.jpg',
 	},
 	{
 		title: 'Escuela Primaria "General San Martín',
@@ -11,7 +11,7 @@ const events = [
 	{
 		title: 'Sociedad Italiana',
 		date: '1904',
-		img: 'src/assets/LineaSocial/1904 - Sociedad Italiana.jpg',
+		img: '/assets/LineaSocial/1904 - Sociedad Italiana.jpg',
 	},
 	{
 		title: 'Policía',
@@ -20,12 +20,12 @@ const events = [
 	{
 		title: 'Parroquia Nuestra Señora de la Asunción',
 		date: '1914',
-		img: 'src/assets/LineaSocial/1914 - iglesia2.jpg',
+		img: '/assets/LineaSocial/1914 - iglesia2.jpg',
 	},
 	{
 		title: 'Deheza Football Club',
 		date: '1918',
-		img: 'src/assets/LineaSocial/1918 - DEHEZA FCLUB.jpg',
+		img: '/assets/LineaSocial/1918 - DEHEZA FCLUB.jpg',
 	},
 	{
 		title: 'Iglesia Evangélica de los Hermanos',
@@ -42,27 +42,27 @@ const events = [
 	{
 		title: 'Escuela Rural "Conrado Villegas"',
 		date: '1943',
-		img: 'src/assets/LineaSocial/1943 - Escuela Rural Conrado Villegas.jpg',
+		img: '/assets/LineaSocial/1943 - Escuela Rural Conrado Villegas.jpg',
 	},
 	{
 		title: 'Escuela Primaria "Martín Miguel de Güemes"',
 		date: '1948',
-		img: 'src/assets/LineaSocial/1948 - Escuela Martin M de Guemes.jpg',
+		img: '/assets/LineaSocial/1948 - Escuela Martin M de Guemes.jpg',
 	},
 	{
 		title: 'Club Atlético Acción Juvenil',
 		date: '1956',
-		img: 'src/assets/LineaSocial/1956 - Acción Juvenil pileta5.jpg',
+		img: '/assets/LineaSocial/1956 - Acción Juvenil pileta5.jpg',
 	},
 	{
 		title: 'IPET 105 Escuela Técnica "Alfonsina Storni"',
 		date: '1959',
-		img: 'src/assets/LineaSocial/1959 - Esc Alfonsina Storni.jpg',
+		img: '/assets/LineaSocial/1959 - Esc Alfonsina Storni.jpg',
 	},
 	{
 		title: 'Cooperativa Eléctrica',
 		date: '1959',
-		img: 'src/assets/LineaSocial/1959 - COOPERATIVA ELECTRICA.jpg',
+		img: '/assets/LineaSocial/1959 - COOPERATIVA ELECTRICA.jpg',
 	},
 	{
 		title: 'Instituto Secundario Comercial “25 De Mayo”',

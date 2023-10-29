@@ -1,6 +1,6 @@
 import React from 'react';
 import { Stack, Text, useMediaQuery, Heading, Image } from '@chakra-ui/react';
-import tanque from '/src/assets/Historia/tanque.jpg';
+import tanque from '/assets/Historia/tanque.jpg';
 
 const Introduccion = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
@@ -8,7 +8,7 @@ const Introduccion = () => {
 	return (
 		<Stack direction='row' h='100%' spacing={10}>
 			<Stack spacing={5} color='negro' mb={5} w='50%'>
-				<Heading size="lg">Introducción</Heading>
+				<Heading size='lg'>Introducción</Heading>
 				<Text fontSize='lg'>
 					La creación del Museo se origina a partir del programa “HERENCIAS”.
 				</Text>

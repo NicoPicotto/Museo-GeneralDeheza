@@ -14,7 +14,7 @@ import { Mousewheel, Pagination, Navigation } from 'swiper/modules';
 import EventCard from './EventCard';
 import './noScroll.css';
 
-const LineaInstituciones = ({ events }) => {
+const LineaBarrios = ({ events }) => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 
 	return (
@@ -40,4 +40,4 @@ const LineaInstituciones = ({ events }) => {
 	);
 };
 
-export default LineaInstituciones;
+export default LineaBarrios;

@@ -8,7 +8,7 @@ import {
 	useMediaQuery,
 } from '@chakra-ui/react';
 import { Link as ReachLink } from 'react-router-dom';
-import heroImg from '../../assets/Home/hero.jpg';
+import heroImg from '/assets/Home/hero.jpg';
 
 const Hero = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
