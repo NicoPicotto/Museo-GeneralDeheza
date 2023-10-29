@@ -37,7 +37,7 @@ const Navbar = () => {
 		<Stack
 			bgColor='primario'
 			boxShadow='md'
-			position='static'
+			position='sticky'
 			minH='5em'
 			top={0}
 			w='100%'

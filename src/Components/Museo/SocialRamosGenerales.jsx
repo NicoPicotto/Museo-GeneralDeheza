@@ -10,7 +10,6 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { Mousewheel, Navigation } from 'swiper/modules';
-import './noScrollSocial.css';
 
 const SocialRamosGenerales = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
