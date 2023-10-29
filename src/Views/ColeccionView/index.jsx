@@ -1,13 +1,14 @@
 import React from 'react';
 import { Stack, Heading } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
+import ColeccionContainer from '../../Components/Coleccion/ColeccionContainer';
 
 const ColeccionView = () => {
 	return (
-		<Stack align="center">
+		<Stack align='center'>
 			<Container>
-                <Heading as="h1">Colección</Heading>
-            </Container>
+				<ColeccionContainer />
+			</Container>
 		</Stack>
 	);
 };

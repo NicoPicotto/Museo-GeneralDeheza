@@ -10,12 +10,14 @@ import {
 	useMediaQuery,
 	Heading,
 	Text,
+	Divider,
 } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
 import events from '../../Components/Museo/DatosLineaInstituciones';
 import events2 from '../../Components/Museo/DatiosLineaBarrios';
 import LineaInstituciones from '../../Components/Museo/LineaInstituciones';
 import LineaBarrios from '../../Components/Museo/LineaBarrios';
+import SocialRamosGenerales from '../../Components/Museo/SocialRamosGenerales';
 
 const EjesView = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
@@ -25,7 +27,6 @@ const EjesView = () => {
 			direction={isMobile ? 'column' : 'row'}
 			position='relative'
 			spacing={0}
-			height='calc(100vh - 5rem)'
 			justify='center'
 		>
 			<Container>
@@ -70,7 +71,12 @@ const EjesView = () => {
 							</Stack>
 						</TabPanel>
 						<TabPanel>
-							<p>three!</p>
+							<Stack spacing={10} divider={<Divider borderColor='terciario' />}>
+								<SocialRamosGenerales />
+								<SocialRamosGenerales />
+								<SocialRamosGenerales />
+								<SocialRamosGenerales />
+							</Stack>
 						</TabPanel>
 					</TabPanels>
 				</Tabs>

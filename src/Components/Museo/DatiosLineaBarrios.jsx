@@ -26,7 +26,12 @@ const events = [
 	{ title: 'Barrio Plan Federal I', date: '2006' },
 	{ title: 'Loteo Barrio Cáritas', date: '2009' },
 	{ title: 'Loteo Quinta Ribetto', date: '2009' },
-	{ title: 'Loteo Quinta Gastaldi', date: '2009' },
+	{
+		title: 'Loteo Quinta Gastaldi',
+		date: '2009',
+		description: '',
+		img: 'assets/LineaSocial/1914 - iglesia2.jpg',
+	},
 ];
 
 export default events;
