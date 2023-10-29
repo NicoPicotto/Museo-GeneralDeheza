@@ -18,7 +18,7 @@ import items from './ColeccionList';
 
 const ColeccionContainer = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
-	const [selectedPiece, setSelectedPiece] = React.useState(null);
+	const [selectedPiece, setSelectedPiece] = useState(null);
 
 	const handleOpenModal = (piece) => {
 		setSelectedPiece(piece);
@@ -26,7 +26,7 @@ const ColeccionContainer = () => {
 	};
 
 	return (
-		<>
+		<Stack width='100%'>
 			<MasonryGrid>
 				{items.map((piece, index) => (
 					<Stack onClick={() => handleOpenModal(piece)}>
@@ -72,7 +72,7 @@ const ColeccionContainer = () => {
 					</ModalContent>
 				</Modal>
 			)}
-		</>
+		</Stack>
 	);
 };
 

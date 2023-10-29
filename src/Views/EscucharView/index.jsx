@@ -1,7 +1,7 @@
 import React from 'react';
 import { Stack, Text } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
-import AudioCard from '../../Components/Escuchar/AudioPlayer';
+import AudioCard from '../../Components/Interactuar/Escuchar/AudioPlayer';
 import esquina from '/assets/Escuchar/EsquinaTradicional.mp3';
 
 const EscucharView = () => {

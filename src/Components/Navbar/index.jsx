@@ -165,15 +165,23 @@ const Navbar = () => {
 							Interactuá
 						</MenuButton>
 						<MenuList>
-							<Link as={ReachLink} to='/leer' _hover={{ textDecor: 'none' }}>
+							<Link
+								as={ReachLink}
+								to='/interactuar#leer'
+								_hover={{ textDecor: 'none' }}
+							>
 								<MenuItem>Leer</MenuItem>
 							</Link>
-							<Link as={ReachLink} to='/mirar' _hover={{ textDecor: 'none' }}>
+							<Link
+								as={ReachLink}
+								to='/interactuar#mirar'
+								_hover={{ textDecor: 'none' }}
+							>
 								<MenuItem>Mirar</MenuItem>
 							</Link>
 							<Link
 								as={ReachLink}
-								to='/escuchar'
+								to='/interactuar#escuchar'
 								_hover={{ textDecor: 'none' }}
 							>
 								<MenuItem>Escuchar</MenuItem>

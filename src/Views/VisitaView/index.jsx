@@ -27,7 +27,7 @@ const VisitaView = () => {
 			justify='center'
 		>
 			<Container>
-				<Stack direction='row' h='100%' spacing={10} align='center'>
+				<Stack direction='row' h='100%' spacing={10}>
 					<Stack w='50%' spacing={5} divider={<Divider borderColor='cuarto' />}>
 						<Stack>
 							<Stack direction='row'>

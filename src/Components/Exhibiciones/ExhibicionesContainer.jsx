@@ -17,19 +17,23 @@ import { IoIosCheckmarkCircle, IoIosCloseCircle } from 'react-icons/io';
 
 const ExhibicionesContainer = () => {
 	return (
-		<Grid templateColumns='repeat(2, 6fr)' gap={6}>
+		<Grid
+			templateColumns='repeat(2, 6fr)'
+			gap={6}
+			paddingInline='50px'
+			marginTop='-100px'
+		>
 			{list.map((item, index) => (
 				<GridItem
 					key={index}
 					bgColor='white'
 					shadow='md'
-					p={5}
+					overflow='hidden'
 					borderRadius={5}
 				>
 					<Stack spacing={4} h='100%'>
 						<Image src={item.portada} alt={item.titulo} />
-
-						<Stack h='100%' spacing={4}>
+						<Stack h='100%' spacing={4} p={5}>
 							<Stack>
 								<Heading color='primario' size='lg'>
 									{item.titulo}
@@ -65,7 +69,12 @@ const ExhibicionesContainer = () => {
 							<Divider borderColor='cuarto' />
 							<Text>{item.shortDescription}</Text>
 						</Stack>
-						<Link as={ReachLink} to={`/exhibiciones/${index}`}>
+						<Link
+							as={ReachLink}
+							to={`/exhibiciones/${index}`}
+							w='fit-content'
+							p={5}
+						>
 							<Button
 								bgColor='primario'
 								color='fondo'

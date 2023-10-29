@@ -12,6 +12,7 @@ import LineaDeTiempoView from './Views/LineaDeTiempoView';
 import EjesView from './Views/EjesView';
 import ExhibicionesView from './Views/ExhibicionesListView';
 import ExhibicionView from './Views/ExhibicionView';
+import InteractuarView from './Views/InteractuarView';
 
 const App = () => {
 	return (
@@ -27,6 +28,7 @@ const App = () => {
 					<Route path='/coleccion' element={<ColeccionView />} />
 					<Route path='/exhibiciones' element={<ExhibicionesView />} />
 					<Route path='/exhibiciones/:id' element={<ExhibicionView />} />
+					<Route path='/interactuar' element={<InteractuarView />} />
 					<Route path='/escuchar' element={<EscucharView />} />
 				</Routes>
 			</Router>

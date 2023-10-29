@@ -2,8 +2,7 @@ const exhibiciones = [
 	{
 		titulo: 'Semana del Arte',
 		autor: 'Instituto Técnico Adrián P. Urquía',
-		shortDescription: `Alumnos de Tercero, Cuarto, Quinto y Sexto año de la especialidad Arte del Instituto Técnico Adrián P. Urquía expusieron desde el día 28/09/23 hasta el 09/10/23. La muestra fusionó una variedad de técnicas, materiales y formatos. Entre ellas pudimos apreciar pinturas con técnica mixta en gran formato realizadas por los alumnos de Sexto Año a cargo del profesor Max Iriarte; distintos dibujos realizados por los alumnos de Cuarto, Quinto y Sexto Año a cargo de la Profesora Eugenia Basélica; fotografías realizadas por los alumnos de Quinto Año con el profesor Pablo Mercado, y por último; pinturas al óleo realizadas por los alumnos de Quinto Año, a cargo del profesor Max Iriarte. 
-        En la apertura de la muestra, el Taller de Música del COE a cargo del profesor Tomás Ferrero y Arturo Carranza, nos acompañaron con una presentación en vivo`,
+		shortDescription: `Alumnos de Tercero, Cuarto, Quinto y Sexto año de la especialidad Arte del Instituto Técnico Adrián P. Urquía expusieron desde el día 28/09/23 hasta el 09/10/23. La muestra fusionó una variedad de técnicas, materiales y formatos. Entre ellas pudimos apreciar pinturas con técnica mixta en gran formato realizadas por los alumnos de Sexto Año a cargo del profesor Max Iriarte.`,
 		vigente: true,
 		longDescription: `El espacio se puebla del imaginario del futuro trazado por el ancestral dibujo, la línea madre de las artes, se afirma y valora; educación, comunicación y estética conviven y se potencian.
         

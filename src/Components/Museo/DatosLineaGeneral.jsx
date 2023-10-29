@@ -38,7 +38,7 @@ const events = [
 
         El 10 de diciembre de 1896 el Presidente de la Nación, doctor José Evaristo Uriburu, aprobó por decreto la autorización a la Dirección de Ferrocarriles Nacionales para librar al servicio público la estación provisoria que se denominaría "General Deheza". Con los años, nuestra localidad adoptaría la misma nominación. 
         `,
-		img: '/assets/LineaGeneral/1905 - Estación Ferrocarril.jpeg',
+		img: 'assets/LineaGeneral/1905 - Estacion Ferrocarril.jpeg',
 	},
 	{
 		title: 'Teléfono',
@@ -169,7 +169,7 @@ const events = [
 
 		Nació con el objetivo de impartir una preparación técnica que posibilitase una salida laboral. Por entonces "'el Telar”, como familiarmente lo llamaban, funcionaba subsidiado íntegramente por la Municipalidad. 
 		`,
-		img: '/assets/LineaGeneral/1947 - Taller de Tejeduría Angel Racca.jpg',
+		img: '/assets/LineaGeneral/1947 - Taller de Tejeduria Angel Racca.jpg',
 	},
 	{
 		title: 'Barrio Municipal',

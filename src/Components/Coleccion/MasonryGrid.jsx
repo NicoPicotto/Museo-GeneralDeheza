@@ -3,7 +3,7 @@ import { Stack, Box } from '@chakra-ui/react';
 
 const MasonryGrid = ({ children }) => {
 	return (
-		<Stack direction='row' justify='center'>
+		<Stack direction='row' justify='center' mt='-100px' w="100%" paddingInline="40px">
 			{Array(3) // 3 columnas
 				.fill(0)
 				.map((_, colIndex) => (
