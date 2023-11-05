@@ -27,6 +27,7 @@ const EjesView = () => {
 			direction={isMobile ? 'column' : 'row'}
 			position='relative'
 			spacing={0}
+			paddingTop="5em"
 			justify='center'
 		>
 			<Container>

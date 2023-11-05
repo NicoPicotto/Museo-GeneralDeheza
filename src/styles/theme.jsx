@@ -1,9 +1,9 @@
 import { extendTheme } from '@chakra-ui/react';
 
 const colors = {
-	primario: '#A65858',
-	secundario: '#A66A65',
-	terciario: '#828C7D',
+	primario: '#4C5249',
+	secundario: '#D3E4CB',
+	terciario: '#818B7C',
 	cuarto: '#D9C49C',
 	fondo: '#F2F2F2',
 	blanco: '#fff',
@@ -26,8 +26,8 @@ const styles = {
 };
 
 const fonts = {
-	heading: 'Josefin Sans',
-	body: 'Josefin Sans',
+	heading: `'Montserrat', sans-serif;`,
+	body: `'PT Sans', sans-serif;`,
 };
 
 const theme = extendTheme({ colors, styles, fonts });

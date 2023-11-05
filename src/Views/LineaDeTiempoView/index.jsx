@@ -11,6 +11,7 @@ const LineaDeTiempoView = () => {
 			direction={isMobile ? 'column' : 'row'}
 			position='relative'
 			spacing={0}
+			paddingTop="5em"
 			height='calc(100vh - 5rem)'
 			justify={isMobile ? 'flex-start' : 'center'}
 		>

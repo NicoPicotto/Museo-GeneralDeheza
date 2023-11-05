@@ -20,6 +20,7 @@ import {
 	Link,
 	Image,
 	useMediaQuery,
+	Heading,
 } from '@chakra-ui/react';
 import { Link as ReachLink } from 'react-router-dom';
 import { RiMenu3Line } from 'react-icons/ri';
@@ -35,15 +36,24 @@ const Navbar = () => {
 
 	return (
 		<Stack
-			bgColor='primario'
-			boxShadow='md'
-			position='sticky'
+			bgColor='transparent'
+			position='fixed'
 			minH='5em'
 			top={0}
 			w='100%'
 			zIndex={10}
 			align='center'
+			backdropFilter="blur(5px)"
 		>
+			<Stack
+				position='absolute'
+				bgColor='black'
+				w='100%'
+				h='100%'
+				opacity='0.5'
+				zIndex={-1}
+				
+			></Stack>
 			<Container
 				direction='row'
 				justifyContent='space-between'
@@ -54,13 +64,13 @@ const Navbar = () => {
 					<Stack flexDir='row' align='center'>
 						<Image src={logo} h={10} />
 
-						<Text
+						<Heading
 							fontSize={['lg', 'lg', '2xl']}
 							fontWeight='bold'
 							color='blanco'
 						>
 							Museo General Deheza
-						</Text>
+						</Heading>
 					</Stack>
 				</Link>
 

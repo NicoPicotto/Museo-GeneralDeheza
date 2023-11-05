@@ -6,12 +6,18 @@ const Portada = ({ title, img, text }) => {
 		<Stack
 			bgSize='cover'
 			h='500px'
-			bgImage={`linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4) 100%), url(${img})`}
+			bgImage={`linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4) 70%), url(${img})`}
 			bgPos='center'
 			align='center'
 			paddingInline='75px'
 		>
-			<Stack maxW='1920px' h='100%' justify='center'>
+			<Stack
+				maxW='1920px'
+				h='100%'
+				justify='flex-end'
+				paddingBottom='120px'
+				w='100%'
+			>
 				<Heading size='3xl' color='background'>
 					{title}
 				</Heading>

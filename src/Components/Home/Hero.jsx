@@ -41,7 +41,7 @@ const Hero = () => {
 						cursor='pointer'
 						width={isMobile ? '100%' : '40%'}
 						shadow='md'
-						_hover={{ bgColor: 'terciario' }}
+						_hover={{ bgColor: 'primario' }}
 					>
 						<Stack
 							spacing={0}

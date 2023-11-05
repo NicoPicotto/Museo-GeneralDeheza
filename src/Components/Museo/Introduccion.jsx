@@ -1,18 +1,32 @@
 import React from 'react';
 import { Stack, Text, useMediaQuery, Heading, Image } from '@chakra-ui/react';
+
 import tanque from '/assets/Historia/tanque.jpg';
 
 const Introduccion = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 
 	return (
-		<Stack direction='row' h='100%' spacing={10}>
-			<Stack spacing={5} color='negro' mb={5} w='50%'>
-				<Heading size='lg'>Introducción</Heading>
-				<Text fontSize='lg'>
+		<Stack direction='row' marginTop='-100px' spacing={5} paddingInline='50px'>
+			<Stack
+				position='sticky'
+				top={120}
+				spacing={5}
+				color='negro'
+				w='50%'
+				bgColor='white'
+				p={5}
+				borderRadius={10}
+				h='fit-content'
+				boxShadow='md'
+			>
+				<Heading size='lg' color='primario'>
+					Introducción
+				</Heading>
+				<Text>
 					La creación del Museo se origina a partir del programa “HERENCIAS”.
 				</Text>
-				<Text fontSize='lg'>
+				<Text>
 					La importancia de la memoria histórico-social permite recuperar el
 					camino recorrido, las dificultades enfrentadas y superadas, lo que no
 					pudo ser y lo que sí. Hacer memoria es una actividad propiamente
@@ -22,13 +36,7 @@ const Introduccion = () => {
 					lo vivido; de ahí, la importancia del recupero y la reconstrucción del
 					pasado que nos constituye como pueblo.
 				</Text>
-				<Text fontSize='lg'>
-					Por eso se hace necesaria la creación de una Usina Local en donde se
-					puedan guardar de forma sistemática y segura todo lo recolectado, y,
-					lo más importante, en donde se puedan mostrar y compartir con el
-					pueblo y los visitantes de una forma accesible.
-				</Text>
-				<Text fontSize='lg'>
+				<Text>
 					El objetivo del Museo es generar un espacio físico en General Deheza
 					donde se pueda resguardar y exhibir de manera digital los diferentes
 					proyectos que forman parte del Programa Herencias. Que la localidad
