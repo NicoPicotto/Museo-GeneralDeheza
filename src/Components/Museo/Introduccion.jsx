@@ -1,24 +1,32 @@
 import React from 'react';
 import { Stack, Text, useMediaQuery, Heading, Image } from '@chakra-ui/react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-import tanque from '/assets/Historia/tanque.jpg';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import './swiper-historia.css';
+
+// import required modules
+import { Mousewheel, Navigation } from 'swiper/modules';
+import data from '../DatosLineas/DatosLineaIntroduccion.jsx';
 
 const Introduccion = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 
 	return (
-		<Stack direction='row' marginTop='-100px' spacing={5} paddingInline='50px'>
+		<Stack marginTop='-100px' spacing={5} paddingInline='50px'>
 			<Stack
-				position='sticky'
-				top={120}
 				spacing={5}
 				color='negro'
-				w='50%'
 				bgColor='white'
 				p={5}
 				borderRadius={10}
 				h='fit-content'
 				boxShadow='md'
+				mb={10}
 			>
 				<Heading size='lg' color='primario'>
 					Introducción
@@ -45,9 +53,33 @@ const Introduccion = () => {
 					nuestra ciudad; crear un espacio donde se atesore nuestra historia.
 				</Text>
 			</Stack>
-			<Stack w='50%' borderRadius={10} overflow='hidden' shadow='md'>
-				<Image src={tanque} objectFit='cover' />
+			<Stack h='500px'>
+				<Swiper
+					direction={'horizontal'}
+					slidesPerView={1}
+					spaceBetween={30}
+					mousewheel={true}
+					navigation={isMobile ? false : true}
+					modules={[Mousewheel, Navigation]}
+					className='mySwiper'
+				>
+					{data.map((data, index) => (
+						<SwiperSlide key={index}>
+							<Stack spacing={5} color='negro' textAlign='left' mr={5} h='100%'>
+								<Heading as='h2' color='terciario'>
+									{data.title}
+								</Heading>
+								<Text>{data.content}</Text>
+							</Stack>
+							<Image src={data.image} />
+						</SwiperSlide>
+					))}
+				</Swiper>
 			</Stack>
+			{/* <Stack w='50%' borderRadius={10} overflow='hidden' shadow='md'>
+				<Image src={tanque} objectFit='cover' />
+			</Stack> */}
+			<Stack></Stack>
 		</Stack>
 	);
 };
