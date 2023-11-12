@@ -13,11 +13,11 @@ import {
 	Divider,
 } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
-import events from '../../Components/Museo/DatosLineaInstituciones';
+import instituciones from '../../Components/DatosLineas/DatosLineaInstituciones';
 import events2 from '../../Components/Museo/DatiosLineaBarrios';
-import LineaInstituciones from '../../Components/Museo/LineaInstituciones';
 import LineaBarrios from '../../Components/Museo/LineaBarrios';
 import SocialRamosGenerales from '../../Components/Museo/SocialRamosGenerales';
+import LineaChrono from '../../Components/Museo/LineaChrono';
 
 const EjesView = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
@@ -27,7 +27,7 @@ const EjesView = () => {
 			direction={isMobile ? 'column' : 'row'}
 			position='relative'
 			spacing={0}
-			paddingTop="5em"
+			paddingTop='5em'
 			justify='center'
 		>
 			<Container>
@@ -57,12 +57,18 @@ const EjesView = () => {
 					/>
 					<TabPanels>
 						<TabPanel>
-							<Stack>
-								<Text fontSize='lg'>
-									Bueno acá les mostramos las instituciones de General Deheza a
-									lo largo del tiempo bla bla
+							<Stack spacing={10}>
+								<Text fontSize='lg' paddingInline={20}>
+									Toda institución nace como consecuencia de una acción
+									aglutinante en pro de un proyecto compartido. Si consideramos
+									este concepto tal vez comprendamos que no fue casual que las
+									primeras instituciones dehecinas fueran basadas en la
+									necesidad de Fe, de Integración, de Conocimiento y Trabajo. En
+									la línea de tiempo se ordenaron las instituciones educativas y
+									sociales, según la antigüedad de su primera entidad cuyo año
+									de fundación y nombre a continuación se detalla.
 								</Text>
-								<LineaInstituciones events={events} />
+								<LineaChrono events={instituciones} />
 							</Stack>
 						</TabPanel>
 						<TabPanel>

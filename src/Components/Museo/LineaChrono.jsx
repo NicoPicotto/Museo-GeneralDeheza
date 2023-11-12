@@ -3,13 +3,14 @@ import { Chrono } from 'react-chrono';
 import { Stack } from '@chakra-ui/react';
 import './chrono.css';
 
-const LineaMuseo = ({ events }) => {
+const LineaChrono = ({ events }) => {
 	return (
 		<Stack>
 			<Chrono
 				items={events}
 				mode='VERTICAL'
 				titleDateFormat='YYYY'
+				hideControls
 				useReadMore={false}
 				enableBreakPoint
 				theme={{
@@ -40,4 +41,4 @@ const LineaMuseo = ({ events }) => {
 	);
 };
 
-export default LineaMuseo;
+export default LineaChrono;
