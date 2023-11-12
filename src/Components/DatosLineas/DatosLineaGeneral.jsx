@@ -1,8 +1,8 @@
 const events = [
 	{
-		title: 'Fundación Colonia La Agrícola',
+		cardTitle: 'Fundación Colonia La Agrícola',
 		date: '1893',
-		description: `La documentación que pudiera delimitar con precisión la propiedad de estas tierras, es escasa y contradictoria. Como dato histórico podemos mencionar que en abril de 1885 la señora Slatter adquirió grandes extensiones de tierra a Samuel y Juan Fielden; las mismas pasaron a manos de la firma Barclay, Campdell & Cia. del Comercio de Buenos Aires, en remate público, en 1887. Finalmente esos campos fueron comprados por el Banco Agrícola Comercial del Río de la Plata, el 23 de febrero de 1889.El Gobierno de la provincia había observado que el tendido del Ferrocarril Andino no activó espontáneamente el proceso de colonización como se suponía.
+		cardDetailedText: `La documentación que pudiera delimitar con precisión la propiedad de estas tierras, es escasa y contradictoria. Como dato histórico podemos mencionar que en abril de 1885 la señora Slatter adquirió grandes extensiones de tierra a Samuel y Juan Fielden; las mismas pasaron a manos de la firma Barclay, Campdell & Cia. del Comercio de Buenos Aires, en remate público, en 1887. Finalmente esos campos fueron comprados por el Banco Agrícola Comercial del Río de la Plata, el 23 de febrero de 1889.El Gobierno de la provincia había observado que el tendido del Ferrocarril Andino no activó espontáneamente el proceso de colonización como se suponía.
         
         A fin de dinamizar esa necesidad de poblar la pampa, casi desértica, se dictó Ia Ley de Colonización, el 2 de agosto de 1886, concediendo una serie de ventajas a los propietarios de latifundios que iniciaran colonias. La ley establecía que debía considerarse despoblada toda colonia que luego de dos años de su fundación no tuviese, como mínimo, veinte familias por legua cuadrada. Constaba en ella que el perímetro de toda colonia debía estar determinado por calles de un ancho mínimo de diez metros y los lotes separados por calles vecinales. Para acogerse a esta Ley de Colonización entre otros requisitos, se debía presentar al Poder Ejecutivo de la Provincia una solicitud donde se expresase el área, situación y nombre que tendría el centro proyectado, planos de la traza, divisiones de la colonia y del pueblo a fundarse. 
 
@@ -14,9 +14,9 @@ const events = [
         `,
 	},
 	{
-		title: 'Estafeta Postal - Correo',
+		cardTitle: 'Estafeta Postal - Correo',
 		date: '1900',
-		description: `Nace como Estafeta de Correo en 1900 funcionando en un vagón a la vera de la vía ferroviaria del Ferrocarril Central Argentino que además oficiaba de Estación provisoria. Todo bajo la responsabilidad del único personal ferroviario.
+		cardDetailedText: `Nace como Estafeta de Correo en 1900 funcionando en un vagón a la vera de la vía ferroviaria del Ferrocarril Central Argentino que además oficiaba de Estación provisoria. Todo bajo la responsabilidad del único personal ferroviario.
 
         Años más tarde, la estafeta se trasladó al domicilio del nuevo encargado, don Juan Bautista Peretti, ubicado frente al ferrocarril (hoy Ruta Nacional 158 casi esquina bulevar San Martín).
         
@@ -32,18 +32,23 @@ const events = [
         `,
 	},
 	{
-		title: 'Estación Ferroviaria',
+		cardTitle: 'Estación Ferroviaria',
 		date: '1905',
-		description: `Nuestra Colonia "La Agricola" no escapó a la necesidad de incorporarse a las reglas de mercado impuestas. Por ello, se hizo imprescindible contar con una estación ferroviaria que facilitase la carga de sus cosechas, eludiendo el contratiempo que significaba su traslado a través de caminos casi intransitables, en épocas de lluvias, a las estaciones más cercanas. 
+		cardDetailedText: `Nuestra Colonia "La Agricola" no escapó a la necesidad de incorporarse a las reglas de mercado impuestas. Por ello, se hizo imprescindible contar con una estación ferroviaria que facilitase la carga de sus cosechas, eludiendo el contratiempo que significaba su traslado a través de caminos casi intransitables, en épocas de lluvias, a las estaciones más cercanas. 
 
         El 10 de diciembre de 1896 el Presidente de la Nación, doctor José Evaristo Uriburu, aprobó por decreto la autorización a la Dirección de Ferrocarriles Nacionales para librar al servicio público la estación provisoria que se denominaría "General Deheza". Con los años, nuestra localidad adoptaría la misma nominación. 
         `,
-		img: 'assets/LineaGeneral/1905 - Estacion Ferrocarril.jpeg',
+		media: {
+			source: {
+				url: 'assets/LineaGeneral/1905 - Estacion Ferrocarril.jpeg',
+			},
+			type: 'IMAGE',
+		},
 	},
 	{
-		title: 'Teléfono',
+		cardTitle: 'Teléfono',
 		date: '1913',
-		description: `Muy tempranamente, de la mano de la Compañía América Telefónica llegó la telefonía a General Deheza. Esta pequeña empresa, de propiedad del señor Heraldo Rescia de la localidad de Las Perdices, ofrecía el servicio limitado a ambas localidades, sumándose la de General Cabrera.
+		cardDetailedText: `Muy tempranamente, de la mano de la Compañía América Telefónica llegó la telefonía a General Deheza. Esta pequeña empresa, de propiedad del señor Heraldo Rescia de la localidad de Las Perdices, ofrecía el servicio limitado a ambas localidades, sumándose la de General Cabrera.
 
 		En marzo de 1913 la oficina se instaló en el domicilio de don Juan Maria Frouté (hoy Intendente Frouté casi esquina Saavedra), quedando la atención de la misma a cargo de la señora Teresa Daviou de Frouté, precisamente la madre de nuestro primer Jefe Comunal.
 		
@@ -56,10 +61,12 @@ const events = [
 		
 		Cinco años después, en 1918, gracias a la conexión con la Red Nacional de Telefonía, hizo posible nuestra comunicación con cualquier destino del ámbito del país. 
 		
-		La nacionalización llega en 1952 con el gobierno nacional del general Juan Domingo Perón, pasando a depender a partir de entonces de la Compañía de Teléfonos del Estado
-		(T.E.). 
+		La nacionalización llega en 1952 con el gobierno nacional del general Juan Domingo Perón, pasando a depender a partir de entonces de la Compañía de Teléfonos del Estado (T.E.).
+		
 		El 13 de enero de 1956 el Poder Ejecutivo Nacional crea la Empresa Nacional de Telecomunicaciones (ENTEL).
+
 		En marzo de 1957 tras largas gestiones llevadas a cabo se dispuso la instalación del Servicio de Teléfonograma. 
+
 		En 1958 se reemplaza el viejo sistema de alambres desnudos por cables de cobre revestidos y aislados entre sí. De cualquier manera la telefonía por conmutador implicaba cierta incomodidad por las demoras a veces de varias horas de espera, la privacidad no garantizada y las transitorias deficiencias acústicas que en días de tormenta volvían inaudibles las conversaciones telefónicas.
 		El 20 de junio de 1967 se inaugura al frente la nueva sede, en calle Intendente Frouté 181 y al año siguiente es recalegonizada dado el incremento de abonados al servicio.
 		
@@ -76,9 +83,9 @@ const events = [
 		`,
 	},
 	{
-		title: 'Usina de Luz y Fuerza Motriz',
+		cardTitle: 'Usina de Luz y Fuerza Motriz',
 		date: '1923',
-		description: `Por un decreto del gobierno provincial del dia 21 de Julio de 1923, la tradicional casa de comercio Cavalchini, Maino y Cia. S.R.L., queda autorizada para instalar una Usina Eléctrica en nuestra localidad.
+		cardDetailedText: `Por un decreto del gobierno provincial del dia 21 de Julio de 1923, la tradicional casa de comercio Cavalchini, Maino y Cia. S.R.L., queda autorizada para instalar una Usina Eléctrica en nuestra localidad.
 
 		Velas, faroles y lámparas varias condicionaban el quehacer pueblerino cuando llegaba la noche. 
 		
@@ -94,9 +101,9 @@ const events = [
 		`,
 	},
 	{
-		title: 'Registro Civil',
+		cardTitle: 'Registro Civil',
 		date: '1924',
-		description: `Fue en mayo de 1924 cuando un decreto del gobierno de la provincia aprueba el establecimiento de una Oficina de Registro Civil en General Deheza.
+		cardDetailedText: `Fue en mayo de 1924 cuando un decreto del gobierno de la provincia aprueba el establecimiento de una Oficina de Registro Civil en General Deheza.
 
 		De acuerdo a los Libros de Archivo recién el día 7 de julio de 1926 comienza su actividad local. Hasta entonces estos trámites se efectuaban en las Oficinas de las vecinas localidades de General Cabrera y Las Perdices lo cual implicaba serias dificultades, potenciada por las limitaciones de traslado de aquella época.
 		
@@ -104,17 +111,17 @@ const events = [
 		`,
 	},
 	{
-		title: 'Juzgado de Paz',
+		cardTitle: 'Juzgado de Paz',
 		date: '1926',
-		description: `Fue creado en 1927 de acuerdo a la Ley Nro 3726, en cuyo Decreto también dejó establecida su jurisdicción. Correspondiendo al área entre los límites con el Departamento Tercero Arriba en el norte y oeste, al oeste con la jurisdicción del Juzgado de Bengolea y al sur en una imaginaria línea entre Deheza y Cabrera a cinco kilómetros de la Plaza San Martín.
+		cardDetailedText: `Fue creado en 1927 de acuerdo a la Ley Nro 3726, en cuyo Decreto también dejó establecida su jurisdicción. Correspondiendo al área entre los límites con el Departamento Tercero Arriba en el norte y oeste, al oeste con la jurisdicción del Juzgado de Bengolea y al sur en una imaginaria línea entre Deheza y Cabrera a cinco kilómetros de la Plaza San Martín.
 
 		Sus funciones como Juzgado de Paz comprende las Providencias Judiciales Civiles, Laborales, Penales, la extensión de Certificaciones y Autorizaciones, Consultas y Asesoramientos, pero hubo un tiempo que sus funciones comprendía también las tareas de enrolamiento, en reemplazo de la Oficina de Registro Civil.
 		`,
 	},
 	{
-		title: 'Primer Pozo Surgente',
+		cardTitle: 'Primer Pozo Surgente',
 		date: '1929',
-		description: `En los primeros años, cuando éramos una naciente aldea, el agua era extraída por medio de molinos a viento y guardada celosamente en la frescura de un aljibe, también se aprovechaba la que caía del cielo con la lluvia.
+		cardDetailedText: `En los primeros años, cuando éramos una naciente aldea, el agua era extraída por medio de molinos a viento y guardada celosamente en la frescura de un aljibe, también se aprovechaba la que caía del cielo con la lluvia.
 
 		Entonces no existían canillas con agua potable para saciar la sed, tampoco baños con duchas para gratificar al cuerpo sudoroso. Baldes y cacerolas eran los utensilios o los más empleados para transportarla.
 		
@@ -134,19 +141,19 @@ const events = [
 		`,
 	},
 	{
-		title: 'Primer Gobierno Municipal',
+		cardTitle: 'Primer Gobierno Municipal',
 		date: '1938',
-		description: '????',
+		cardDetailedText: '????',
 	},
 	{
-		title: 'Cementerio',
+		cardTitle: 'Cementerio',
 		date: '1939',
-		description: '????',
+		cardDetailedText: '????',
 	},
 	{
-		title: 'Sala de Primeros Auxilios - Hospital Vecinal.',
+		cardTitle: 'Sala de Primeros Auxilios - Hospital Vecinal.',
 		date: '1940',
-		description: `La salud pública fue una de las preocupaciones que nuestro primer intendente, don José Frouté, priorizó en su labor comunitaria. Por ello inmediatamente gestiona al gobierno de la Nación un subsidio el cual, sumado a los fondos recaudados en los Festejos Patronales, le impulsa a la fundación de una Sala de Primeros Auxilios, cuya obra se concreta en 1940. Esta Sala, guardiana de la salud comunitaria, crece alcanzando el rango de Hospital. 
+		cardDetailedText: `La salud pública fue una de las preocupaciones que nuestro primer intendente, don José Frouté, priorizó en su labor comunitaria. Por ello inmediatamente gestiona al gobierno de la Nación un subsidio el cual, sumado a los fondos recaudados en los Festejos Patronales, le impulsa a la fundación de una Sala de Primeros Auxilios, cuya obra se concreta en 1940. Esta Sala, guardiana de la salud comunitaria, crece alcanzando el rango de Hospital. 
 		
 		En el marco de una política de descentralización, en 1994, el gobierno provincial del doctor Ramón Bautista Mestre, transfiere a la Municipalidad los Servicios de Salud, bienes y personal del Hospital. A partir de ahí adoptará el nombre de Hospital de la Comunidad.
 		
@@ -154,79 +161,114 @@ const events = [
 		
 		Años más tarde, la municipalidad, a través de una Ordenanza, lo designa con el nombre de Hospital de la Comunidad “Doctor Rinaldo José Ángel Maino”, apoyado por un grupo de vecinos y en reconocimiento a su trayectoria como Médico, como intendente municipal y además por haberse desempeñado durante muchos años como Director de dicho nosocomio. 
 		`,
-		img: '/assets/LineaGeneral/1940 - Hospital Vecinal - Sala de primeros auxilios.jpg',
+		media: {
+			source: {
+				url: '/assets/LineaGeneral/1940 - Hospital Vecinal - Sala de primeros auxilios.jpg',
+			},
+			type: 'IMAGE',
+		},
 	},
 	{
-		title: 'Edificio Municipal',
+		cardTitle: 'Edificio Municipal',
 		date: '1940',
-		description: '?????',
-		img: '/assets/LineaGeneral/1940 - EDIFICIO MUNICIPAL.jpg',
+		cardDetailedText: '?????',
+		media: {
+			source: {
+				url: '/assets/LineaGeneral/1940 - EDIFICIO MUNICIPAL.jpg',
+			},
+			type: 'IMAGE',
+		},
 	},
 	{
-		title: 'Taller de Tejeduría Angel Racca',
+		cardTitle: 'Taller de Tejeduría Angel Racca',
 		date: '1947',
-		description: `Nació en 1947 por inquietud de un grupo de vecinos y canalizada por nuestro primer Intendente don José Frouté. Comenzó a funcionar en el inmueble de la esquina Nuestra Señora de Asunción y General Paz, donado por doña Matilde de Racca y sus hijos Ángel y Edgardo. Por este motivo al ser inaugurado el 25 de octubre de 1943 adoptó la nominación de Taller de Tejeduría Municipal "Ángel Racca", en homenaje a este destacado pionero local.
+		cardDetailedText: `Nació en 1947 por inquietud de un grupo de vecinos y canalizada por nuestro primer Intendente don José Frouté. Comenzó a funcionar en el inmueble de la esquina Nuestra Señora de Asunción y General Paz, donado por doña Matilde de Racca y sus hijos Ángel y Edgardo. Por este motivo al ser inaugurado el 25 de octubre de 1943 adoptó la nominación de Taller de Tejeduría Municipal "Ángel Racca", en homenaje a este destacado pionero local.
 
 		Nació con el objetivo de impartir una preparación técnica que posibilitase una salida laboral. Por entonces "'el Telar”, como familiarmente lo llamaban, funcionaba subsidiado íntegramente por la Municipalidad. 
 		`,
-		img: '/assets/LineaGeneral/1947 - Taller de Tejeduria Angel Racca.jpg',
+		media: {
+			source: {
+				url: '/assets/LineaGeneral/1947 - Taller de Tejeduria Angel Racca.jpg',
+			},
+			type: 'IMAGE',
+		},
 	},
 	{
-		title: 'Barrio Municipal',
+		cardTitle: 'Barrio Municipal',
 		date: '1948',
-		description: `El barrio municipal estaba ubicado a sólo una cuadra de la actual Plaza San Martín. Fue gestión del Intendente José Frouté en su intención de ser destinadas a personal policial. Fueron nada más que tres viviendas de las cuales ninguna se mantiene en pie.`,
-		img: '/assets/LineaGeneral/1948 - Barrio Municipal.jpg',
+		cardDetailedText: `El barrio municipal estaba ubicado a sólo una cuadra de la actual Plaza San Martín. Fue gestión del Intendente José Frouté en su intención de ser destinadas a personal policial. Fueron nada más que tres viviendas de las cuales ninguna se mantiene en pie.`,
+		media: {
+			source: {
+				url: '/assets/LineaGeneral/1948 - Barrio Municipal.jpg',
+			},
+			type: 'IMAGE',
+		},
 	},
 	{
-		title: 'Hogar de Ancianos',
+		cardTitle: 'Hogar de Ancianos',
 		date: '1948',
-		description: `En enero de 1948 el Poder Ejecutivo provincial autorizó al entonces Comisionado Municipal José Frouté a construir el edificio del Hogar de Ancianos, merced a un subsidio otorgado para tal fin. En todo momento esta institución dependió de la administración municipal, contando con la colaboración de fuerzas vivas y aportes voluntarios de la población.
+		cardDetailedText: `En enero de 1948 el Poder Ejecutivo provincial autorizó al entonces Comisionado Municipal José Frouté a construir el edificio del Hogar de Ancianos, merced a un subsidio otorgado para tal fin. En todo momento esta institución dependió de la administración municipal, contando con la colaboración de fuerzas vivas y aportes voluntarios de la población.
 		`,
 	},
 	{
-		title: 'Banco Provincia de Córdoba',
+		cardTitle: 'Banco Provincia de Córdoba',
 		date: '1963',
-		description: '????',
+		cardDetailedText: '????',
 	},
 	{
-		title: 'Casa de la Cultura',
+		cardTitle: 'Casa de la Cultura',
 		date: '1986',
-		description: `Constituyendo una elogiable labor arquitectónica, se remodeló el tanque de agua pionero de la localidad, ubicado en la primera cuadra de la calle Asunción, al lado del Edificio Municipal. Éste, que había permanecido varios años en desuso, quedó convertido en la coqueta sede donde funciona a partir de entonces la Casa Municipal de la Cultura.
+		cardDetailedText: `Constituyendo una elogiable labor arquitectónica, se remodeló el tanque de agua pionero de la localidad, ubicado en la primera cuadra de la calle Asunción, al lado del Edificio Municipal. Éste, que había permanecido varios años en desuso, quedó convertido en la coqueta sede donde funciona a partir de entonces la Casa Municipal de la Cultura.
 		`,
-		img: '/assets/LineaGeneral/1986 - Casa de la cultura2.jpg',
+		media: {
+			source: {
+				url: '/assets/LineaGeneral/1986 - Casa de la cultura2.jpg',
+			},
+			type: 'IMAGE',
+		},
 	},
 	{
-		title: 'Biblioteca Leopoldo Lugones',
+		cardTitle: 'Biblioteca Leopoldo Lugones',
 		date: '1971',
-		description: '????',
-		img: '/assets/LineaGeneral/1971 - BIBLIOTECA.jpg',
+		cardDetailedText: '????',
+		media: {
+			source: {
+				url: '/assets/LineaGeneral/1971 - BIBLIOTECA.jpg',
+			},
+			type: 'IMAGE',
+		},
 	},
 	{
-		title: 'A.F.I.P. Resguardo Aduanero',
+		cardTitle: 'A.F.I.P. Resguardo Aduanero',
 		date: '1988',
-		description: `Ambos organismos tienen como actividad central ejercer el control sobre las operaciones de exportación e importación. El Resguardo Aduanero General Deheza es una institución dependiente de A.F.l.P. y desde esta localidad tiene facultades para atender una vasta región del sur cordobés, en operaciones que en su casi totalidad están relacionadas a exportaciones de maní, en menor escala otros cereales y sus derivados manufacturados (aceite, harinas, mayonesas, etc.).
+		cardDetailedText: `Ambos organismos tienen como actividad central ejercer el control sobre las operaciones de exportación e importación. El Resguardo Aduanero General Deheza es una institución dependiente de A.F.l.P. y desde esta localidad tiene facultades para atender una vasta región del sur cordobés, en operaciones que en su casi totalidad están relacionadas a exportaciones de maní, en menor escala otros cereales y sus derivados manufacturados (aceite, harinas, mayonesas, etc.).
 		Las importaciones efectuadas son de menor escala y por lo general corresponden a bienes de capital.
 
 		La radicación de esta Oficina en General Deheza ha facilitado la comercialización y despachos de productos regionales al exterior, sin necesidad de recurrir a oficinas distantes. 
 		`,
 	},
 	{
-		title: 'Junta Nacional de Granos',
+		cardTitle: 'Junta Nacional de Granos',
 		date: '1988',
-		description: `A poco de asumir el Intendente contador Roberto Urquía, gestionó una filial local a fin de agilizar la relación entre los productores, la Junta y todos los eslabones de la productividad agrícola. Interviene agilizando las exportaciones de cereales y oleaginosas.
+		cardDetailedText: `A poco de asumir el Intendente contador Roberto Urquía, gestionó una filial local a fin de agilizar la relación entre los productores, la Junta y todos los eslabones de la productividad agrícola. Interviene agilizando las exportaciones de cereales y oleaginosas.
 
 		Durante la gestión del presidente doctor Carlos Saúl Menem, este organismo nacional es disuelto. Tiempo después las funciones que desempeñaba esta Junta se transfieren a otro organismo: SENASA.`,
 	},
 	{
-		title: 'Polideportivo Municipal',
+		cardTitle: 'Polideportivo Municipal',
 		date: '2000',
-		description: '?????',
-		img: '/assets/LineaGeneral/1993 - POLIDEPORTIVO.jpg',
+		cardDetailedText: '?????',
+		media: {
+			source: {
+				url: '/assets/LineaGeneral/1993 - POLIDEPORTIVO.jpg',
+			},
+			type: 'IMAGE',
+		},
 	},
 	{
-		title: 'Oficina Legislativa',
+		cardTitle: 'Oficina Legislativa',
 		date: '2000',
-		description: `Inicia su actividad al asumir el contador Roberto Daniel Urquía como Senador Provincial, en representación del Departamento Juárez Celman, ejerciendo la Presidencia de la Comisión de Presupuesto de la Cámara de Senadores. Cabe acotar que la Reforma Constitucional de nuestra Provincia modificó al Ente Legislativo que anteriormente constaba de dos Cámaras, la de Senadores y la de Diputados, fusionándose en un solo órgano Unicameral, pasando a denominarse a sus miembros con el rango de Legisladores.
+		cardDetailedText: `Inicia su actividad al asumir el contador Roberto Daniel Urquía como Senador Provincial, en representación del Departamento Juárez Celman, ejerciendo la Presidencia de la Comisión de Presupuesto de la Cámara de Senadores. Cabe acotar que la Reforma Constitucional de nuestra Provincia modificó al Ente Legislativo que anteriormente constaba de dos Cámaras, la de Senadores y la de Diputados, fusionándose en un solo órgano Unicameral, pasando a denominarse a sus miembros con el rango de Legisladores.
 
 		Esta Oficina Legislativa obra como medio vinculante entre Representantes y Representados. A través de ella se recepta las inquietudes de los habitantes y municipios del Departamento y a la vez se informa del accionar legislativo.
 		
@@ -237,9 +279,9 @@ const events = [
 		`,
 	},
 	{
-		title: 'Fundación Multiplicar',
+		cardTitle: 'Fundación Multiplicar',
 		date: '2000',
-		description: `Esta Fundación, sin fines de lucro, fue creada el 2 de mayo del 2000 a fin de propiciar la generación, desarrollo y sostenimiento de actividades productivas responsables del crecimiento económico de la región.
+		cardDetailedText: `Esta Fundación, sin fines de lucro, fue creada el 2 de mayo del 2000 a fin de propiciar la generación, desarrollo y sostenimiento de actividades productivas responsables del crecimiento económico de la región.
 
 		Su fundador, Roberto Daniel Urquía, basó su proyecto al sostener que “las micro, pequeñas y medianas empresas son las que constituyen un activo sector de la economía nacional por la incorporación de mano de obra y la generación de riquezas genuinas, por su rol de sostenedoras de la dinámica económica, que fundamentalmente se da en pequeñas y medianas localidades del interior".
 		
@@ -247,9 +289,9 @@ const events = [
 		`,
 	},
 	{
-		title: 'Oficina SENASA',
+		cardTitle: 'Oficina SENASA',
 		date: '2003',
-		description: `La Oficina SENASA (Área Vegetal), de General Deheza dependiente de la delegación Río Cuarto, cumple la función de fiscalización en el control de calidad y certificación fitosanitaria de embarques de cereales y oleaginosas y productos y subproductos derivados de ellos. 
+		cardDetailedText: `La Oficina SENASA (Área Vegetal), de General Deheza dependiente de la delegación Río Cuarto, cumple la función de fiscalización en el control de calidad y certificación fitosanitaria de embarques de cereales y oleaginosas y productos y subproductos derivados de ellos. 
 
 		Su radio de acción se extiende a los 200 kilómetros de nuestra localidad. Más específicamente su función se centraliza en los embarques de exportación de productos y subproductos agrícolas. 
 		
@@ -259,9 +301,9 @@ const events = [
 		`,
 	},
 	{
-		title: 'Asociación Empresarial',
+		cardTitle: 'Asociación Empresarial',
 		date: '2004',
-		description: `Partir de la inquietud por compartir las necesidades del sector y crear un equipo de trabajo basado en el apoyo mutuo, fueron los principios esgrimidos por un grupo de empresarios de la localidad para dar nacimiento a esta Asociación que hoy los nuclea. 
+		cardDetailedText: `Partir de la inquietud por compartir las necesidades del sector y crear un equipo de trabajo basado en el apoyo mutuo, fueron los principios esgrimidos por un grupo de empresarios de la localidad para dar nacimiento a esta Asociación que hoy los nuclea. 
 
 		Sus primeros pasos fueron respaldados por sus pares de la experimentada Asociación de Empresarios de la Región Centro Argentina (A.E.R.C.A.) cuya sede se encuentra en la ciudad de Villa María. 
 		Forman parte de sus objetivos la defensa de los intereses de los empresarios del Comercio, la Industria, el Agro y los Servicios. Además fomentar el espíritu de Asociación y Organización y, de esta manera, alcanzar beneficios para los asociados.
@@ -276,9 +318,9 @@ const events = [
 		`,
 	},
 	{
-		title: 'Aduana',
+		cardTitle: 'Aduana',
 		date: '2009',
-		description: `Su radicación en General Deheza obedece al impacto de su comercio exterior y como un centro logístico para generar un control transparente y la seguridad jurídica, acelerando procesos y gestiones y facilitando los trámites de quienes producen y quieren exportar.
+		cardDetailedText: `Su radicación en General Deheza obedece al impacto de su comercio exterior y como un centro logístico para generar un control transparente y la seguridad jurídica, acelerando procesos y gestiones y facilitando los trámites de quienes producen y quieren exportar.
 
 		Este logro nació como proyecto del señor Roberto Urquía quien, tras asumir como presidente de la Comisión de Presupuesto y Hacienda, el primer punto de la orden del día, fue darle la sanción definitiva al proyecto de ley aprobado por Diputados de la creación de la Aduana en nuestra localidad.
 		
