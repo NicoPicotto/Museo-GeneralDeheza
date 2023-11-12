@@ -1,9 +1,15 @@
 import React from 'react';
 import { Stack, Box } from '@chakra-ui/react';
 
-const MasonryGrid = ({ children }) => {
+const MasonryGrid = ({ children, ...props }) => {
 	return (
-		<Stack direction='row' justify='center' mt='-100px' w="100%" paddingInline="40px">
+		<Stack
+			direction='row'
+			justify='center'
+			w='100%'
+			paddingInline='40px'
+			{...props}
+		>
 			{Array(3) // 3 columnas
 				.fill(0)
 				.map((_, colIndex) => (

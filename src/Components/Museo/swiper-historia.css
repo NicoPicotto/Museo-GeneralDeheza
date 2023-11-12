@@ -1,5 +1,6 @@
 .swiper-slide {
 	padding-inline: 75px;
+	white-space: pre-line;
 }
 
 .swiper-slide img {

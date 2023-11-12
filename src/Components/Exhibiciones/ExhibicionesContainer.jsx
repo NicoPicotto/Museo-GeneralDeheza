@@ -31,34 +31,48 @@ const ExhibicionesContainer = () => {
 					overflow='hidden'
 					borderRadius={5}
 				>
-					<Stack spacing={4} h='100%'>
+					<Stack h='100%'>
 						<Image src={item.portada} alt={item.titulo} />
-						<Stack h='100%' spacing={4} p={5}>
-							<Stack>
+						<Stack h='100%' paddingInline={5}>
+							<Stack paddingTop={2}>
 								<Heading color='primario' size='lg'>
 									{item.titulo}
 								</Heading>
 								<Divider borderColor='cuarto' />
-								<Stack>
-									<Stack direction='row' align='center'>
+								<Stack direction='row'>
+									<Stack
+										direction='row'
+										align='center'
+										bgColor='cuarto'
+										paddingInline={3}
+										paddingBlock={1}
+										borderRadius={4}
+									>
 										{' '}
 										<BiSolidUser />
 										<Text fontSize='sm' as='i'>
 											{item.autor}
 										</Text>
 									</Stack>
-									<Stack direction='row' align='center'>
+									<Stack
+										direction='row'
+										align='center'
+										bgColor={item.vigente ? 'darkgreen' : 'darkred'}
+										paddingInline={3}
+										paddingBlock={1}
+										borderRadius={4}
+									>
 										{item.vigente ? (
 											<>
-												<IoIosCheckmarkCircle />
-												<Text fontSize='sm' as='i'>
+												<IoIosCheckmarkCircle color='white' />
+												<Text fontSize='sm' as='i' color='white'>
 													Vigente
 												</Text>{' '}
 											</>
 										) : (
 											<>
-												<IoIosCloseCircle />
-												<Text fontSize='sm' as='i'>
+												<IoIosCloseCircle color='white' />
+												<Text fontSize='sm' as='i' color='white'>
 													Exhibición Finalizada
 												</Text>
 											</>
@@ -71,7 +85,7 @@ const ExhibicionesContainer = () => {
 						</Stack>
 						<Link
 							as={ReachLink}
-							to={`/exhibiciones/${index}`}
+							to={`/exhibiciones/${item.slug}`}
 							w='fit-content'
 							p={5}
 						>

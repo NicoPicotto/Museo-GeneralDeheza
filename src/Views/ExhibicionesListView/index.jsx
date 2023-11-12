@@ -3,7 +3,7 @@ import { Stack, Heading } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
 import ExhibicionesContainer from '../../Components/Exhibiciones/ExhibicionesContainer';
 import Portada from '../../Components/Atoms/Portada';
-import fondoPortada from '/assets/exhibiciones/01/_DSC8969.jpg';
+import fondoPortada from '/assets/Exhibiciones/01/14.jpg';
 
 const ExhibicionesView = () => {
 	return (

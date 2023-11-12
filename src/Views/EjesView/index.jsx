@@ -10,12 +10,9 @@ import {
 	useMediaQuery,
 	Heading,
 	Text,
-	Divider,
 } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
 import instituciones from '../../Components/DatosLineas/DatosLineaInstituciones';
-import events2 from '../../Components/Museo/DatiosLineaBarrios';
-import LineaBarrios from '../../Components/Museo/LineaBarrios';
 import SocialRamosGenerales from '../../Components/Museo/SocialRamosGenerales';
 import LineaChrono from '../../Components/Museo/LineaChrono';
 
@@ -74,14 +71,16 @@ const EjesView = () => {
 						<TabPanel>
 							<Stack>
 								<Text fontSize='lg'>Crecimiento Urbano y Rural</Text>
-								<LineaBarrios events={events2} />
 							</Stack>
 						</TabPanel>
 						<TabPanel>
-							<Stack spacing={10} divider={<Divider borderColor='terciario' />}>
-								<SocialRamosGenerales />
-								<SocialRamosGenerales />
-								<SocialRamosGenerales />
+							<Stack spacing={10}>
+								<Text fontSize='lg'>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Laboriosam pariatur deserunt deleniti amet quidem hic
+									excepturi, architecto et animi aliquam. Voluptatem unde in
+									distinctio voluptate fugiat fuga nisi similique nihil.
+								</Text>
 								<SocialRamosGenerales />
 							</Stack>
 						</TabPanel>

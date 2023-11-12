@@ -10,6 +10,7 @@ const Portada = ({ title, img, text }) => {
 			bgPos='center'
 			align='center'
 			paddingInline='75px'
+			bgColor="cuarto"
 		>
 			<Stack
 				maxW='1920px'

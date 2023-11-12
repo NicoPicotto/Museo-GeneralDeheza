@@ -27,7 +27,7 @@ const ColeccionContainer = () => {
 
 	return (
 		<Stack width='100%'>
-			<MasonryGrid>
+			<MasonryGrid mt='-100px'>
 				{items.map((piece, index) => (
 					<Stack onClick={() => handleOpenModal(piece)}>
 						<Image

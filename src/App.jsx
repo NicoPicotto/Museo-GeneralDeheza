@@ -11,13 +11,16 @@ import HistoriaView from './Views/HistoriaView';
 import LineaDeTiempoView from './Views/LineaDeTiempoView';
 import EjesView from './Views/EjesView';
 import ExhibicionesView from './Views/ExhibicionesListView';
-import ExhibicionView from './Views/ExhibicionView';
 import InteractuarView from './Views/InteractuarView';
+import ExhibicionTecnico from './Views/ExhibicionesListView/ExhibicionTecnico';
+import ScrolToTop from './Components/ScrollToTop/ScrollToTop';
+import ExhibicionPatronales from './Views/ExhibicionesListView/ExhibicionPatronales';
 
 const App = () => {
 	return (
 		<ChakraProvider theme={theme}>
 			<Router>
+				<ScrolToTop />
 				<Navbar />
 				<Routes>
 					<Route path='/' element={<HomeView />} />
@@ -27,7 +30,8 @@ const App = () => {
 					<Route path='/ejes' element={<EjesView />} />
 					<Route path='/coleccion' element={<ColeccionView />} />
 					<Route path='/exhibiciones' element={<ExhibicionesView />} />
-					<Route path='/exhibiciones/:id' element={<ExhibicionView />} />
+					<Route path='/exhibiciones/itapu' element={<ExhibicionTecnico />} />
+					<Route path='/exhibiciones/patronales' element={<ExhibicionPatronales />} />
 					<Route path='/interactuar' element={<InteractuarView />} />
 					<Route path='/escuchar' element={<EscucharView />} />
 				</Routes>
