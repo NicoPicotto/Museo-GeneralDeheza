@@ -2,7 +2,7 @@ import React from 'react';
 import { Stack } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
 import Portada from '../../Components/Atoms/Portada';
-import fondoPortada from '/assets/exhibiciones/01/_DSC8979.jpg';
+import fondoPortada from '/assets/Exhibiciones/01/16.jpg';
 import LeerContainer from '../../Components/Interactuar/Leer/LeerContainer';
 import EscucharContainer from '../../Components/Interactuar/Escuchar/EscucharContainer';
 
