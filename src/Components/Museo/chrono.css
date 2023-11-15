@@ -1,5 +1,10 @@
 .my-card {
 	padding: 1em;
+	width: 100%;
+}
+
+.timeline-horz-card-wrapper {
+	outline: none !important;
 }
 
 .my-card-text {
@@ -16,6 +21,6 @@
 }
 
 .my-card-media {
-	min-height: 400px !important;
+	min-height: 300px !important;
 	margin-bottom: 1em;
 }

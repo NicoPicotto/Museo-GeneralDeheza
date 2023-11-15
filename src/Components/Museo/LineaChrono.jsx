@@ -4,15 +4,43 @@ import { Stack } from '@chakra-ui/react';
 import './chrono.css';
 
 const LineaChrono = ({ events }) => {
+	// const observer = new MutationObserver((mutations) => {
+	// 	mutations.forEach((mutation) => {
+	// 		mutation.addedNodes.forEach((node) => {
+	// 			// Asegúrate de que el nodo es un botón y contiene el texto relevante
+	// 			if (
+	// 				node.nodeName === 'BUTTON' &&
+	// 				node.textContent.includes('read more')
+	// 			) {
+	// 				node.querySelector('span').textContent = 'leer más';
+	// 			}
+	// 			if (
+	// 				node.nodeName === 'BUTTON' &&
+	// 				node.textContent.includes('read less')
+	// 			) {
+	// 				node.querySelector('span').textContent = 'leer menos';
+	// 			}
+	// 		});
+	// 	});
+	// });
+
+	// observer.observe(document.body, {
+	// 	childList: true,
+	// 	subtree: true,
+	// });
+
 	return (
 		<Stack>
 			<Chrono
 				items={events}
-				mode='VERTICAL'
 				titleDateFormat='YYYY'
+				mode='HORIZONTAL'
+				showAllCardsHorizontal
+				cardWidth={600}
+				cardHeight={300}
+				contentDetailsHeight={100}
+				scrollable
 				hideControls
-				useReadMore={false}
-				enableBreakPoint
 				theme={{
 					primary: '#4C5249',
 					secondary: '#4C5249',
