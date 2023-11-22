@@ -3,6 +3,12 @@
 	width: 100%;
 }
 
+.my-controls li button {
+	width: 30px;
+	height: 30px;
+	margin-inline: 15px;
+}
+
 .timeline-horz-card-wrapper {
 	outline: none !important;
 }

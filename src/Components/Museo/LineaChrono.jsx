@@ -36,11 +36,10 @@ const LineaChrono = ({ events }) => {
 				titleDateFormat='YYYY'
 				mode='HORIZONTAL'
 				showAllCardsHorizontal
-				cardWidth={600}
+				cardWidth={500}
 				cardHeight={300}
 				contentDetailsHeight={100}
 				scrollable
-				hideControls
 				theme={{
 					primary: '#4C5249',
 					secondary: '#4C5249',

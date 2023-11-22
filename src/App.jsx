@@ -15,6 +15,7 @@ import InteractuarView from './Views/InteractuarView';
 import ExhibicionTecnico from './Views/ExhibicionesListView/ExhibicionTecnico';
 import ScrolToTop from './Components/ScrollToTop/ScrollToTop';
 import ExhibicionPatronales from './Views/ExhibicionesListView/ExhibicionPatronales';
+import AgendaView from './Views/AgendaView/Agenda';
 
 const App = () => {
 	return (
@@ -34,6 +35,7 @@ const App = () => {
 					<Route path='/exhibiciones/patronales' element={<ExhibicionPatronales />} />
 					<Route path='/interactuar' element={<InteractuarView />} />
 					<Route path='/escuchar' element={<EscucharView />} />
+					<Route path='/agenda' element={<AgendaView />} />
 				</Routes>
 			</Router>
 		</ChakraProvider>

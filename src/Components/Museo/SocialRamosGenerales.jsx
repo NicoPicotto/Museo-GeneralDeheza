@@ -30,13 +30,21 @@ const SocialRamosGenerales = () => {
 				>
 					{social.map((social, index) => (
 						<SwiperSlide key={index}>
+							{social.video && (
+								<iframe
+									src={social.video}
+									width='90%'
+									style={{ height: `calc(80vw * 9 / 16)` }}
+									allow='autoplay'
+								></iframe>
+							)}
 							<Stack spacing={5} color='negro' textAlign='left' mr={5} h='100%'>
 								<Heading as='h2' color='terciario'>
 									{social.title}
 								</Heading>
 								<Text>{social.content}</Text>
 							</Stack>
-							<Image src={social.image} />
+							{social.image && <Image src={social.image} />}
 						</SwiperSlide>
 					))}
 				</Swiper>

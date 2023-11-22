@@ -40,10 +40,10 @@ const EjesView = () => {
 							<Heading size='lg'>Instituciones</Heading>
 						</Tab>
 						<Tab>
-							<Heading size='lg'>Barrios</Heading>
+							<Heading size='lg'>Social</Heading>
 						</Tab>
 						<Tab>
-							<Heading size='lg'>Lo Social</Heading>
+							<Heading size='lg'>Agroindustria</Heading>
 						</Tab>
 					</TabList>
 					<TabIndicator
@@ -68,11 +68,7 @@ const EjesView = () => {
 								<LineaChrono events={instituciones} />
 							</Stack>
 						</TabPanel>
-						<TabPanel>
-							<Stack>
-								<Text fontSize='lg'>Crecimiento Urbano y Rural</Text>
-							</Stack>
-						</TabPanel>
+
 						<TabPanel>
 							<Stack spacing={10}>
 								<Text fontSize='lg'>
@@ -82,6 +78,11 @@ const EjesView = () => {
 									distinctio voluptate fugiat fuga nisi similique nihil.
 								</Text>
 								<SocialRamosGenerales />
+							</Stack>
+						</TabPanel>
+						<TabPanel>
+							<Stack>
+								<Text fontSize='lg'>Crecimiento Urbano y Rural</Text>
 							</Stack>
 						</TabPanel>
 					</TabPanels>
