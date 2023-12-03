@@ -14,7 +14,6 @@ import {
 import Container from '../../Components/Atoms/Container';
 import instituciones from '../../Components/DatosLineas/DatosLineaInstituciones';
 import SocialRamosGenerales from '../../Components/Museo/SocialRamosGenerales';
-import LineaChrono from '../../Components/Museo/LineaChrono';
 import Ejes from '../../Components/Museo/Ejes';
 import Portada from '../../Components/Atoms/Portada';
 import fondoPortada from '/assets/Exhibiciones/01/16.jpg';

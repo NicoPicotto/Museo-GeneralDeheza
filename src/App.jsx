@@ -14,7 +14,7 @@ import ExhibicionesView from './Views/ExhibicionesListView';
 import InteractuarView from './Views/InteractuarView';
 import ExhibicionTecnico from './Views/ExhibicionesListView/ExhibicionTecnico';
 import ScrolToTop from './Components/ScrollToTop/ScrollToTop';
-import ExhibicionPatronales from './Views/ExhibicionesListView/ExhibicionPatronales';
+import ExhibicionPatronalesView from './Views/ExhibicionesListView/ExhibicionPatronales';
 import AgendaView from './Views/AgendaView/Agenda';
 
 const App = () => {
@@ -32,7 +32,10 @@ const App = () => {
 					<Route path='/coleccion' element={<ColeccionView />} />
 					<Route path='/exhibiciones' element={<ExhibicionesView />} />
 					<Route path='/exhibiciones/itapu' element={<ExhibicionTecnico />} />
-					<Route path='/exhibiciones/patronales' element={<ExhibicionPatronales />} />
+					<Route
+						path='/exhibiciones/patronales'
+						element={<ExhibicionPatronalesView />}
+					/>
 					<Route path='/interactuar' element={<InteractuarView />} />
 					<Route path='/escuchar' element={<EscucharView />} />
 					<Route path='/agenda' element={<AgendaView />} />

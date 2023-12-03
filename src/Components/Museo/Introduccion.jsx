@@ -17,13 +17,13 @@ const Introduccion = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 
 	return (
-		<Stack marginTop='-100px' spacing={5} paddingInline='50px'>
+		<Stack marginTop='-50px' spacing={5} paddingInline='50px'>
 			<Stack
 				spacing={5}
 				color='negro'
 				bgColor='white'
 				p={5}
-				borderRadius={10}
+				borderRadius={5}
 				h='fit-content'
 				boxShadow='md'
 				mb={10}
@@ -54,34 +54,38 @@ const Introduccion = () => {
 					nuestra ciudad; crear un espacio donde se atesore nuestra historia.
 				</Text>
 			</Stack>
-			<Stack h='500px'>
-				<Swiper
-					direction={'horizontal'}
-					slidesPerView={1}
-					spaceBetween={30}
-					mousewheel={true}
-					navigation={isMobile ? false : true}
-					modules={[Mousewheel, Navigation]}
-					className='mySwiper'
-				>
-					{data.map((data, index) => (
-						<SwiperSlide key={index}>
-							<Stack
-								spacing={5}
-								color='negro'
-								mr={10}
-								h='100%'
-								textAlign='justify'
-							>
-								<Heading as='h2' color='terciario'>
-									{data.title}
-								</Heading>
-								<Text>{data.content}</Text>
-							</Stack>
-							<Image src={data.image} />
-						</SwiperSlide>
-					))}
-				</Swiper>
+			<Stack>
+				<Stack h='500px'>
+					<Swiper
+						direction={'horizontal'}
+						slidesPerView={1}
+						spaceBetween={30}
+						mousewheel={true}
+						navigation={isMobile ? false : true}
+						modules={[Mousewheel, Navigation]}
+						className='mySwiper'
+					>
+						{data.map((data, index) => (
+							<SwiperSlide key={index}>
+								<Stack paddingInline='50px' direction='row' w='100%' h='100%'>
+									<Stack
+										spacing={5}
+										color='negro'
+										mr={10}
+										h='100%'
+										textAlign='justify'
+									>
+										<Heading as='h2' color='terciario'>
+											{data.title}
+										</Heading>
+										<Text>{data.content}</Text>
+									</Stack>
+									<Image src={data.image} />
+								</Stack>
+							</SwiperSlide>
+						))}
+					</Swiper>
+				</Stack>
 			</Stack>
 		</Stack>
 	);
