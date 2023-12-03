@@ -4,31 +4,6 @@ import { Stack } from '@chakra-ui/react';
 import './chrono.css';
 
 const LineaChrono = ({ events }) => {
-	// const observer = new MutationObserver((mutations) => {
-	// 	mutations.forEach((mutation) => {
-	// 		mutation.addedNodes.forEach((node) => {
-	// 			// Asegúrate de que el nodo es un botón y contiene el texto relevante
-	// 			if (
-	// 				node.nodeName === 'BUTTON' &&
-	// 				node.textContent.includes('read more')
-	// 			) {
-	// 				node.querySelector('span').textContent = 'leer más';
-	// 			}
-	// 			if (
-	// 				node.nodeName === 'BUTTON' &&
-	// 				node.textContent.includes('read less')
-	// 			) {
-	// 				node.querySelector('span').textContent = 'leer menos';
-	// 			}
-	// 		});
-	// 	});
-	// });
-
-	// observer.observe(document.body, {
-	// 	childList: true,
-	// 	subtree: true,
-	// });
-
 	return (
 		<Stack>
 			<Chrono

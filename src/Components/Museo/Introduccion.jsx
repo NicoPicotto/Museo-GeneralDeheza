@@ -27,6 +27,7 @@ const Introduccion = () => {
 				h='fit-content'
 				boxShadow='md'
 				mb={10}
+				textAlign='justify'
 			>
 				<Heading size='lg' color='primario'>
 					Introducción
@@ -65,7 +66,13 @@ const Introduccion = () => {
 				>
 					{data.map((data, index) => (
 						<SwiperSlide key={index}>
-							<Stack spacing={5} color='negro' textAlign='left' mr={5} h='100%'>
+							<Stack
+								spacing={5}
+								color='negro'
+								mr={10}
+								h='100%'
+								textAlign='justify'
+							>
 								<Heading as='h2' color='terciario'>
 									{data.title}
 								</Heading>
