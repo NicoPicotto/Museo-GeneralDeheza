@@ -83,10 +83,6 @@ const Introduccion = () => {
 					))}
 				</Swiper>
 			</Stack>
-			{/* <Stack w='50%' borderRadius={10} overflow='hidden' shadow='md'>
-				<Image src={tanque} objectFit='cover' />
-			</Stack> */}
-			<Stack></Stack>
 		</Stack>
 	);
 };

@@ -21,7 +21,7 @@ const ExhibicionesContainer = () => {
 			templateColumns='repeat(2, 6fr)'
 			gap={6}
 			paddingInline='50px'
-			marginTop='-100px'
+			marginTop='-50px'
 		>
 			{list.map((item, index) => (
 				<GridItem

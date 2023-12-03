@@ -10,19 +10,19 @@ const Portada = ({ title, img, text }) => {
 			bgPos='center'
 			align='center'
 			paddingInline='75px'
-			bgColor="cuarto"
+			bgColor='cuarto'
 		>
 			<Stack
 				maxW='1920px'
 				h='100%'
 				justify='flex-end'
-				paddingBottom='120px'
+				paddingBottom='60px'
 				w='100%'
 			>
 				<Heading size='3xl' color='background'>
 					{title}
 				</Heading>
-				<Text fontSize='lg' color='background'>
+				<Text maxW="60ch" fontSize='lg' color='background'>
 					{text}
 				</Text>
 			</Stack>

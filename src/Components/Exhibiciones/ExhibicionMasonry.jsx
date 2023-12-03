@@ -11,9 +11,9 @@ import {
 	useDisclosure,
 } from '@chakra-ui/react';
 import MasonryGrid from '../Coleccion/MasonryGrid';
-import fotos from './ItapuList';
 
-const ExhibicionMasonry = () => {
+
+const ExhibicionMasonry = ({fotos}) => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
 	const [selectedPiece, setSelectedPiece] = useState(null);
 

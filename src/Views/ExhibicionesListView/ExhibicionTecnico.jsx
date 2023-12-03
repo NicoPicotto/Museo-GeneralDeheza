@@ -4,6 +4,7 @@ import Portada from '../../Components/Atoms/Portada';
 import Container from '../../Components/Atoms/Container';
 import fondoPortada from '/assets/Exhibiciones/01/11.jpg';
 import ExhibicionMasonry from '../../Components/Exhibiciones/ExhibicionMasonry';
+import fotos from '../../Components/Exhibiciones/ItapuList';
 
 const ExhibicionTecnico = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
@@ -48,7 +49,7 @@ const ExhibicionTecnico = () => {
 							varios puntos de vista.”
 						</Text>
 					</Stack>
-					<ExhibicionMasonry />
+					<ExhibicionMasonry fotos={fotos} />
 				</Stack>
 			</Container>
 		</Stack>
