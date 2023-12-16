@@ -12,7 +12,7 @@ const HistoriaView = () => {
 		<Stack>
 			<Portada
 				title='Historia'
-				text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+				text='Remontamos a los orígenes del edificio de nuestra Casa de la Cultura hasta la creación del Museo de General Deheza.'
 				img={fondoPortada}
 			/>
 			<Container alignSelf="center">

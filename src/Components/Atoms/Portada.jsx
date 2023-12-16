@@ -9,6 +9,7 @@ const Portada = ({ title, img, text }) => {
 			bgImage={`linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4) 70%), url(${img})`}
 			bgPos='center'
 			align='center'
+			bgAttachment="fixed"
 			paddingInline='75px'
 			bgColor='cuarto'
 		>

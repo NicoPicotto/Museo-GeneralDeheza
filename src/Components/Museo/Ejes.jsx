@@ -57,26 +57,16 @@ const Ejes = () => {
 
 					<TabPanel>
 						<Stack spacing={10}>
-							<Text fontSize='lg' textAlign='justify'>
-								¿Qué eran los Ramos Generales? Hoy se los suele recordar bajo el
-								apelativo de “almacenes”, pero los comercios de ramos generales
-								llegaron a ser mucho más que simples sitios destinados a la
-								provisión de mercaderías. No sólo se dedicaban a la venta de
-								bebidas, alimentos y tabacos, sino también a los productos
-								textiles de la indumentaria campestre (alpargatas, botas,
-								boinas, bombachas) y a los de limpieza, bazar y ferretería,
-								entre muchos otros. Completaba el cuadro la distribución zonal
-								de ciertas marcas de cervezas, vinos, soda o gaseosas, así como
-								el despacho de combustibles y acopio de cereales. En cierta
-								forma, podríamos decir que no eran nada específico, pero mucho
-								en general.
-							</Text>
-							<Text fontSize='lg' textAlign='justify'>
-								Nuestra ciudad contaba con dos negocios de Ramos Generales muy
-								importantes. Uno se llamaba Ramos Generales Cavalchini, Maino y
-								Cía. S.R.L, ubicado frente a la terminal de ómnibus. El otro,
-								perteneciente al primer intendente José Frouté, estaba ubicado
-								en la actual Galería de General Deheza.
+							<Text fontSize='lg' paddingInline={20} textAlign='justify'>
+								La división de la historia de General Deheza en tres ejes nos
+								permite elaborar una narración más comprensible. Como
+								mencionamos anteriormente, el primer eje abarca la constitución
+								de las instituciones; el segundo eje abarca el desarrollo
+								económico (Agro-Industria) y por último, el tercer eje abarca lo
+								social, es decir, el crecimiento de la comunidad, sus
+								tradiciones y costumbres. En nuestro museo, decidimos imitar los
+								almacenes llamados Ramos Generales para interiorizarnos en las
+								antiguas formas de comercializar.
 							</Text>
 							<SocialRamosGenerales />
 						</Stack>
