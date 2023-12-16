@@ -11,9 +11,27 @@ const exhibiciones = [
 		titulo: 'Festejos Patronales',
 		autor: 'Municipalidad General Deheza',
 		shortDescription: `Desde 1901 cada 15 de Agosto se celebran en nuestra localidad las Fiestas Patronales en honor de Nuestra Señora de la Asunción. No sólo sentimientos de carácter religioso convergen en esos días, que ya forman parte de la tradición dehecina, es una oportunidad para que sus habitantes y vecinos de otros pueblos confraternicen en medio de un clima de festividad familiar.`,
-		vigente: false,
+		vigente: true,
 		portada: 'assets/Exhibiciones/01/16.jpg',
 		slug: 'patronales',
+	},
+	{
+		titulo: 'Muestra de Talleres',
+		autor: 'Ana Scattolini y Marce Luchelli',
+		shortDescription:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias in dolore eum qui soluta quaerat tenetur atque sed ratione similique. Ex dolorum odit magnam corporis ab sunt, eius ullam quidem.',
+		vigente: true,
+		portada: 'assets/placeholder.png',
+		slug: 'talleres',
+	},
+	{
+		titulo: 'Homenaje a ex combatientes de Malvinas',
+		autor: 'Lorem ipsum dolor sit amet',
+		shortDescription:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias in dolore eum qui soluta quaerat tenetur atque sed ratione similique. Ex dolorum odit magnam corporis ab sunt, eius ullam quidem.',
+		vigente: true,
+		portada: 'assets/placeholder.png',
+		slug: 'talleres',
 	},
 ];
 

@@ -20,10 +20,10 @@ const Portada = ({ title, img, text }) => {
 				paddingBottom='60px'
 				w='100%'
 			>
-				<Heading size='3xl' color='background'>
+				<Heading size='3xl' color='background' textShadow="md">
 					{title}
 				</Heading>
-				<Text maxW="60ch" fontSize='lg' color='background'>
+				<Text maxW="60ch" fontSize='lg' color='background' textShadow="sm">
 					{text}
 				</Text>
 			</Stack>

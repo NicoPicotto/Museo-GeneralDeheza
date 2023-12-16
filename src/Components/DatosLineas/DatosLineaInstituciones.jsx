@@ -109,10 +109,6 @@ const events = [
 		date: '1936',
 	},
 	{
-		title: 'Asociación Tiro y Gimnasia',
-		date: '1941',
-	},
-	{
 		title: 'Escuela Rural "Conrado Villegas"',
 		date: '1943',
 		content: `A comienzo de 1941, el Intendente Municipal, don José Frouté, inició las gestiones ante el Consejo de Educación, a fin de obtener la autorización para instalar una escuela en Colonia "Santo Tomás", a unos seis kilómetros al norte de nuestra localidad.
@@ -184,10 +180,6 @@ const events = [
 		Dada las demandas, fruto del avance tecnológico y la gran afluencia de alumnos de nuestro pueblo y de localidades vecinas, hubo que ampliar las instalaciones. Apadrinados por Aceitera General Deheza S.A. Este Instituto pronto se convirtió en un establecimiento educacional modelo, contando desde entonces con todas las comodidades y materiales pedagógicos que se requiriese. 
 		`,
 		date: '1977',
-	},
-	{
-		title: 'Escuela Municipal De Deportes',
-		date: '1980',
 	},
 	{
 		title: 'Asociación De Jubilados Y Pensionados',

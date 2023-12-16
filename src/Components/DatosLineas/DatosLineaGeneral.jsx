@@ -135,15 +135,18 @@ const events = [
 		De esta manera llegamos a la conclusión de que la Municipalidad como responsable de la provisión del servicio de agua potable, cuenta con la infraestructura adecuada a las necesidades hídricas de su población.
 		`,
 	},
-	{
-		title: 'Primer Gobierno Municipal',
-		date: '1938',
-		content: '????',
-	},
+	// {
+	// 	title: 'Primer Gobierno Municipal',
+	// 	date: '1938',
+	// 	content: '????',
+	// },
 	{
 		title: 'Cementerio',
 		date: '1939',
-		content: '????',
+		content: `Se solicitó a la Comisión Pro Cementerio, presidida por el vecino Dalmiro Biancardi, la entrega en breve plazo de toda la documentación, planos, llaves y fondos. Incluso las escrituras y permisos catastrales para la construcción del futuro cementerio. Cabe recordar que por entonces a falta de una necrópolis los miembros fallecidos de esta comunidad eran sepultados en cementerios de las localidades vecinas, sobre todo en el de Las Perdices. 
+
+		La Comisión en ese momento tenía contratado el trabajo para la construcción del frente con posibilidad de incorporar la vereda circundante a cuyo fin obtendría los fondos a través de una función cinematográfica. Respetando dicha situación la Municipalidad acuerda extenderle el plazo hasta la conclusión de las obras contratadas. En diciembre se creó el registro de Propiedades del Cementerio donde se asentarían las cesiones de terrenos a perpetuidad. 
+		`,
 	},
 	{
 		title: 'Sala de Primeros Auxilios - Hospital Vecinal.',
@@ -162,7 +165,9 @@ const events = [
 	{
 		title: 'Edificio Municipal',
 		date: '1940',
-		content: '?????',
+		content: `En el curso del año 1940 queda inaugurada la sede propia del gobierno municipal.
+			
+			`,
 		image: '/assets/LineaGeneral/1940 - EDIFICIO MUNICIPAL.jpg',
 	},
 	{
@@ -189,7 +194,7 @@ const events = [
 	{
 		title: 'Banco Provincia de Córdoba',
 		date: '1963',
-		content: '????',
+		content: `El 15 de agosto de 1963, se inauguró en General Deheza la sucursal del Banco de la Provincia de Córdoba, con lo cual se dió solución a una vieja necesidad de la localidad, pues hasta entonces los comerciantes, industriales, colonos y vecinos debían efectuar sus operaciones bancarias en las poblaciones vecinas, trámites que se hacían un tanto dificultosos. `,
 	},
 	{
 		title: 'Casa de la Cultura',
@@ -201,7 +206,8 @@ const events = [
 	{
 		title: 'Biblioteca Leopoldo Lugones',
 		date: '1971',
-		content: '????',
+		content:
+			'Durante el gobierno del comisionado Rinaldo Maino se creó la primera Comisión Municipal de Cultura y la Biblioteca Pública.',
 		image: '/assets/LineaGeneral/1971 - BIBLIOTECA.jpg',
 	},
 	{
@@ -223,7 +229,18 @@ const events = [
 	{
 		title: 'Polideportivo Municipal',
 		date: '2000',
-		content: '?????',
+		content: `Durante la gestión del Intendente Rodolfo Coda, se crea la Escuela Municipal de Deportes para que los niños de la localidad tuvieran otro lugar para la práctica deportiva-recreativa, ya que en ese momento solo había una institución dedicada a la práctica del Fútbol Infantil.
+		Comenzó a funcionar en 1980 en un predio ubicado detrás del corralón municipal cedido por la Comuna. Inmediatamente se colocaron los arcos y se inició la primera disciplina que fue el Baby Fútbol. Se aprovechó que en ese momento se estaban dictando "cursos de albañilería y electricidad", de esa manera los alumnos inscriptos pudieron realizar sus prácticas al levantar las primeras paredes que tiempo después serían los vestuarios y depósitos.
+		
+		Después se construyó un playón de cemento gracias a un subsidio proveniente de la Secretaría de Deportes de la Provincia de Córdoba. Cinco años después se incorporaba la
+		disciplina de Atletismo la cual, junto al Fútbol Infantil, permitió que ciento cuarenta niños y
+		jóvenes pudiesen participar en diferentes encuentros y torneos zonales.
+		
+		Entre los años 1987 y 1990 se comienza a practicar Voleibol y Karate-do.
+		Algunos años después se adquieren terrenos ubicados en cercanías del ex Matadero, a fin de construir en el lugar el futuro “Polideportivo Municipal”. La primera etapa, en 1993, consistió en demarcar una pista de Bicicros. La obra continuó su ritmo creciente lo cual permitió inaugurar al siguiente año tres nuevas disciplinas en la Escuela Municipal, Ciclismo, Rugby y Defensa Personal Sei-Fu. Poco tiempo después se incorporarían las canchas de Fútbol y Rugby, como así también la pista de Atletismo y Ciclismo. 
+		
+		A partir de 2000 el Nuevo Polideportivo Municipal contó con una Pileta de Natación de 25 x 45 mts., un Quincho cubierto, canchas de Beach-Voley, una cancha de Baby Fútbol cercada, un Circuito o Pista de Salud, un Parque Infantil, una Cancha de Bochas construida y utilizada por adultos mayores y una Rampa para la práctica de Skate.
+		`,
 		image: '/assets/LineaGeneral/1993 - POLIDEPORTIVO.jpg',
 	},
 	{

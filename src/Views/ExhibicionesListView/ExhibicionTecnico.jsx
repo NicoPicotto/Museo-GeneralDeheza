@@ -2,7 +2,7 @@ import React from 'react';
 import { Stack, Heading, Text, Image, useMediaQuery } from '@chakra-ui/react';
 import Portada from '../../Components/Atoms/Portada';
 import Container from '../../Components/Atoms/Container';
-import fondoPortada from '/assets/Exhibiciones/01/11.jpg';
+import fondoPortada from '/assets/Portadas/tecnico.webp';
 import ExhibicionMasonry from '../../Components/Exhibiciones/ExhibicionMasonry';
 import fotos from '../../Components/Exhibiciones/ItapuList';
 
@@ -17,7 +17,7 @@ const ExhibicionTecnico = () => {
 				img={fondoPortada}
 			/>
 			<Container alignSelf='center'>
-				<Stack marginTop='-100px' spacing={5} paddingInline='50px'>
+				<Stack marginTop='-50px' spacing={5} paddingInline='50px'>
 					<Stack
 						color='negro'
 						bgColor='white'
