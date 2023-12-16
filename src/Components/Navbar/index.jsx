@@ -43,7 +43,7 @@ const Navbar = () => {
 			w='100%'
 			zIndex={10}
 			align='center'
-			backdropFilter="blur(5px)"
+			backdropFilter='blur(5px)'
 		>
 			<Stack
 				position='absolute'
@@ -52,7 +52,6 @@ const Navbar = () => {
 				h='100%'
 				opacity='0.5'
 				zIndex={-1}
-				
 			></Stack>
 			<Container
 				direction='row'
@@ -146,58 +145,9 @@ const Navbar = () => {
 					<Link as={ReachLink} to='/exhibiciones'>
 						<CustomButton>Exhibiciones</CustomButton>
 					</Link>
-					<Menu>
-						<MenuButton
-							as={Button}
-							variant='link'
-							color='blanco'
-							fontWeight='normal'
-							_hover={{
-								textDecoration: 'none',
-								_after: {
-									width: '100%',
-								},
-							}}
-							_after={{
-								content: '""',
-								position: 'absolute',
-								bottom: 0,
-								left: '50%',
-								transform: 'translateX(-50%)',
-								width: '0%',
-								height: '1px',
-								background: 'white',
-								transition: 'width 0.2s ease-in-out',
-							}}
-							_active={{ color: 'white' }}
-							rightIcon={<MdArrowDropDown />}
-						>
-							Interactuá
-						</MenuButton>
-						<MenuList>
-							<Link
-								as={ReachLink}
-								to='/interactuar#leer'
-								_hover={{ textDecor: 'none' }}
-							>
-								<MenuItem>Leer</MenuItem>
-							</Link>
-							<Link
-								as={ReachLink}
-								to='/interactuar#mirar'
-								_hover={{ textDecor: 'none' }}
-							>
-								<MenuItem>Mirar</MenuItem>
-							</Link>
-							<Link
-								as={ReachLink}
-								to='/interactuar#escuchar'
-								_hover={{ textDecor: 'none' }}
-							>
-								<MenuItem>Escuchar</MenuItem>
-							</Link>
-						</MenuList>
-					</Menu>
+					<Link as={ReachLink} to='/interactuar'>
+						<CustomButton>Interactua</CustomButton>
+					</Link>
 					<Link as={ReachLink} to='/agenda'>
 						<CustomButton>Agenda</CustomButton>
 					</Link>

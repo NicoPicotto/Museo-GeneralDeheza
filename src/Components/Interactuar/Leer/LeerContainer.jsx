@@ -11,16 +11,13 @@ import {
 	ModalCloseButton,
 	ModalBody,
 	useDisclosure,
+	Grid,
+	GridItem,
+	Button,
+	Divider,
 } from '@chakra-ui/react';
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 import items from './LeerList';
-// import required modules
-import { Mousewheel, Navigation } from 'swiper/modules';
-import './Swiper.css';
+import { BiSolidUser, BiSolidPurchaseTag } from 'react-icons/bi';
 
 const LeerContainer = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
@@ -34,84 +31,95 @@ const LeerContainer = () => {
 	};
 
 	return (
-		<Stack marginTop='-50px' paddingInline='50px'>
-			<Stack
-				spacing={5}
-				color='negro'
-				bgColor='cuarto'
-				p={5}
-				borderRadius={5}
-				h='fit-content'
-				boxShadow='md'
-				textAlign='center'
-			>
-				<Heading>Leer</Heading>
-			</Stack>
-			<Stack mt='-10px'>
-				<Swiper
-					direction={'horizontal'}
-					slidesPerView={3}
-					spaceBetween={0}
-					mousewheel={true}
-					navigation={isMobile ? false : true}
-					modules={[Mousewheel, Navigation]}
-					className='mySwiperInteractuar'
-				>
-					{items.map((item, index) => (
-						<SwiperSlide key={index} item={item}>
-							<Stack direction='row' w='100%' h='100%'>
+		<Stack paddingTop='25px' paddingInline='50px'>
+			<Grid templateColumns='repeat(2, 6fr)' gap={6} paddingInline='50px'>
+				{items.map((item, index) => (
+					<GridItem
+						key={index}
+						bgColor='white'
+						shadow='md'
+						overflow='hidden'
+						borderRadius={5}
+					>
+						<Stack h='100%' p={5} align='flex-start' gap={3}>
+							<Heading size='md' color='primario'>
+								{item.titulo}
+							</Heading>
+							<Stack direction='row' align='center'>
 								<Stack
-									bgColor='white'
-									p={5}
-									shadow='md'
-									borderRadius={5}
-									align='flex-start'
-									cursor='pointer'
-									onClick={() => handleOpenModal(item)}
+									direction='row'
+									align='center'
+									bgColor='cuarto'
+									paddingInline={3}
+									paddingBlock={1}
+									borderRadius={4}
 								>
-									<Heading size='lg'>{item.titulo}</Heading>
-									<Text
-										as='b'
-										bgColor='terciario'
-										padding='4px 6px'
-										fontSize='sm'
-										color='white'
-										mb={2}
-									>
+									{' '}
+									<BiSolidUser />
+									<Text fontSize='sm' as='i'>
 										{item.autor}
 									</Text>
-									<Stack>
-										<Text
-											textAlign='left'
-											lineHeight={1.2}
-											fontSize='md'
-											style={{
-												display: '-webkit-box',
-												WebkitBoxOrient: 'vertical',
-												overflow: 'hidden',
-												WebkitLineClamp: 5,
-											}}
-										>
-											{item.contenido}
-										</Text>
-									</Stack>
+								</Stack>
+
+								<Stack
+									direction='row'
+									align='center'
+									bgColor='terciario'
+									paddingInline={3}
+									paddingBlock={1}
+									borderRadius={4}
+								>
+									<BiSolidPurchaseTag color='white' />
+									<Text fontSize='sm' as='i' color='white'>
+										{item.categoria}
+									</Text>
 								</Stack>
 							</Stack>
-						</SwiperSlide>
-					))}
-				</Swiper>
-			</Stack>
+
+							<Divider borderColor='cuarto' />
+							<Stack>
+								<Text
+									textAlign='left'
+									lineHeight={1.2}
+									fontSize='md'
+									style={{
+										display: '-webkit-box',
+										WebkitBoxOrient: 'vertical',
+										overflow: 'hidden',
+										WebkitLineClamp: 5,
+									}}
+								>
+									{item.contenido}
+								</Text>
+							</Stack>
+							<Button
+								bgColor='primario'
+								mt={3}
+								color='fondo'
+								_hover={{ bgColor: 'terciario' }}
+								onClick={() => handleOpenModal(item)}
+							>
+								Leer más
+							</Button>
+						</Stack>
+					</GridItem>
+				))}
+			</Grid>
+
 			{selectedPiece && (
 				<Modal isOpen={isOpen} onClose={onClose}>
 					<ModalOverlay backdropFilter='blur(5px)' />
 					<ModalContent p={3} minW='800px' h='auto'>
 						<ModalCloseButton />
 						<ModalBody paddingBlock={5}>
-							<Heading size='md' mb={3}>
-								{selectedPiece.titulo}
-							</Heading>
-							<Text>Por: {selectedPiece.autor}</Text>
-							<Text whiteSpace='pre-line'>{selectedPiece.contenido}</Text>
+							<Stack>
+								<Heading size='md'>{selectedPiece.titulo}</Heading>
+								<Text as='b' color='terciario' mb={2}>
+									{selectedPiece.autor}
+								</Text>
+								<Divider borderColor='cuarto' />
+								<Text whiteSpace='pre-line'>{selectedPiece.contenido}</Text>
+							</Stack>
 						</ModalBody>
 					</ModalContent>
 				</Modal>

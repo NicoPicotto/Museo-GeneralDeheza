@@ -2,21 +2,19 @@ import React from 'react';
 import { Stack } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
 import Portada from '../../Components/Atoms/Portada';
-import fondoPortada from '/assets/Exhibiciones/01/16.jpg';
-import LeerContainer from '../../Components/Interactuar/Leer/LeerContainer';
-import EscucharContainer from '../../Components/Interactuar/Escuchar/EscucharContainer';
+import fondoPortada from '/assets/Portadas/interactuar.webp';
+import Interactua from '../../Components/Interactuar';
 
 const InteractuarView = () => {
 	return (
 		<Stack justify='center'>
 			<Portada
-				title='Leer, Mirar, Escuchar'
-				text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra.'
+				title='Interactuá'
+				text='Para leer, mirar y escuchar.'
 				img={fondoPortada}
 			/>
 			<Container alignSelf='center'>
-				<LeerContainer />
-				<EscucharContainer />
+				<Interactua />
 			</Container>
 		</Stack>
 	);
