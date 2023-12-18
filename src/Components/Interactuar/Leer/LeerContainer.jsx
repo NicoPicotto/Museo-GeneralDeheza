@@ -56,9 +56,7 @@ const LeerContainer = () => {
 								>
 									{' '}
 									<BiSolidUser />
-									<Text fontSize='sm' as='i'>
-										{item.autor}
-									</Text>
+									<Text fontSize='sm'>{item.autor}</Text>
 								</Stack>
 
 								<Stack
@@ -70,7 +68,7 @@ const LeerContainer = () => {
 									borderRadius={4}
 								>
 									<BiSolidPurchaseTag color='white' />
-									<Text fontSize='sm' as='i' color='white'>
+									<Text fontSize='sm' color='white'>
 										{item.categoria}
 									</Text>
 								</Stack>

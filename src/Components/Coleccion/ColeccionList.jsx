@@ -1,81 +1,89 @@
 const coleccion = [
 	{
-		titulo: 'Obra de arte 1',
+		titulo: 'Balde para Aljibe',
+		date: 1912,
+		donador: 'Familia Ribetto',
 		descripcion:
-			'Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum',
-		img: 'assets/Coleccion/descarga2.webp',
+			'Balde para bajar al aljibe y enfriar las bebidas. Hecho por Bartulin Ferrero. Perteneciente a Celestino Ribetto.',
+		img: 'assets/placeholder.png',
 	},
 	{
-		titulo: 'Obra de arte 1',
+		titulo: 'Maquina para moler café',
+		date: 1940,
+		donador: 'Familia Frouté',
 		descripcion:
-			'Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum',
-		img: 'assets/Coleccion/descarga.jpeg',
+			'Pertenecía a Ramos Generales de José Frouté.',
+		img: 'assets/placeholder.png',
 	},
 	{
-		titulo: 'Obra de arte 1',
+		titulo: 'Balanza de hierro',
+		date: 1940,
+		donador: 'Familia Frouté',
 		descripcion:
-			'Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum',
-		img: 'assets/Coleccion/descarga3.jpeg',
+			'Pertenecía a Ramos Generales de José Frouté.',
+		img: 'assets/placeholder.png',
 	},
 	{
-		titulo: 'Obra de arte 1',
+		titulo: 'Sopera',
+		date: 1900,
+		donador: 'Familia Richetta',
 		descripcion:
-			'Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum',
-		img: 'assets/Coleccion/descarga3.jpeg',
+			'Traída de Italia. El material es Porcelana Francesa. Sus dueños fueron Tomasso Richetta y María José Rachetto.',
+		img: 'assets/placeholder.png',
 	},
 	{
-		titulo: 'Obra de arte 1',
+		titulo: 'Cuadro de Casamiento',
+		date: 1941,
+		donador: 'Familia Scattolini',
 		descripcion:
-			'Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum',
-		img: 'assets/Coleccion/descarga.jpeg',
+			'Casamiento Inés Bossio y Humberto Scattolini.',
+		img: 'assets/placeholder.png',
 	},
 	{
-		titulo: 'Obra de arte 1',
+		titulo: 'Radio',
+		date: 1920,
+		donador: 'Santiago Giuliano',
 		descripcion:
-			'Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum',
-		img: 'assets/Coleccion/descarga2.webp',
+			'Información: Pertenecía a Ramos Generales de los Hermanos Racca.  Se utilizaba para comunicarse con Rosario y conocer el precio de los cereales.',
+		img: 'assets/placeholder.png',
 	},
 	{
-		titulo: 'Obra de arte 1',
+		titulo: 'Auriculares para radio',
+		date: 1920,
+		donador: 'Santiago Giuliano',
 		descripcion:
-			'Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum',
-		img: 'assets/Coleccion/descarga.jpeg',
+			'Se precisaban en los momentos de mala señal.',
+		img: 'assets/placeholder.png',
 	},
 	{
-		titulo: 'Obra de arte 1',
+		titulo: 'Parlante de radio',
+		date: 1920,
+		donador: 'Santiago Giuliano',
 		descripcion:
-			'Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum',
-		img: 'assets/Coleccion/descarga3.jpeg',
+			'Se precisaban en los momentos de mala señal.',
+		img: 'assets/placeholder.png',
 	},
 	{
-		titulo: 'Obra de arte 1',
+		titulo: 'Valija de madera',
+		date: 1980,
+		donador: 'Ruben Zabala',
 		descripcion:
-			'Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum',
-		img: 'assets/Coleccion/descarga3.jpeg',
+			'La utilizaban los ferroviarios en sus traslados.',
+		img: 'assets/placeholder.png',
 	},
 	{
-		titulo: 'Obra de arte 1',
+		titulo: 'Periódicos sobre la Guerra de Malvinas',
+		date: 1982,
+		donador: 'González Daniel y Martina Idelio',
 		descripcion:
-			'Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum',
-		img: 'assets/Coleccion/descarga2.webp',
+			'Los periódicos se datan desde 02/04/82 hasta 09/06/82.',
+		img: 'assets/placeholder.png',
 	},
 	{
-		titulo: 'Obra de arte 1',
-		descripcion:
-			'Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum',
-		img: 'assets/Coleccion/descarga2.webp',
-	},
-	{
-		titulo: 'Obra de arte 1',
-		descripcion:
-			'Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum',
-		img: 'assets/Coleccion/descarga.jpeg',
-	},
-	{
-		titulo: 'Obra de arte 1',
-		descripcion:
-			'Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum',
-		img: 'assets/Coleccion/descarga2.webp',
+		titulo: 'Sifón',
+		date: 1920,
+		donador: 'Santiago Giuliano',
+		img: 'assets/placeholder.png',
 	},
 ];
 

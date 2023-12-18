@@ -7,7 +7,7 @@ const Portada = ({ title, img, text }) => {
 			bgSize='cover'
 			h='500px'
 			bgImage={`linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4) 70%), url(${img})`}
-			bgPos='center'
+			bgPos='bottom'
 			align='center'
 			bgAttachment="fixed"
 			paddingInline='75px'

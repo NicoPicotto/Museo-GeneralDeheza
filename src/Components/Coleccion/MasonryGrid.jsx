@@ -24,9 +24,9 @@ const MasonryGrid = ({ children, ...props }) => {
 									borderRadius={5}
 									overflow='hidden'
 									transition='0.2s ease'
-									shadow='md'
+									shadow='sm'
 									cursor='pointer'
-									_hover={{ transform: 'scale(1.01)', shadow: 'lg' }}
+									_hover={{ transform: 'scale(1.007)', shadow: 'md' }}
 								>
 									{child}
 								</Box>

@@ -14,7 +14,9 @@ import {
 	useDisclosure,
 } from '@chakra-ui/react';
 import MasonryGrid from './MasonryGrid';
+import { BiSolidUser } from 'react-icons/bi';
 import items from './ColeccionList';
+import { BsCalendar2DateFill } from 'react-icons/bs';
 
 const ColeccionContainer = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
@@ -37,12 +39,40 @@ const ColeccionContainer = () => {
 							w='100%'
 							objectFit='cover'
 						/>
-						<Heading paddingInline={5} paddingTop={5}>
+						<Heading paddingInline={5} paddingBlock={3} color='primario'>
 							{piece.titulo}
 						</Heading>
-						<Text paddingInline={5} paddingBlock={5}>
-							{piece.descripcion}
-						</Text>
+						<Stack
+							direction='row'
+							align='center'
+							paddingBottom={5}
+							paddingInline={5}
+						>
+							<Stack
+								direction='row'
+								align='center'
+								bgColor='secundario'
+								paddingInline={3}
+								paddingBlock={1}
+								borderRadius={4}
+							>
+								{' '}
+								<BsCalendar2DateFill />
+								<Text fontSize='sm'>{piece.date}</Text>
+							</Stack>
+							<Stack
+								direction='row'
+								align='center'
+								bgColor='secundario'
+								paddingInline={3}
+								paddingBlock={1}
+								borderRadius={4}
+							>
+								{' '}
+								<BiSolidUser />
+								<Text fontSize='sm'>{piece.donador}</Text>
+							</Stack>
+						</Stack>
 					</Stack>
 				))}
 			</MasonryGrid>
@@ -51,7 +81,7 @@ const ColeccionContainer = () => {
 				<Modal isOpen={isOpen} onClose={onClose}>
 					<ModalOverlay backdropFilter='blur(5px)' />
 					<ModalContent p={3} minW='800px' h='auto'>
-						<ModalCloseButton />
+						<ModalCloseButton _focusVisible='none' />
 						<ModalBody paddingBlock={5}>
 							<Stack direction='row' spacing={5}>
 								<Stack minW='400px'>
@@ -62,10 +92,36 @@ const ColeccionContainer = () => {
 									/>
 								</Stack>
 								<Stack>
-									<Heading size='md' mb={3}>
-										{selectedPiece.titulo}
-									</Heading>
-									<Text>{selectedPiece.descripcion}</Text>
+									<Stack>
+										<Heading size='md'>{selectedPiece.titulo}</Heading>
+										<Text>{selectedPiece.descripcion}</Text>
+									</Stack>
+									<Stack direction='row' align='center' paddingBottom={5}>
+										<Stack
+											direction='row'
+											align='center'
+											bgColor='secundario'
+											paddingInline={3}
+											paddingBlock={1}
+											borderRadius={4}
+										>
+											{' '}
+											<BsCalendar2DateFill />
+											<Text fontSize='sm'>{selectedPiece.date}</Text>
+										</Stack>
+										<Stack
+											direction='row'
+											align='center'
+											bgColor='secundario'
+											paddingInline={3}
+											paddingBlock={1}
+											borderRadius={4}
+										>
+											{' '}
+											<BiSolidUser />
+											<Text fontSize='sm'>{selectedPiece.donador}</Text>
+										</Stack>
+									</Stack>
 								</Stack>
 							</Stack>
 						</ModalBody>
