@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Stack, Button, Text, Progress, Heading } from '@chakra-ui/react';
 import { FaPlay, FaPause, FaRedo, FaStop } from 'react-icons/fa';
+import { BiSolidUser, BiSolidPurchaseTag } from 'react-icons/bi';
 
 const AudioCard = ({ src, title, autor }) => {
 	const [isPlaying, setIsPlaying] = useState(false);
@@ -47,34 +48,31 @@ const AudioCard = ({ src, title, autor }) => {
 	};
 
 	return (
-		<Stack
-			w='100%'
-			h='fit-content'
-			bgColor='blanco'
-			shadow='md'
-			borderRadius='lg'
-			overflow='hidden'
-			p={4}
-			d='flex'
-			flexDirection='column'
-			marginInline={2}
-		>
+		<Stack padding='1em'>
 			<Stack alignItems='flex-start' mb={4}>
-				<Heading size="lg">
+				<Heading size='md' color='primario'>
 					{title}
 				</Heading>
-				<Text
-					as='b'
-					bgColor='secundario'
-					padding='4px 6px'
-					fontSize='sm'
-					color='white'
-					mb={2}
+				<Stack
+					direction='row'
+					align='center'
+					bgColor='cuarto'
+					paddingInline={3}
+					paddingBlock={1}
+					borderRadius={4}
 				>
-					{autor}
-				</Text>
+					{' '}
+					<BiSolidUser />
+					<Text fontSize='sm'>{autor}</Text>
+				</Stack>
 			</Stack>
-			<Progress value={progress} colorScheme='green' mb={4} />
+			<Progress
+				value={progress}
+				colorScheme='green'
+				alignItems='flex-start'
+				justifyContent='start'
+				display='flex'
+			/>
 			<audio ref={audioRef} src={src} onEnded={() => setIsPlaying(false)} />
 			<Stack direction='row' align='center' justify='space-around'>
 				<Button

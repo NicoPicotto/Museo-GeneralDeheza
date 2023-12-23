@@ -11,6 +11,8 @@ import {
 	Heading,
 } from '@chakra-ui/react';
 import LeerContainer from './Leer/LeerContainer';
+import MirarContainer from './Mirar/MirarContainer';
+import EscucharContainer from './Escuchar/EscucharContainer';
 
 const Interactua = () => {
 	return (
@@ -42,8 +44,12 @@ const Interactua = () => {
 						<LeerContainer />
 					</TabPanel>
 
-					<TabPanel></TabPanel>
-					<TabPanel></TabPanel>
+					<TabPanel>
+						<MirarContainer />
+					</TabPanel>
+					<TabPanel>
+						<EscucharContainer />
+					</TabPanel>
 
 					<TabPanel></TabPanel>
 				</TabPanels>

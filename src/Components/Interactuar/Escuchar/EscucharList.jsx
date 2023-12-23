@@ -11,12 +11,12 @@ const items = [
 	},
 	{
 		titulo: 'Una Tradicional Esquina Comercial',
-		autor: '?????????',
+		autor: 'Pendiende',
 		file: 'assets/Escuchar/EsquinaTradicional.mp3',
 	},
 	{
 		titulo: 'Fiestas de Agosto',
-		autor: '?????????',
+		autor: 'Pendiende',
 		file: 'assets/Escuchar/FiestasAgosto.mp3',
 	},
 ];

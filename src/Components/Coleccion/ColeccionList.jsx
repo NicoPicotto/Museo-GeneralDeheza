@@ -11,16 +11,14 @@ const coleccion = [
 		titulo: 'Maquina para moler café',
 		date: 1940,
 		donador: 'Familia Frouté',
-		descripcion:
-			'Pertenecía a Ramos Generales de José Frouté.',
+		descripcion: 'Pertenecía a Ramos Generales de José Frouté.',
 		img: 'assets/placeholder.png',
 	},
 	{
 		titulo: 'Balanza de hierro',
 		date: 1940,
 		donador: 'Familia Frouté',
-		descripcion:
-			'Pertenecía a Ramos Generales de José Frouté.',
+		descripcion: 'Pertenecía a Ramos Generales de José Frouté.',
 		img: 'assets/placeholder.png',
 	},
 	{
@@ -35,8 +33,7 @@ const coleccion = [
 		titulo: 'Cuadro de Casamiento',
 		date: 1941,
 		donador: 'Familia Scattolini',
-		descripcion:
-			'Casamiento Inés Bossio y Humberto Scattolini.',
+		descripcion: 'Casamiento Inés Bossio y Humberto Scattolini.',
 		img: 'assets/placeholder.png',
 	},
 	{
@@ -51,38 +48,149 @@ const coleccion = [
 		titulo: 'Auriculares para radio',
 		date: 1920,
 		donador: 'Santiago Giuliano',
-		descripcion:
-			'Se precisaban en los momentos de mala señal.',
+		descripcion: 'Se precisaban en los momentos de mala señal.',
 		img: 'assets/placeholder.png',
 	},
 	{
 		titulo: 'Parlante de radio',
 		date: 1920,
 		donador: 'Santiago Giuliano',
-		descripcion:
-			'Se precisaban en los momentos de mala señal.',
+		descripcion: 'Se precisaban en los momentos de mala señal.',
 		img: 'assets/placeholder.png',
 	},
 	{
 		titulo: 'Valija de madera',
 		date: 1980,
-		donador: 'Ruben Zabala',
-		descripcion:
-			'La utilizaban los ferroviarios en sus traslados.',
+		donador: 'Rubén Zabala',
+		descripcion: 'La utilizaban los ferroviarios en sus traslados.',
 		img: 'assets/placeholder.png',
 	},
 	{
 		titulo: 'Periódicos sobre la Guerra de Malvinas',
 		date: 1982,
 		donador: 'González Daniel y Martina Idelio',
-		descripcion:
-			'Los periódicos se datan desde 02/04/82 hasta 09/06/82.',
+		descripcion: 'Los periódicos se datan desde 02/04/82 hasta 09/06/82.',
 		img: 'assets/placeholder.png',
 	},
 	{
 		titulo: 'Sifón',
 		date: 1920,
 		donador: 'Santiago Giuliano',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Farol de señal',
+		date: 1980,
+		donador: 'Rubén Zabala',
+		descripcion: 'Farol a Queroseno utilizado en la estación ferroviaria',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Radio',
+		date: 1948,
+		donador: 'Mariam Allasino',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Radio',
+		date: 1950,
+		donador: 'Franco Morra',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Diccionario Lengua Castellana',
+		date: 1914,
+		donador: 'Familia Vieyra',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Teléfono',
+		date: 1935,
+		donador: 'Santiago Giuliano',
+		descripcion:
+			'Para comunicarse con dicho artefacto, primero eran atendidos por una operadora a la cual se le dictaba el número para que ésta concrete la llamada.',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Copa Comercio Torneo Regional Dalmacio Vélez',
+		date: 1999,
+		donador: 'Deheza Football Club',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Plancha a Carbón',
+		date: 1950,
+		donador: 'Norma de Grosso',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Lanza',
+		date: 'Desconocida',
+		donador: 'Asociación Bomberos Voluntarios',
+		descripcion:
+			'Se utilizó hasta los años 2000. Su función era regular el chorro, tenían caudal constante y se encontraban al final de la manguera. Estaban construidas de bronce.',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Casco',
+		date: 1979,
+		donador: 'Asociación Bomberos Voluntarios',
+		descripcion: 'Se utilizaba en el año 1979 en incendios y accidentes.',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Granadas contra incendio',
+		date: 1900,
+		donador: 'Asociación Bomberos Voluntarios',
+		descripcion:
+			'Se utilizaban a principios del siglo XX. Su función era sofocar un principio de incendio, arrojándose a la base del fuego.',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Missal Romano',
+		date: 1965,
+		donador: 'Iglesia Nuestra Señora de la Asunción',
+		descripcion:
+			'El Missal Romano es un libro que se utilizaba en las celebraciones de las Misas que se hacían en latin, por lo tanto es previo al año 1965. Se utilizó en los últimos tiempos de la capilla anterior y en las primeras celebraciones del templo nuevo. Este libro contiene todos los textos que se rezan en las distintas Misas y los textos bíblicos que se utilizaban en cada una de las celebraciones.',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Missal Diario',
+		date: 1965,
+		donador: 'Iglesia Nuestra Señora de la Asunción',
+		descripcion:
+			'Se utilizaba por los fieles en la época de las celebraciones en latin, la cual la gente podía seguir con ese libro, las partes de las celebraciones de la Misa. ',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Estola',
+		date: 'Desconocida',
+		donador: 'Iglesia Nuestra Señora de la Asunción',
+		descripcion:
+			'Es el signo del poder sacerdotal. Se coloca sobre el cuello colgando por los costados. Hay de distintos colores según los colores litúrgicos. El blanco y el dorado se utiliza para las fiestas; el verde se utiliza en la mayoría del tiempo, durante el año; el color rojo en las fiestas de los mártires y las fiestas de la Pasión del Señor; el morado en las celebraciones penitenciales como cuaresma; adviento; en las sepulturas y en el sacramento de la confesión.',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Biblia',
+		date: 'Desconocida',
+		donador: 'Iglesia de Los Hermanos de la República Argentina',
+		descripcion:
+			'Es una biblia utilizada por personas que asistieron a la Iglesia de los Hermanos. Fue impresa en Gran Bretaña, acopiada en España y traída a nuestro país por alguna editorial. Utiliza un castellano antiguo (Versión 1909) de los traductores Casiodoro de Reyna y Cipriano de Valera.',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Biblia',
+		date: 'Desconocida',
+		donador: 'Iglesia de Los Hermanos de la República Argentina',
+		descripcion:
+			'Es una biblia utilizada por personas que asistieron a la Iglesia de los Hermanos. Corresponde a una versión posterior (1960), impresa en Argentina por la Sociedad Bíblica de nuestro país. Posee un lenguaje más accesible y contemporáneo.',
+		img: 'assets/placeholder.png',
+	},
+	{
+		titulo: 'Tester',
+		date: 'Desconocida',
+		descripcion:
+			'Se trata de un Tester que se utilizaba en los años 1960 aproximadamente para medir la energía.',
 		img: 'assets/placeholder.png',
 	},
 ];

@@ -1,49 +1,48 @@
 import React, { useState } from 'react';
-import { Stack, Heading, useMediaQuery, useDisclosure } from '@chakra-ui/react';
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import {
+	Stack,
+	Heading,
+	useMediaQuery,
+	Text,
+	Modal,
+	ModalOverlay,
+	ModalContent,
+	ModalHeader,
+	ModalCloseButton,
+	ModalBody,
+	useDisclosure,
+	Grid,
+	GridItem,
+	Button,
+	Divider,
+	AspectRatio,
+} from '@chakra-ui/react';
 import items from './EscucharList';
-// import required modules
-import { Navigation } from 'swiper/modules';
-import './Swiper.css';
-import AudioPlayer from './AudioPlayer';
+import AudioCard from './AudioPlayer';
+import { BiSolidUser, BiSolidPurchaseTag } from 'react-icons/bi';
 
 const EscucharContainer = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 
 	return (
-		<Stack marginTop='100px' paddingInline='50px'>
-			<Stack
-				bgColor='terciario'
-				color='background'
-				p={8}
-				align='center'
-				borderRadius={5}
-				shadow='md'
-			>
-				<Heading>Escuchar</Heading>
-			</Stack>
-
-			<Swiper
-				direction={'horizontal'}
-				slidesPerView={2}
-				navigation={isMobile ? false : true}
-				modules={[Navigation]}
-				className='mySwiperInteractuar'
-			>
+		<Stack paddingTop='25px' paddingInline='50px'>
+			<Grid templateColumns='repeat(2, 6fr)' gap={6} paddingInline='50px'>
 				{items.map((item, index) => (
-					<SwiperSlide key={index} item={item}>
-						<AudioPlayer
+					<GridItem
+						key={index}
+						bgColor='white'
+						shadow='md'
+						overflow='hidden'
+						borderRadius={5}
+					>
+						<AudioCard
 							src={item.file}
 							title={item.titulo}
 							autor={item.autor}
 						/>
-					</SwiperSlide>
+					</GridItem>
 				))}
-			</Swiper>
+			</Grid>
 		</Stack>
 	);
 };
