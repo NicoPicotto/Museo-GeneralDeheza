@@ -48,30 +48,34 @@ const ColeccionContainer = () => {
 							paddingBottom={5}
 							paddingInline={5}
 						>
-							<Stack
-								direction='row'
-								align='center'
-								bgColor='secundario'
-								paddingInline={3}
-								paddingBlock={1}
-								borderRadius={4}
-							>
-								{' '}
-								<BsCalendar2DateFill />
-								<Text fontSize='sm'>{piece.date}</Text>
-							</Stack>
-							<Stack
-								direction='row'
-								align='center'
-								bgColor='secundario'
-								paddingInline={3}
-								paddingBlock={1}
-								borderRadius={4}
-							>
-								{' '}
-								<BiSolidUser />
-								<Text fontSize='sm'>{piece.donador}</Text>
-							</Stack>
+							{piece.date && (
+								<Stack
+									direction='row'
+									align='center'
+									bgColor='secundario'
+									paddingInline={3}
+									paddingBlock={1}
+									borderRadius={4}
+								>
+									{' '}
+									<BsCalendar2DateFill />
+									<Text fontSize='sm'>{piece.date}</Text>
+								</Stack>
+							)}
+							{piece.donador && (
+								<Stack
+									direction='row'
+									align='center'
+									bgColor='secundario'
+									paddingInline={3}
+									paddingBlock={1}
+									borderRadius={4}
+								>
+									{' '}
+									<BiSolidUser />
+									<Text fontSize='sm'>{piece.donador}</Text>
+								</Stack>
+							)}
 						</Stack>
 					</Stack>
 				))}

@@ -13,6 +13,7 @@ import {
 import LeerContainer from './Leer/LeerContainer';
 import MirarContainer from './Mirar/MirarContainer';
 import EscucharContainer from './Escuchar/EscucharContainer';
+import InteractuaContainer from './Interactua/InteractuaContainer';
 
 const Interactua = () => {
 	return (
@@ -43,15 +44,15 @@ const Interactua = () => {
 					<TabPanel>
 						<LeerContainer />
 					</TabPanel>
-
 					<TabPanel>
 						<MirarContainer />
 					</TabPanel>
 					<TabPanel>
 						<EscucharContainer />
 					</TabPanel>
-
-					<TabPanel></TabPanel>
+					<TabPanel>
+						<InteractuaContainer />
+					</TabPanel>
 				</TabPanels>
 			</Tabs>
 		</Stack>

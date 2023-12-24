@@ -148,9 +148,9 @@ const Navbar = () => {
 					<Link as={ReachLink} to='/interactuar'>
 						<CustomButton>Interactua</CustomButton>
 					</Link>
-					<Link as={ReachLink} to='/agenda'>
+					{/* <Link as={ReachLink} to='/agenda'>
 						<CustomButton>Agenda</CustomButton>
-					</Link>
+					</Link> */}
 				</Stack>
 
 				{/* Hamburger - Mobile */}
