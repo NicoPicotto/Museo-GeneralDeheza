@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
 	Stack,
 	Button,
-	Text,
 	IconButton,
 	Drawer,
 	DrawerBody,
@@ -31,7 +30,7 @@ import logo from '/assets/Navbar/logo.png';
 
 const Navbar = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
-	const [placement, setPlacement] = useState('right');
+	const [placement] = useState('right');
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 
 	return (
@@ -169,7 +168,7 @@ const Navbar = () => {
 					<DrawerOverlay>
 						<DrawerContent bgColor='white'>
 							<DrawerCloseButton />
-							<DrawerHeader color='secundario'>
+							<DrawerHeader color='primario'>
 								Museo General Deheza
 							</DrawerHeader>
 							<DrawerBody>
@@ -187,7 +186,7 @@ const Navbar = () => {
 									<Link as={ReachLink} to='/visita'>
 										<Button
 											w='100%'
-											color='secundario'
+											color='primario'
 											onClick={onClose}
 											variant='ghost'
 											_hover={{ bgColor: 'transparent' }}
@@ -198,7 +197,7 @@ const Navbar = () => {
 									<Link as={ReachLink} to='/museo'>
 										<Button
 											w='100%'
-											color='secundario'
+											color='primario'
 											onClick={onClose}
 											variant='ghost'
 											_hover={{ bgColor: 'transparent' }}
@@ -209,7 +208,7 @@ const Navbar = () => {
 									<Link as={ReachLink} to='/coleccion'>
 										<Button
 											w='100%'
-											color='secundario'
+											color='primario'
 											onClick={onClose}
 											variant='ghost'
 											_hover={{ bgColor: 'transparent' }}
@@ -220,7 +219,7 @@ const Navbar = () => {
 									<Link as={ReachLink} to='/leer'>
 										<Button
 											w='100%'
-											color='secundario'
+											color='primario'
 											onClick={onClose}
 											variant='ghost'
 											_hover={{ bgColor: 'transparent' }}
@@ -231,7 +230,7 @@ const Navbar = () => {
 									<Link as={ReachLink} to='/mirar'>
 										<Button
 											w='100%'
-											color='secundario'
+											color='primario'
 											onClick={onClose}
 											variant='ghost'
 											_hover={{ bgColor: 'transparent' }}
@@ -242,7 +241,7 @@ const Navbar = () => {
 									<Link as={ReachLink} to='/escuchar'>
 										<Button
 											w='100%'
-											color='secundario'
+											color='primario'
 											onClick={onClose}
 											variant='ghost'
 											_hover={{ bgColor: 'transparent' }}
@@ -253,7 +252,7 @@ const Navbar = () => {
 									<Link as={ReachLink} to='/agenda'>
 										<Button
 											w='100%'
-											color='secundario'
+											color='primario'
 											onClick={onClose}
 											variant='ghost'
 											_hover={{ bgColor: 'transparent' }}
