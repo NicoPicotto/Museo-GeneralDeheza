@@ -1,4 +1,3 @@
-import React from 'react';
 import { Stack } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
 import ColeccionContainer from '../../Components/Coleccion/ColeccionContainer';
@@ -10,7 +9,7 @@ const ColeccionView = () => {
 		<Stack justify='center'>
 			<Portada
 				title='Colección'
-				text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra.'
+				text='La colección actual se conforma gracias a las donaciones y préstamos de nuestros vecinos de General Deheza.'
 				img={fondoPortada}
 			/>
 			<Container alignSelf='center'>

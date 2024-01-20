@@ -1,14 +1,12 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
 	Image,
 	Heading,
 	Text,
 	Modal,
 	Stack,
-	Box,
 	ModalOverlay,
 	ModalContent,
-	ModalHeader,
 	ModalCloseButton,
 	ModalBody,
 	useDisclosure,
@@ -31,7 +29,7 @@ const ColeccionContainer = () => {
 		<Stack width='100%'>
 			<MasonryGrid mt='-50px'>
 				{items.map((piece, index) => (
-					<Stack onClick={() => handleOpenModal(piece)} key={index}>
+					<Stack onClick={() => handleOpenModal(piece)} key={index} gap={3}>
 						<Image
 							key={index}
 							src={piece.img}
@@ -39,9 +37,12 @@ const ColeccionContainer = () => {
 							w='100%'
 							objectFit='cover'
 						/>
-						<Heading paddingInline={5} paddingBlock={3} color='primario'>
+						<Heading paddingInline={5} size="lg" color='primario'>
 							{piece.titulo}
 						</Heading>
+						<Text paddingInline={5} pb={2}>
+							{piece.descripcion}
+						</Text>
 						<Stack
 							direction='row'
 							align='center'
@@ -87,32 +88,33 @@ const ColeccionContainer = () => {
 					<ModalContent p={3} minW='800px' h='auto'>
 						<ModalCloseButton _focusVisible='none' />
 						<ModalBody paddingBlock={5}>
-							<Stack direction='row' spacing={5}>
-								<Stack minW='400px'>
-									<Image
-										src={selectedPiece.img}
-										alt={selectedPiece.alt}
-										borderRadius={5}
-									/>
-								</Stack>
+							<Stack spacing={5}>
+								<Image
+									src={selectedPiece.img}
+									alt={selectedPiece.alt}
+									borderRadius={5}
+								/>
 								<Stack>
 									<Stack>
 										<Heading size='md'>{selectedPiece.titulo}</Heading>
 										<Text>{selectedPiece.descripcion}</Text>
 									</Stack>
-									<Stack direction='row' align='center' paddingBottom={5}>
-										<Stack
-											direction='row'
-											align='center'
-											bgColor='secundario'
-											paddingInline={3}
-											paddingBlock={1}
-											borderRadius={4}
-										>
-											{' '}
-											<BsCalendar2DateFill />
-											<Text fontSize='sm'>{selectedPiece.date}</Text>
-										</Stack>
+									<Stack direction='row' align='center'>
+										{selectedPiece.date && (
+											<Stack
+												direction='row'
+												align='center'
+												bgColor='secundario'
+												paddingInline={3}
+												paddingBlock={1}
+												borderRadius={4}
+											>
+												{' '}
+												<BsCalendar2DateFill />
+												<Text fontSize='sm'>{selectedPiece.date}</Text>
+											</Stack>
+										)}
+
 										<Stack
 											direction='row'
 											align='center'

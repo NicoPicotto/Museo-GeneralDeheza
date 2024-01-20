@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+/* eslint-disable react/prop-types */
+import { useState } from 'react';
 import {
-	Flex,
 	Box,
 	Text,
 	useMediaQuery,
@@ -10,7 +10,6 @@ import {
 	Modal,
 	ModalOverlay,
 	ModalContent,
-	ModalHeader,
 	ModalCloseButton,
 	ModalBody,
 	useDisclosure,

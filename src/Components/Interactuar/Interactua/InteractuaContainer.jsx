@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
 	Stack,
 	Modal,
@@ -9,9 +9,9 @@ import {
 	useDisclosure,
 	Image,
 	Spinner,
+	Text,
 } from '@chakra-ui/react';
 import ReactCompareImage from 'react-compare-image';
-import Masonry from 'react-masonry-css';
 import img1 from '/assets/Interactuar/15-8.jpg';
 import img1c from '/assets/Interactuar/15-8c.jpg';
 import img2 from '/assets/Interactuar/1913.jpg';
@@ -117,15 +117,9 @@ const InteractuaContainer = () => {
 		{ id: 27, bw: img27, color: img27c },
 		{ id: 28, bw: img28, color: img28c },
 		{ id: 29, bw: img29, color: img29c },
-		{ id: 30, bw: img30, color: img30c },
-		{ id: 31, bw: img31, color: img31c },
+		{ id: 30, bw: img30, color: img30c, text: "Templo" },
+		{ id: 31, bw: img31, color: img31c, text: "Via Blanca" },
 	];
-
-	const breakpointColumnsObj = {
-		default: 4,
-		1100: 3,
-		700: 2,
-	};
 
 	return (
 		<Stack paddingTop='25px' paddingInline='50px'>
@@ -135,21 +129,36 @@ const InteractuaContainer = () => {
 						key={image.id}
 						className='imgListLink'
 						onClick={() => handleOpenModal(image)}
+						position='relative'
 					>
 						<Image
 							className='imgListItem'
 							src={image.bw}
 							alt='Black and White'
 						/>
+						<Stack
+							direction='row'
+							align='center'
+							bgColor='lightgray'
+							borderRadius={4}
+							position='absolute'
+							bottom={2}
+							p={1}
+							left={2}
+						>
+							<Text fontSize='xs' paddingInline={1}>
+								{image.text}
+							</Text>
+						</Stack>
 					</Stack>
 				))}
 			</MasonryGrid>
 
 			{selectedPiece && (
-				<Modal isOpen={isOpen} onClose={onClose} size="6xl">
+				<Modal isOpen={isOpen} onClose={onClose} size='5xl'>
 					<ModalOverlay backdropFilter='blur(5px)' />
 					<ModalContent p={3} minW='800px' h='auto'>
-						<ModalCloseButton />
+						<ModalCloseButton _focusVisible='none' />
 						<ModalBody paddingBlock={5}>
 							<ReactCompareImage
 								leftImage={selectedPiece.bw}

@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable react/prop-types */
 import { Stack, Box } from '@chakra-ui/react';
 
 const MasonryGrid = ({ children, ...props }) => {

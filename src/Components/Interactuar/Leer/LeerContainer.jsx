@@ -32,6 +32,17 @@ const LeerContainer = () => {
 
 	return (
 		<Stack paddingTop='25px' paddingInline='50px'>
+			<Text fontSize='lg' as='b' textAlign='justify' paddingInline='50px'>
+				Trabajo realizado por Docentes y Alumnos de la Escuela “Martín Güemes”,
+				dedicado a General Deheza y su gente (1987)
+			</Text>
+			<Text pb={10} textAlign='justify' paddingInline='50px'>
+				Así como cada persona tiene su historia, también un pueblo tiene la
+				suya... y no hay mejor punto de partida que el testimonio de los
+				verdaderos hacedores de esa historia. Porque fueron ellos, nativos e
+				inmigrantes, los dos barros que se conjugaron para escribir la historia
+				de General Deheza.
+			</Text>
 			<Grid templateColumns='repeat(2, 6fr)' gap={6} paddingInline='50px'>
 				{items.map((item, index) => (
 					<GridItem
