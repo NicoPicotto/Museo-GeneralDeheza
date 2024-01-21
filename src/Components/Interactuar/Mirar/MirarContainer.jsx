@@ -1,24 +1,13 @@
-import React, { useState } from 'react';
 import {
 	Stack,
 	Heading,
 	useMediaQuery,
 	Text,
-	Modal,
-	ModalOverlay,
-	ModalContent,
-	ModalHeader,
-	ModalCloseButton,
-	ModalBody,
-	useDisclosure,
 	Grid,
 	GridItem,
-	Button,
-	Divider,
-	AspectRatio,
 } from '@chakra-ui/react';
 import items from './MirarList';
-import { BiSolidUser, BiSolidPurchaseTag } from 'react-icons/bi';
+import { BiSolidPurchaseTag } from 'react-icons/bi';
 
 const MirarContainer = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');

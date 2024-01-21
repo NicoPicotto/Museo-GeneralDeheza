@@ -19,9 +19,9 @@ const Visita = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 	return (
 		<Stack h='100%' marginTop='-50px'>
-			<Stack direction='row' flexWrap='wrap' justify='center' spacing={2}>
+			<Stack direction='row' flexWrap='wrap' justify='center'>
 				<Stack bgColor='white' borderRadius={5} p={5} w='30%' shadow='md'>
-					<Stack direction='row'>
+					<Stack direction='row' align='center'>
 						<MdLocationOn fontSize='1.7rem' color='#818B7C' />
 						<Heading size='lg' color='primario'>
 							Ubicación
@@ -35,7 +35,7 @@ const Visita = () => {
 					</Stack>
 				</Stack>
 				<Stack bgColor='white' borderRadius={5} p={5} w='30%' shadow='md'>
-					<Stack direction='row'>
+					<Stack direction='row' align='center'>
 						<MdAccessTimeFilled fontSize='1.7rem' color='#818B7C' />
 						<Heading size='lg' color='primario'>
 							Horarios
@@ -47,7 +47,7 @@ const Visita = () => {
 				</Stack>
 
 				<Stack bgColor='white' borderRadius={5} p={5} w='30%' shadow='md'>
-					<Stack direction='row'>
+					<Stack direction='row' align='center'>
 						<MdGroup fontSize='1.7rem' color='#818B7C' />
 						<Heading size='lg' color='primario'>
 							Visitas Grupales
@@ -61,7 +61,7 @@ const Visita = () => {
 					</Stack>
 				</Stack>
 				<Stack bgColor='white' borderRadius={5} p={5} w='30%' shadow='md'>
-					<Stack direction='row'>
+					<Stack direction='row' align='center'>
 						<MdContactSupport fontSize='1.7rem' color='#818B7C' />
 						<Heading size='lg' color='primario'>
 							Más Información
@@ -78,13 +78,13 @@ const Visita = () => {
 					</Stack>
 				</Stack>
 				<Stack bgColor='white' borderRadius={5} p={5} w='30%' shadow='md'>
-					<Stack direction='row'>
+					<Stack direction='row' align='center'>
 						<MdAccessibilityNew fontSize='1.7rem' color='#818B7C' />
 						<Heading size='lg' color='primario'>
 							Accesibilidad
 						</Heading>
 					</Stack>
-					<Stack paddingLeft={10}>
+					<Stack paddingLeft={10} gap={0}>
 						<Text>Entrada libre y gratuita.</Text>
 						<Text>WiFi libre y gratuito.</Text>
 						<Text>Rampas desde su ingreso y con acceso a todas sus salas.</Text>

@@ -12,26 +12,26 @@ const exhibiciones = [
 		autor: 'Municipalidad General Deheza',
 		shortDescription: `Desde 1901 cada 15 de Agosto se celebran en nuestra localidad las Fiestas Patronales en honor de Nuestra Señora de la Asunción. No sólo sentimientos de carácter religioso convergen en esos días, que ya forman parte de la tradición dehecina, es una oportunidad para que sus habitantes y vecinos de otros pueblos confraternicen en medio de un clima de festividad familiar.`,
 		vigente: true,
-		portada: 'assets/Exhibiciones/01/16.jpg',
+		portada: 'assets/Exhibiciones/01/portada-patronales.jpg',
 		slug: 'patronales',
 	},
-	{
-		titulo: 'Muestra de Talleres',
-		autor: 'Ana Scattolini y Marce Luchelli',
-		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias in dolore eum qui soluta quaerat tenetur atque sed ratione similique. Ex dolorum odit magnam corporis ab sunt, eius ullam quidem.',
-		vigente: true,
-		portada: 'assets/placeholder.png',
-		slug: 'talleres',
-	},
+	// {
+	// 	titulo: 'Muestra de Talleres',
+	// 	autor: 'Ana Scattolini y Marce Luchelli',
+	// 	shortDescription:
+	// 		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias in dolore eum qui soluta quaerat tenetur atque sed ratione similique. Ex dolorum odit magnam corporis ab sunt, eius ullam quidem.',
+	// 	vigente: true,
+	// 	portada: 'assets/placeholder.png',
+	// 	slug: 'talleres',
+	// },
 	{
 		titulo: 'Homenaje a ex combatientes de Malvinas',
-		autor: 'Lorem ipsum dolor sit amet',
+		autor: 'Municipalidad General Deheza',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias in dolore eum qui soluta quaerat tenetur atque sed ratione similique. Ex dolorum odit magnam corporis ab sunt, eius ullam quidem.',
+			`El 21 de noviembre del año 2023 se realizó un Homenaje a los Ex combatientes de Malvinas en el Museo. Para dicho reconocimiento, se ambientó el espacio con objetos y música del año 1982.  En el montaje se encontraban impresiones de periódicos y revistas originales junto a objetos prestados y donados por los veteranos.`,
 		vigente: true,
-		portada: 'assets/placeholder.png',
-		slug: 'talleres',
+		portada: 'assets/Exhibiciones/01/portada-malvinas.JPG',
+		slug: 'ex-combatientes',
 	},
 ];
 

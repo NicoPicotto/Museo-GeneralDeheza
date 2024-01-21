@@ -13,6 +13,7 @@ import {
 	ModalCloseButton,
 	ModalBody,
 	useDisclosure,
+	Divider,
 } from '@chakra-ui/react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -85,7 +86,7 @@ const LineaBase = ({ events }) => {
 									{data.title}
 								</Heading>
 								<Text
-									noOfLines={4} // Límite de líneas
+									noOfLines={8} // Límite de líneas
 									overflow='hidden'
 									textOverflow='ellipsis'
 									display='-webkit-box'
@@ -104,10 +105,13 @@ const LineaBase = ({ events }) => {
 						<ModalCloseButton />
 						<ModalBody paddingBlock={5}>
 							<Stack>
-								<Heading size='md'>
+								<Heading size='md' color='primario'>
 									{selectedPiece.date} - {selectedPiece.title}
 								</Heading>
-								<Text whiteSpace='pre-line'>{selectedPiece.content}</Text>
+								<Divider borderColor='cuarto' />
+								<Text whiteSpace='pre-line' fontSize='lg'>
+									{selectedPiece.content}
+								</Text>
 								<Image src={selectedPiece.image} />
 							</Stack>
 						</ModalBody>

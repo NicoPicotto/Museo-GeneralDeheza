@@ -1,0 +1,10 @@
+.swiper-slide {
+	padding-inline: 75px;
+	white-space: pre-line;
+}
+
+.swiper-slide img {
+	min-width: 50%;
+	object-fit: cover;
+	object-position: bottom;
+}

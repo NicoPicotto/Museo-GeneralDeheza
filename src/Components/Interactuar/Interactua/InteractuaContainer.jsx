@@ -9,7 +9,7 @@ import {
 	useDisclosure,
 	Image,
 	Spinner,
-	Text,
+	Tag,
 } from '@chakra-ui/react';
 import ReactCompareImage from 'react-compare-image';
 import img1 from '/assets/Interactuar/15-8.jpg';
@@ -91,34 +91,49 @@ const InteractuaContainer = () => {
 		{ id: 1, bw: img1, color: img1c },
 		{ id: 2, bw: img2, color: img2c },
 		{ id: 3, bw: img3, color: img3c },
-		{ id: 4, bw: img4, color: img4c },
+		{
+			id: 4,
+			bw: img4,
+			color: img4c,
+			text: 'Equipo de fútbol Deheza Football Club',
+		},
 		{ id: 5, bw: img5, color: img5c },
 		{ id: 6, bw: img6, color: img6c },
 		{ id: 7, bw: img7, color: img7c },
 		{ id: 8, bw: img8, color: img8c },
 		{ id: 9, bw: img9, color: img9c },
-		{ id: 10, bw: img10, color: img10c },
-		{ id: 11, bw: img11, color: img11c },
-		{ id: 12, bw: img12, color: img12c },
+		{ id: 10, bw: img10, color: img10c, text: 'Edificio Municipalidad' },
+		{ id: 11, bw: img11, color: img11c, text: 'Pileta Acción Juvenil' },
+		{ id: 12, bw: img12, color: img12c, text: 'Plaza Central' },
 		{ id: 13, bw: img13, color: img13c },
 		{ id: 14, bw: img14, color: img14c },
 		{ id: 15, bw: img15, color: img15c },
 		{ id: 16, bw: img16, color: img16c },
-		{ id: 17, bw: img17, color: img17c },
-		{ id: 18, bw: img18, color: img18c },
-		{ id: 19, bw: img19, color: img19c },
-		{ id: 20, bw: img20, color: img20c },
-		{ id: 21, bw: img21, color: img21c },
-		{ id: 22, bw: img22, color: img22c },
-		{ id: 23, bw: img23, color: img23c },
-		{ id: 24, bw: img24, color: img24c },
-		{ id: 25, bw: img25, color: img25c },
-		{ id: 26, bw: img26, color: img26c },
-		{ id: 27, bw: img27, color: img27c },
-		{ id: 28, bw: img28, color: img28c },
-		{ id: 29, bw: img29, color: img29c },
-		{ id: 30, bw: img30, color: img30c, text: "Templo" },
-		{ id: 31, bw: img31, color: img31c, text: "Via Blanca" },
+		{ id: 17, bw: img17, color: img17c, text: 'Aceitera General Deheza' },
+		{ id: 18, bw: img18, color: img18c, text: 'Boulevard San Martín' },
+		{ id: 19, bw: img19, color: img19c, text: 'Comedor Las Peñas' },
+		{ id: 20, bw: img20, color: img20c, text: 'Edificio Concejo Deliberante' },
+		{
+			id: 21,
+			bw: img21,
+			color: img21c,
+			text: 'Entrada Aceitera General Deheza',
+		},
+		{ id: 22, bw: img22, color: img22c, text: 'Casa Familia Frouté' },
+		{ id: 23, bw: img23, color: img23c, text: 'Edificio Municipalidad' },
+		{ id: 24, bw: img24, color: img24c, text: 'Mutual de las Comunidades' },
+		{ id: 25, bw: img25, color: img25c, text: 'Los Naranjos' },
+		{
+			id: 26,
+			bw: img26,
+			color: img26c,
+			text: 'Casa Dr. Molina / Pinturería Sur',
+		},
+		{ id: 27, bw: img27, color: img27c, text: 'Plaza Central' },
+		{ id: 28, bw: img28, color: img28c, text: 'Plaza Central' },
+		{ id: 29, bw: img29, color: img29c, text: 'Viejo tanque de agua' },
+		{ id: 30, bw: img30, color: img30c, text: 'Templo Iglesia Católica' },
+		{ id: 31, bw: img31, color: img31c, text: 'Vía Blanca' },
 	];
 
 	return (
@@ -136,20 +151,18 @@ const InteractuaContainer = () => {
 							src={image.bw}
 							alt='Black and White'
 						/>
-						<Stack
-							direction='row'
-							align='center'
-							bgColor='lightgray'
-							borderRadius={4}
+						<Tag
+							bgColor='secundario'
+							size='sm'
+							textTransform='uppercase'
+							display={image.text ? 'flex' : 'none'}
 							position='absolute'
-							bottom={2}
-							p={1}
-							left={2}
+							bottom={0}
+							left={0}
+							m={2}
 						>
-							<Text fontSize='xs' paddingInline={1}>
-								{image.text}
-							</Text>
-						</Stack>
+							{image.text}
+						</Tag>
 					</Stack>
 				))}
 			</MasonryGrid>

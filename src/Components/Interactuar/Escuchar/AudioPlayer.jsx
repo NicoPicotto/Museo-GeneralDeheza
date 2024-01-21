@@ -1,7 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
+/* eslint-disable react/prop-types */
+import { useState, useEffect, useRef } from 'react';
 import { Stack, Button, Text, Progress, Heading } from '@chakra-ui/react';
 import { FaPlay, FaPause, FaRedo, FaStop } from 'react-icons/fa';
-import { BiSolidUser, BiSolidPurchaseTag } from 'react-icons/bi';
+import { BiSolidUser } from 'react-icons/bi';
 
 const AudioCard = ({ src, title, autor }) => {
 	const [isPlaying, setIsPlaying] = useState(false);
@@ -79,6 +80,7 @@ const AudioCard = ({ src, title, autor }) => {
 					variant='ghost'
 					_hover={{ bgColor: 'transparent' }}
 					size='sm'
+					color='cuarto'
 					onClick={restartAudio}
 					aria-label='Restart'
 				>
@@ -86,6 +88,7 @@ const AudioCard = ({ src, title, autor }) => {
 				</Button>
 				<Button
 					variant='ghost'
+					color='cuarto'
 					_hover={{ bgColor: 'transparent' }}
 					onClick={togglePlayPause}
 					aria-label={isPlaying ? 'Pause' : 'Play'}
@@ -94,6 +97,7 @@ const AudioCard = ({ src, title, autor }) => {
 				</Button>
 				<Button
 					variant='ghost'
+					color='cuarto'
 					_hover={{ bgColor: 'transparent' }}
 					size='sm'
 					onClick={stopAudio}

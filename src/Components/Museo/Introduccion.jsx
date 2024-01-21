@@ -18,7 +18,6 @@ const Introduccion = () => {
 	return (
 		<Stack marginTop='-50px' spacing={5} paddingInline='50px'>
 			<Stack
-				
 				color='negro'
 				bgColor='white'
 				paddingInline={8}

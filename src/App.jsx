@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
 import theme from './styles/theme';
@@ -16,6 +15,7 @@ import ExhibicionTecnico from './Views/ExhibicionesListView/ExhibicionTecnico';
 import ScrolToTop from './Components/ScrollToTop/ScrollToTop';
 import ExhibicionPatronalesView from './Views/ExhibicionesListView/ExhibicionPatronales';
 import AgendaView from './Views/AgendaView/Agenda';
+import ExhibicionMalvinas from './Views/ExhibicionesListView/ExhibicionMalvinas';
 
 const App = () => {
 	return (
@@ -32,6 +32,7 @@ const App = () => {
 					<Route path='/coleccion' element={<ColeccionView />} />
 					<Route path='/exhibiciones' element={<ExhibicionesView />} />
 					<Route path='/exhibiciones/itapu' element={<ExhibicionTecnico />} />
+					<Route path='/exhibiciones/ex-combatientes' element={<ExhibicionMalvinas />} />
 					<Route
 						path='/exhibiciones/patronales'
 						element={<ExhibicionPatronalesView />}

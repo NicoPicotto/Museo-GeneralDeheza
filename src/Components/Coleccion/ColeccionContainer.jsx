@@ -37,7 +37,7 @@ const ColeccionContainer = () => {
 							w='100%'
 							objectFit='cover'
 						/>
-						<Heading paddingInline={5} size="lg" color='primario'>
+						<Heading paddingInline={5} size='lg' color='primario'>
 							{piece.titulo}
 						</Heading>
 						<Text paddingInline={5} pb={2}>
@@ -95,7 +95,7 @@ const ColeccionContainer = () => {
 									borderRadius={5}
 								/>
 								<Stack>
-									<Stack>
+									<Stack mb={2}>
 										<Heading size='md'>{selectedPiece.titulo}</Heading>
 										<Text>{selectedPiece.descripcion}</Text>
 									</Stack>
@@ -114,19 +114,20 @@ const ColeccionContainer = () => {
 												<Text fontSize='sm'>{selectedPiece.date}</Text>
 											</Stack>
 										)}
-
-										<Stack
-											direction='row'
-											align='center'
-											bgColor='secundario'
-											paddingInline={3}
-											paddingBlock={1}
-											borderRadius={4}
-										>
-											{' '}
-											<BiSolidUser />
-											<Text fontSize='sm'>{selectedPiece.donador}</Text>
-										</Stack>
+										{selectedPiece.donador && (
+											<Stack
+												direction='row'
+												align='center'
+												bgColor='secundario'
+												paddingInline={3}
+												paddingBlock={1}
+												borderRadius={4}
+											>
+												{' '}
+												<BiSolidUser />
+												<Text fontSize='sm'>{selectedPiece.donador}</Text>
+											</Stack>
+										)}
 									</Stack>
 								</Stack>
 							</Stack>

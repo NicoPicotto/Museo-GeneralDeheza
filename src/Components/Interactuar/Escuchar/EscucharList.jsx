@@ -9,16 +9,7 @@ const items = [
 		autor: 'Hector Pastor',
 		file: 'assets/Escuchar/HectorPastor.mp3',
 	},
-	// {
-	// 	titulo: 'Una Tradicional Esquina Comercial',
-	// 	autor: 'Pendiende',
-	// 	file: 'assets/Escuchar/EsquinaTradicional.mp3',
-	// },
-	// {
-	// 	titulo: 'Fiestas de Agosto',
-	// 	autor: 'Pendiende',
-	// 	file: 'assets/Escuchar/FiestasAgosto.mp3',
-	// },
+
 ];
 
 export default items;

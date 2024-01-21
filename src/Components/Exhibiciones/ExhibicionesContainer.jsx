@@ -1,4 +1,3 @@
-import React from 'react';
 import {
 	Grid,
 	GridItem,
@@ -13,7 +12,6 @@ import {
 import { Link as ReachLink } from 'react-router-dom';
 import list from './ExhibicionesList';
 import { BiSolidUser } from 'react-icons/bi';
-import { IoIosCheckmarkCircle, IoIosCloseCircle } from 'react-icons/io';
 
 const ExhibicionesContainer = () => {
 	return (
@@ -50,33 +48,9 @@ const ExhibicionesContainer = () => {
 									>
 										{' '}
 										<BiSolidUser />
-										<Text fontSize='sm' as='i'>
+										<Text fontSize='sm'>
 											{item.autor}
 										</Text>
-									</Stack>
-									<Stack
-										direction='row'
-										align='center'
-										bgColor={item.vigente ? 'darkgreen' : 'darkred'}
-										paddingInline={3}
-										paddingBlock={1}
-										borderRadius={4}
-									>
-										{item.vigente ? (
-											<>
-												<IoIosCheckmarkCircle color='white' />
-												<Text fontSize='sm' as='i' color='white'>
-													Vigente
-												</Text>{' '}
-											</>
-										) : (
-											<>
-												<IoIosCloseCircle color='white' />
-												<Text fontSize='sm' as='i' color='white'>
-													Exhibición Finalizada
-												</Text>
-											</>
-										)}
 									</Stack>
 								</Stack>
 							</Stack>

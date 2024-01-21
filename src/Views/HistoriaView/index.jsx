@@ -1,8 +1,7 @@
-import React from 'react';
-import { Stack, Text, useMediaQuery } from '@chakra-ui/react';
+import { Stack, useMediaQuery } from '@chakra-ui/react';
 import Introduccion from '../../Components/Museo/Introduccion';
 import Container from '../../Components/Atoms/Container';
-import fondoPortada from '/assets/Historia/casa.jpg';
+import fondoPortada from '/assets/Portadas/historia.jpg';
 import Portada from '../../Components/Atoms/Portada';
 
 const HistoriaView = () => {
@@ -15,7 +14,7 @@ const HistoriaView = () => {
 				text='Remontamos a los orígenes del edificio de nuestra Casa de la Cultura hasta la creación del Museo de General Deheza.'
 				img={fondoPortada}
 			/>
-			<Container alignSelf="center">
+			<Container alignSelf='center'>
 				<Introduccion />
 			</Container>
 		</Stack>

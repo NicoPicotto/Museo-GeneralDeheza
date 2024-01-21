@@ -1,4 +1,3 @@
-import React from 'react';
 import {
 	Tabs,
 	TabList,
@@ -13,8 +12,8 @@ import {
 import LineaBase from './LineaBase';
 import instituciones from '../DatosLineas/DatosLineaInstituciones';
 import SocialRamosGenerales from './SocialRamosGenerales';
-import ExhibicionMasonry from '../Exhibiciones/ExhibicionMasonry';
 import fotos from '../DatosLineas/AgroList';
+import SwiperExhibiciones from '../Exhibiciones/SwiperExhibiciones';
 
 const Ejes = () => {
 	return (
@@ -73,7 +72,7 @@ const Ejes = () => {
 					</TabPanel>
 					<TabPanel>
 						<Stack pt={10}>
-							<ExhibicionMasonry fotos={fotos} />
+							<SwiperExhibiciones fotos={fotos} />
 						</Stack>
 					</TabPanel>
 				</TabPanels>

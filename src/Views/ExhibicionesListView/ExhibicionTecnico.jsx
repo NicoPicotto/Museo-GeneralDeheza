@@ -3,8 +3,8 @@ import { Stack, Heading, Text, Image, useMediaQuery } from '@chakra-ui/react';
 import Portada from '../../Components/Atoms/Portada';
 import Container from '../../Components/Atoms/Container';
 import fondoPortada from '/assets/Portadas/tecnico.webp';
-import ExhibicionMasonry from '../../Components/Exhibiciones/ExhibicionMasonry';
 import fotos from '../../Components/Exhibiciones/ItapuList';
+import SwiperExhibiciones from '../../Components/Exhibiciones/SwiperExhibiciones';
 
 const ExhibicionTecnico = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
@@ -26,8 +26,10 @@ const ExhibicionTecnico = () => {
 						h='fit-content'
 						boxShadow='md'
 						mb={10}
+						textAlign='justify'
 					>
-						<Text as='i' fontSize='lg'>
+						<Heading size="sm" color="primario">Texto Introductorio: </Heading>
+						<Text css={{ columnCount: 2, columnGap: '40px' }}>
 							El espacio se puebla del imaginario del futuro trazado por el
 							ancestral dibujo, la línea madre de las artes, se afirma y valora;
 							educación, comunicación y estética conviven y se potencian. La
@@ -49,7 +51,7 @@ const ExhibicionTecnico = () => {
 							varios puntos de vista.”
 						</Text>
 					</Stack>
-					<ExhibicionMasonry fotos={fotos} />
+					<SwiperExhibiciones fotos={fotos}/>
 				</Stack>
 			</Container>
 		</Stack>

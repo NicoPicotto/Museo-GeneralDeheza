@@ -85,7 +85,7 @@ const items = [
 	},
 	{
 		titulo: 'Historia de Gina Calcabrini',
-		autor: 'Desconocido',
+		autor: 'Gina Calcabrini',
 		categoria: 'Historias locales',
 		contenido: `La historia empieza en el año 1914, cuando el padre de familia tuvo que abandonarlos por 5 años para ir a la guerra. Vivían en Potenza Picena, Italia. La familia estaba conformada por sus padres, José y Antonia; y sus seis hijos: Luis, Eugenia, Gina, María, Humberto, y Máxima. Gina, tenía sólo tres meses de vida cuando su padre se fue. Después de cinco largos años, cuando José vuelve de la guerra, Gina todavía no lo había conocido. Lo primero que vio cuando bajó del avión, fue un desconocido con ropa rota, ya que venía de la guerra, con pelo largo y barba. Ella no podía creer que era su padre y salió corriendo cuando él la fue a abrazar. Estuvo alrededor de 15 días para reconocer y aceptar a su padre. Luego, José alquila un campo donde se van a vivir todos. El clima no acompañaba, las cosechas no tenían buenos resultados, por lo tanto, José pensaba en irse a América a recaudar fondos y así volver a Italia.
 

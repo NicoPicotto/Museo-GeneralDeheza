@@ -1,19 +1,6 @@
-import React from 'react';
-import {
-	Stack,
-	Tabs,
-	TabList,
-	TabPanels,
-	Tab,
-	TabPanel,
-	TabIndicator,
-	useMediaQuery,
-	Heading,
-	Text,
-} from '@chakra-ui/react';
+import { Stack, useMediaQuery } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
-import instituciones from '../../Components/DatosLineas/DatosLineaInstituciones';
-import SocialRamosGenerales from '../../Components/Museo/SocialRamosGenerales';
+
 import Ejes from '../../Components/Museo/Ejes';
 import Portada from '../../Components/Atoms/Portada';
 import fondoPortada from '/assets/Portadas/ejes.webp';

@@ -1,5 +1,54 @@
 const events = [
 	{
+		title: 'Los Inmigrantes',
+		date: '< 1893',
+		content: `Bajaron de los barcos. Venían a “hacer la América” y volver a sus tierras de origen, pero la mayoría de estos inmigrantes se quedó, y no sólo hicieron la América sino que pasaron a ser parte de ella.
+
+		Los que llegaron a estas incipientes colonias que hoy son pueblos como nuestro General Deheza, escribieron en surcos, con arados de mancera, un importante capítulo de nuestra historia. Roturaron la tierra virgen y la regaron con sus frentes sudorosas y de ella emergió el cereal, con la fuerza de un manantial.
+		
+		Sin embargo, la  integración de la corriente inmigratoria con la población nativa no fue fácil ni rápido. EI choque sociocultural demoró su convivencia armónica.
+		
+		El gringo fue despreciado por el criollo, éste lo culpaba de su desplazamiento en el campo, con ese nuevo sistema de producción basado en la agricultura, opuesto a ganadero, elegido por el gaucho. A su vez el gringo, con su cultura de trabajo sacrificado, marginó al nativo por considerarlo holgazán.
+		
+		Lo que ignoraban ambos era que ninguno de ellos era dueño de la tierra, que ambos eran pobres, que el campesino inmigrante debía trabajar incansablemente para pagarla, con la desventaja de desconocer los secretos de su país adoptivo, sus costumbres, además de sus limitaciones idiomáticas.
+		
+		Nuestros ancestros vinieron a ganar su pan, a vivir una vida a partir de cero, a llenar sus horas con actividades realizadas con fuerza y tesón.
+
+		UNA REALIDAD ESCRITA EN NÚMEROS - CENSO DE 1900 
+		
+		De acuerdo a los informes del Anuario de la Dirección General de Estadísticas de la Provincia de Córdoba, en el año 1900 nuestra población estaba conformada por 54 familias. Estas Cifras nos dan la pauta del importante aporte inmigratorio.
+
+		- Argentinas: 10
+		- Italianas: 40
+		- Alemanas: 2
+		- Suizas: 2
+
+		En los Censos del 1900 y el de 1905 descubrimos que en muchos casos el incremento poblacional superó al 200%. Si sólo contabilizamos a los mayores de 18 años el Cuadro Comparativo de habitantes en las existentes colonias rurales observamos lo siguiente: 
+
+		LA AGRÍCOLA
+			1900: 137
+			1905: 400
+			Diferencia: 263
+		
+		SAN BERNARDO
+		1900: 169
+		1905: 315
+		Diferencia: 146
+
+		CARMEN
+		1900: 47
+		1905: 60
+		Diferencia: 27
+
+		SANTO TOMAS
+		1900: 6
+		1905: 10
+		Diferencia: 4
+
+		Este fenómeno indudablemente está relacionado con dos factores simultáneos. Por un lado, las campañas promoviendo generosas perspectivas que ofrecían nuestras tierras para quienes desearan intentar fortuna y la otra razón era la situación caótica que se vivía en el viejo continente. El hambre y la desocupación eran realidades que golpeaban a la mayoría de los hogares mientras el fantasma de la guerra acechaba dolorosamente. 
+		`,
+	},
+	{
 		title: 'Fundación Colonia La Agrícola',
 		date: '1893',
 		content: `La documentación que pudiera delimitar con precisión la propiedad de estas tierras, es escasa y contradictoria. Como dato histórico podemos mencionar que en abril de 1885 la señora Slatter adquirió grandes extensiones de tierra a Samuel y Juan Fielden; las mismas pasaron a manos de la firma Barclay, Campdell & Cia. del Comercio de Buenos Aires, en remate público, en 1887. Finalmente esos campos fueron comprados por el Banco Agrícola Comercial del Río de la Plata, el 23 de febrero de 1889.El Gobierno de la provincia había observado que el tendido del Ferrocarril Andino no activó espontáneamente el proceso de colonización como se suponía.
