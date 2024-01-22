@@ -33,10 +33,10 @@ const ExhibicionPatronales = () => {
 		<Stack
 			marginTop='-50px'
 			spacing={5}
-			paddingInline='50px'
-			paddingBottom='4em'
+			
+		
 		>
-			<Grid templateColumns='repeat(2, 6fr)' gap={6} paddingInline='50px'>
+			<Grid templateColumns='repeat(2, 6fr)' gap={6} >
 				{items.map((item, index) => (
 					<GridItem
 						key={index}

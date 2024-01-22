@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { Stack } from '@chakra-ui/react';
 
 const Container = ({ children, ...props }) => (
 	<Stack
-		maxWidth='1920px'
+		maxWidth='1420px'
 		width='100%'
 		paddingBlock={5}
 		paddingInline={5}
@@ -10,6 +11,6 @@ const Container = ({ children, ...props }) => (
 	>
 		{children}
 	</Stack>
-);
+); 
 
 export default Container;

@@ -15,7 +15,7 @@ const EjesView = () => {
 				text='El Museo está ordenado de una manera específica para mejorar su comprensión, es decir, organizamos la historia de General Deheza en tres ejes: las Instituciones, lo Social y lo Agroindustrial.'
 				img={fondoPortada}
 			/>
-			<Container>
+			<Container alignSelf='center'>
 				<Ejes />
 			</Container>
 		</Stack>

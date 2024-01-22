@@ -25,8 +25,8 @@ const EscucharContainer = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 
 	return (
-		<Stack paddingTop='25px' paddingInline='50px'>
-			<Grid templateColumns='repeat(2, 6fr)' gap={6} paddingInline='50px'>
+		<Stack paddingTop='25px' >
+			<Grid templateColumns='repeat(2, 6fr)' gap={6} >
 				{items.map((item, index) => (
 					<GridItem
 						key={index}

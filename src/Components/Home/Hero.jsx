@@ -5,6 +5,8 @@ import {
 	Box,
 	Link,
 	useMediaQuery,
+	Grid,
+	GridItem
 } from '@chakra-ui/react';
 import { Link as ReachLink } from 'react-router-dom';
 import heroImg from '/assets/Home/hero.jpg';
@@ -22,6 +24,15 @@ const Hero = () => {
 			paddingTop='5em'
 			height='100vh'
 		>
+			<Stack
+				position='absolute'
+				height='100%'
+				top={0}
+				w='50%'
+				left={0}
+				bgColor='terciario'
+				mixBlendMode='multiply'
+			/>
 			<Container
 				h='100%'
 				justify='center'
@@ -34,13 +45,6 @@ const Hero = () => {
 					h='100%'
 					justify='center'
 				>
-					<Stack
-						position='absolute'
-						h='100%'
-						w='100%'
-						bgColor='terciario'
-						mixBlendMode='multiply'
-					/>
 					<Stack p={10}>
 						<Heading
 							color='blanco'

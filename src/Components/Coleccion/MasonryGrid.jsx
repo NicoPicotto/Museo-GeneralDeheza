@@ -7,7 +7,7 @@ const MasonryGrid = ({ children, ...props }) => {
 			direction='row'
 			justify='center'
 			w='100%'
-			paddingInline='40px'
+			
 			{...props}
 		>
 			{Array(3) // 3 columnas

@@ -10,12 +10,12 @@ const Portada = ({ title, img, text }) => {
 			bgPos='bottom'
 			align='center'
 			bgAttachment='fixed'
-			paddingInline='75px'
 			bgColor='cuarto'
 		>
 			<Stack
-				maxW='1920px'
+				maxW='1420px'
 				h='100%'
+				paddingInline={5}
 				justify='flex-end'
 				paddingBottom='60px'
 				w='100%'

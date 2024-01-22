@@ -137,7 +137,7 @@ const InteractuaContainer = () => {
 	];
 
 	return (
-		<Stack paddingTop='25px' paddingInline='50px'>
+		<Stack paddingTop='25px' >
 			<MasonryGrid>
 				{images.map((image) => (
 					<Stack

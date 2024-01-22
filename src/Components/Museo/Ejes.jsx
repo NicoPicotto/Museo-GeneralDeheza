@@ -40,7 +40,7 @@ const Ejes = () => {
 				<TabPanels>
 					<TabPanel>
 						<Stack spacing={10}>
-							<Text fontSize='lg' paddingInline={20} textAlign='justify'>
+							<Text fontSize='lg' textAlign='justify'>
 								Toda institución nace como consecuencia de una acción
 								aglutinante en pro de un proyecto compartido. Si consideramos
 								este concepto tal vez comprendamos que no fue casual que las
@@ -56,7 +56,7 @@ const Ejes = () => {
 
 					<TabPanel>
 						<Stack spacing={10}>
-							<Text fontSize='lg' paddingInline={20} textAlign='justify'>
+							<Text fontSize='lg'  textAlign='justify'>
 								La división de la historia de General Deheza en tres ejes nos
 								permite elaborar una narración más comprensible. Como
 								mencionamos anteriormente, el primer eje abarca la constitución

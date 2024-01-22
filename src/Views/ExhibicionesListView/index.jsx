@@ -12,7 +12,7 @@ const ExhibicionesView = () => {
 				text='La cultura como creadora de identidad, como aglutinadora y catalizadora de diversidad, como generadora de especificidades locales, promotora de participación, es central en la estrategia integral de desarrollo local. Si la cultura es un eje transversal desarrollo local, el Municipio es fundamental en el desarrollo cultural de su territorio.'
 				img={fondoPortada}
 			/>
-			<Container>
+			<Container alignSelf="center">
 				<ExhibicionesContainer />
 			</Container>
 		</Stack>

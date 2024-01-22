@@ -16,7 +16,7 @@ const LineaDeTiempoView = () => {
 				text='Este deseo por revisar y entender el pasado responde a la necesidad de vislumbrar, de manera más inteligente y certera, los caminos del futuro. El objetivo de esta línea de tiempo es bucear en los precedentes aquellos factores que, aunque nos parezcan ajenos, influyeron en esta maravillosa amalgama social llamada General Deheza. Sólo resta invitarles a que juntos transitemos por los caminos de nuestra historia.'
 				img={fondoPortada}
 			/>
-			<Container mt='-60px'>
+			<Container mt='-60px' alignSelf='center'>
 				<LineaBase events={events} />
 			</Container>
 		</Stack>

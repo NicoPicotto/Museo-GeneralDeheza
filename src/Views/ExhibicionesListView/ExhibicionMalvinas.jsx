@@ -15,7 +15,7 @@ const ExhibicionMalvinas = () => {
 				img={fondoPortada}
 			/>
 			<Container alignSelf='center'>
-				<Stack marginTop='-50px' spacing={5} paddingInline='50px'>
+				<Stack marginTop='-50px' spacing={5}>
 					<Stack
 						color='negro'
 						bgColor='white'
