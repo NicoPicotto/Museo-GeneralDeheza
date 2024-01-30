@@ -1,5 +1,24 @@
 const events = [
 	{
+		title: 'Habitantes Originarios',
+		date: '< 1893',
+		content: `EL INDIO, PRIMER HABITANTE
+
+		No existe un criterio unánime en cuanto a los orígenes de los primeros asentamientos humanos en esta zona del sur de la provincia de Córdoba. Según estudios efectuados por los jesuítas, los sobrevivientes de los querandíes de la época hispánica, después Ilamados Pampas, que en voz quechua significa Llanura. Emigraron al oeste estableciéndose en lo que hoy son las provincias de La Pampa, Rio Negro y el sur de Córdoba.
+		
+		Podríamos decir que los Ranqueles surgieron de la confluencia de numerosas tribus errantes, ocupando el sur de nuestra provincia y de Santa Fe y el oeste de Buenos Aires.
+		
+		EL CRIOLLO, PERSONAJE TRASHUMANTE 
+		
+		EI amor lo anclaba a la vida sedentaria de los pueblos que él despreciaba, la soledad insoportable, en esa geografía de infinito, lo llevó a acollarar a su china y a sus hijos, y bajo el precario techo de paja de un rancho, quedó registrada la presencia criolla de quienes fueron los segundos habitantes de estos lares. 
+		Esos asentamientos humanos, dispersos en la distancia, no intentaban conquistar esta tierra que se multiplicaba ante su mirada, no la cultivaban, que era una forma de poseerla o de vincularse con ella. Casi que la vivían en pasividad, montados en su flete, conscientes de que cada geografía pródiga lo daba todo: alimento y vivienda 
+		
+		Pero ese estilo de pampa, infinidad y libertad, quedó taponado, dando lugar a una ansiedad hasta entonces desconocida, era el temor a ser desplazados por los nuevos protagonistas que venían a incorporarse al quehacer nacional: los inmigrantes.
+		 
+		`,
+	},
+
+	{
 		title: 'Los Inmigrantes',
 		date: '< 1893',
 		content: `Bajaron de los barcos. Venían a “hacer la América” y volver a sus tierras de origen, pero la mayoría de estos inmigrantes se quedó, y no sólo hicieron la América sino que pasaron a ser parte de ella.

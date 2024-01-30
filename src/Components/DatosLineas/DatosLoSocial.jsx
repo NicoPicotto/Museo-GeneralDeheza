@@ -2,7 +2,7 @@ const social = [
 	{
 		title: 'Ramos Generales Cavalchini, Maino y Cía. S.R.L',
 		content: `La esquina ubicada frente a la terminal de ómnibus, donde funcionó, en algún momento, el negocio de la firma Urquia, Peretti S.A., siempre fue asiento de importantes comercios de ramos generales.`,
-		image: '/assets/LoSocial/ramos0.jpg',
+		image: '/assets/LoSocial/ramos5.jpg',
 	},
 	{
 		content: `En el año 1899 nació la casa Santiago Racca y Hnos., primeros acopiadores de cereales del pueblo. Este comercio había sido trasladado desde General Roca, donde funcionó durante cinco años; acá se estableció definitivamente. Los hermanos Racca fueron además propietarios de la estancia "Santa María", luego vendida a los Ortiz de Rosas. Con el tiempo decidieron retirarse de las actividades comerciales, quedando al frente de la firma dos de sus más fieles y antiguos empleados; Juan Cavalchini y Francisco Maino. A partir de allí, la casa pasó a denominarse Cavalchini, Maino y Cía. S.R.L.`,
