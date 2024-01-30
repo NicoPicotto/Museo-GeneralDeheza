@@ -19,6 +19,7 @@ const SwiperExhibiciones = ({ fotos }) => {
 				direction={'horizontal'}
 				slidesPerView={1}
 				spaceBetween={0}
+				grabCursor={true}
 				mousewheel={true}
 				modules={[Mousewheel, Navigation]}
 				className='mySwiper'

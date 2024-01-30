@@ -40,7 +40,7 @@ const ColeccionContainer = () => {
 						<Heading paddingInline={5} size='lg' color='primario'>
 							{piece.titulo}
 						</Heading>
-						<Text paddingInline={5} pb={2}>
+						<Text display={!piece.descripcion && "none"} paddingInline={5} pb={2}>
 							{piece.descripcion}
 						</Text>
 						<Stack

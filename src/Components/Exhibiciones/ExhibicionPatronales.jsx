@@ -61,6 +61,7 @@ const ExhibicionPatronales = () => {
 						direction={'horizontal'}
 						slidesPerView={1}
 						spaceBetween={30}
+						grabCursor={true}
 						mousewheel={true}
 						navigation={isMobile ? false : true}
 						modules={[Mousewheel, Navigation]}

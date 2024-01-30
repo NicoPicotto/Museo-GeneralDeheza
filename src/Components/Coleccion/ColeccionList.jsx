@@ -40,7 +40,8 @@ const coleccion = [
 		titulo: 'Vestido de novia',
 		date: 1941,
 		donador: 'Familia Scattolini',
-		descripcion: 'El vestido de novia pertenecía a Inés Bossio, casada con Humberto Scattolini.',
+		descripcion:
+			'El vestido de novia pertenecía a Inés Bossio, casada con Humberto Scattolini.',
 		img: 'assets/Coleccion/28-vestido.jpg',
 	},
 	{
@@ -54,15 +55,14 @@ const coleccion = [
 	{
 		titulo: 'Auriculares para radio',
 		date: 1920,
-		donador: 'Santiago Giuliano',
 		descripcion: 'Se precisaban en los momentos de mala señal.',
+		donador: 'Santiago Giuliano',
 		img: 'assets/Coleccion/7-auris.jpg',
 	},
 	{
 		titulo: 'Parlante de radio',
 		date: 1920,
 		donador: 'Santiago Giuliano',
-		descripcion: 'Se precisaban en los momentos de mala señal.',
 		img: 'assets/Coleccion/8-parlantes.jpg',
 	},
 	{
@@ -120,7 +120,7 @@ const coleccion = [
 		titulo: 'Lampara de luz',
 		date: 1930,
 		donador: 'Santiago Giuliano',
-		descripcion: "Lámpara a Queroseno. Estilo Petromax",
+		descripcion: 'Lámpara a Queroseno. Estilo Petromax',
 		img: 'assets/Coleccion/27-lampara.jpg',
 	},
 	{
@@ -201,6 +201,7 @@ const coleccion = [
 	{
 		titulo: 'Tester',
 		date: 'Desconocida',
+		donador: 'Cooperativa Eléctrica',
 		descripcion:
 			'Se trata de un Tester que se utilizaba en los años 1960 aproximadamente para medir la energía.',
 		img: 'assets/Coleccion/26-tester.jpg',

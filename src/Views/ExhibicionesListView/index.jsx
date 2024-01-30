@@ -2,7 +2,7 @@ import { Stack } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
 import ExhibicionesContainer from '../../Components/Exhibiciones/ExhibicionesContainer';
 import Portada from '../../Components/Atoms/Portada';
-import fondoPortada from '/assets/Portadas/exhibicion.webp';
+import fondoPortada from '/assets/Portadas/exhibi.webp';
 
 const ExhibicionesView = () => {
 	return (

@@ -1,7 +1,7 @@
 import { Stack, Text, useMediaQuery, Heading } from '@chakra-ui/react';
 import Portada from '../../Components/Atoms/Portada';
 import Container from '../../Components/Atoms/Container';
-import fondoPortada from '/assets/Portadas/tecnico.webp';
+import fondoPortada from '/assets/Portadas/malvinas.webp';
 import SwiperExhibiciones from '../../Components/Exhibiciones/SwiperExhibiciones';
 import fotos from '../../Components/Exhibiciones/MalvinasList';
 

@@ -42,6 +42,7 @@ const LineaBase = ({ events }) => {
 				slidesPerView={4}
 				spaceBetween={0}
 				mousewheel={true}
+				grabCursor={true}
 				modules={[Mousewheel, Navigation]}
 				className='mySwiper'
 			>
@@ -51,6 +52,7 @@ const LineaBase = ({ events }) => {
 							align='center'
 							bgColor='white'
 							shadow='md'
+							h="100%"
 							p={5}
 							transition='0.2s ease'
 							_hover={{ shadow: 'lg', mt: -1 }}
