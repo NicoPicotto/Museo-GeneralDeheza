@@ -84,7 +84,7 @@ const ExhibicionPatronales = () => {
 										<Heading as='h2' size='lg' color='terciario'>
 											{data.title}
 										</Heading>
-										<Text>{data.content}</Text>
+										<Text fontSize={data.title === "Juegos populares" ? "15px" : "lg"}>{data.content}</Text>
 									</Stack>
 									<Image src={data.image} />
 								</Stack>

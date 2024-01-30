@@ -9,7 +9,7 @@ const data = [
 		title: 'Familia Pionera',
 		content: `Esa fecha fue sugerida por una familia pionera que era devota practicante católica. Se trataba de doña María Rosso y sus hijos, de apellido Siccardi. Ello se debía a la veneración a la Virgen del Pilón, patrona de Moretto (Turin), tierra natal de doña Maria Rosso.
 		`,
-		image: 'assets/Historia/casa1986.jpg',
+		image: '/assets/Exhibiciones/02/02-rosso.png',
 	},
 	{
 		title: 'Los espacios destinados para las celebraciones',
