@@ -11,7 +11,7 @@ const ExhibicionPatronalesView = () => {
 		<Stack>
 			<Portada
 				title='Festejos Patronales'
-				text='Municipalidad General Deheza'
+				text='Municipalidad General Deheza.'
 				img={fondoPortada}
 			/>
 			<Container alignSelf='center'>

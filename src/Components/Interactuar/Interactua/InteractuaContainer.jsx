@@ -10,6 +10,7 @@ import {
 	Image,
 	Spinner,
 	Tag,
+	Text,
 } from '@chakra-ui/react';
 import ReactCompareImage from 'react-compare-image';
 import img1 from '/assets/Interactuar/15-8.jpg';
@@ -88,27 +89,42 @@ const InteractuaContainer = () => {
 	};
 
 	const images = [
-		{ id: 1, bw: img1, color: img1c, text: "Procesión (1947 aproximadamente)" },
-		{ id: 2, bw: img2, color: img2c, text: "Trabajo Rural" },
-		{ id: 3, bw: img3, color: img3c, text: "Trabajo Rural" },
+		{ id: 1, bw: img1, color: img1c, text: 'Procesión (1947 aproximadamente)' },
+		{ id: 2, bw: img2, color: img2c, text: 'Trabajo Rural' },
+		{ id: 3, bw: img3, color: img3c, text: 'Trabajo Rural' },
 		{
 			id: 4,
 			bw: img4,
 			color: img4c,
 			text: 'Equipo de fútbol Deheza Football Club',
 		},
-		{ id: 5, bw: img5, color: img5c, text: "Escuela Rural Conrado Villegas (1943)" },
-		{ id: 6, bw: img6, color: img6c, text: "Trabajo Rural" },
-		{ id: 7, bw: img7, color: img7c, text: "Vieja Capilla Nuestra Señora de la Asunción (1914)"},
+		{
+			id: 5,
+			bw: img5,
+			color: img5c,
+			text: 'Escuela Rural Conrado Villegas (1943)',
+		},
+		{ id: 6, bw: img6, color: img6c, text: 'Trabajo Rural' },
+		{
+			id: 7,
+			bw: img7,
+			color: img7c,
+			text: 'Vieja Capilla Nuestra Señora de la Asunción (1914)',
+		},
 		{ id: 8, bw: img8, color: img8c, text: 'Vieja Iglesia' },
 		{ id: 9, bw: img9, color: img9c, text: 'Viejo Molino' },
 		{ id: 10, bw: img10, color: img10c, text: 'Edificio Municipalidad' },
 		{ id: 11, bw: img11, color: img11c, text: 'Pileta Acción Juvenil' },
 		{ id: 12, bw: img12, color: img12c, text: 'Plaza Central' },
-		{ id: 13, bw: img13, color: img13c, text: "Procesión sobre calle Liniers (1935)" },
-		{ id: 14, bw: img14, color: img14c, text: "Procesión (1935-1940)" },
-		{ id: 15, bw: img15, color: img15c, text: "Procesión" },
-		{ id: 16, bw: img16, color: img16c, text: "Trabajo Rural" },
+		{
+			id: 13,
+			bw: img13,
+			color: img13c,
+			text: 'Procesión sobre calle Liniers (1935)',
+		},
+		{ id: 14, bw: img14, color: img14c, text: 'Procesión (1935-1940)' },
+		{ id: 15, bw: img15, color: img15c, text: 'Procesión' },
+		{ id: 16, bw: img16, color: img16c, text: 'Trabajo Rural' },
 		{ id: 17, bw: img17, color: img17c, text: 'Aceitera General Deheza' },
 		{ id: 18, bw: img18, color: img18c, text: 'Boulevard San Martín' },
 		{ id: 19, bw: img19, color: img19c, text: 'Comedor Las Peñas' },
@@ -137,7 +153,17 @@ const InteractuaContainer = () => {
 	];
 
 	return (
-		<Stack paddingTop='25px' >
+		<Stack paddingTop='25px'>
+			<Text fontSize='lg' textAlign='justify'>
+				Este espacio te invita a contemplar algunas transformaciones urbanas de
+				General Deheza mediante las fotografías de la muestra
+				&quot;Miradas&quot; por Gabriela Castro. Paralelamente se encuentran
+				fotografías antiguas convertidas a color.
+			</Text>
+			<Text pb={10} as="b" fontSize='lg' textAlign='justify'>
+				Para interactuar, seleccioná la fotografía y deslizá la
+				línea sobre la imagen observando el cambio.
+			</Text>
 			<MasonryGrid>
 				{images.map((image) => (
 					<Stack

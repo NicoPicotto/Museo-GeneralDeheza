@@ -11,7 +11,7 @@ const ExhibicionMalvinas = () => {
 	return (
 		<Stack>
 			<Portada
-				title='Homenaje a Ex-Combatientes de Malvinas'
+				title='Homenaje a Ex-Combatientes de Malvinas.'
 				img={fondoPortada}
 			/>
 			<Container alignSelf='center'>
@@ -40,7 +40,7 @@ const ExhibicionMalvinas = () => {
 							González son nuestros, son cercanos y representan el mayor símbolo
 							de amor a nuestra tierra. Vocación, entrega y amor por la Patria,
 							son algunos de los tantos adjetivos que los caracterizan. “A
-							nuestros héroes, Honor y Memoria, por siempre
+							nuestros héroes, Honor y Memoria, por siempre“.
 						</Text>
 					</Stack>
 					<SwiperExhibiciones fotos={fotos} />

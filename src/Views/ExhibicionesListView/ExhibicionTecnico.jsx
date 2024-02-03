@@ -13,7 +13,7 @@ const ExhibicionTecnico = () => {
 		<Stack>
 			<Portada
 				title='Semana del Arte'
-				text='Instituto Técnico Adrián P. Urquía'
+				text='Instituto Técnico Adrián P. Urquía.'
 				img={fondoPortada}
 			/>
 			<Container alignSelf='center'>
