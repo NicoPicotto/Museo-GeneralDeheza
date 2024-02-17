@@ -8,6 +8,7 @@ import {
 	TabPanels,
 	Text,
 	Heading,
+	useMediaQuery,
 } from '@chakra-ui/react';
 import LineaBase from './LineaBase';
 import instituciones from '../DatosLineas/DatosLineaInstituciones';
@@ -16,6 +17,8 @@ import fotos from '../DatosLineas/AgroList';
 import SwiperExhibiciones from '../Exhibiciones/SwiperExhibiciones';
 
 const Ejes = () => {
+	const [isMobile] = useMediaQuery('(max-width: 1100px)');
+
 	return (
 		<Stack>
 			<Tabs
@@ -25,18 +28,28 @@ const Ejes = () => {
 				align='center'
 				overflow='hidden'
 			>
-				<TabList gap={10} color='negro'>
-					<Tab>
+				<TabList
+					gap={isMobile ? 2 : 10}
+					color='negro'
+					flexDir={isMobile ? 'column' : 'row'}
+				>
+					<Tab _selected={isMobile && { bgColor: 'terciario', color: 'fondo' }}>
 						<Heading size='lg'>Instituciones</Heading>
 					</Tab>
-					<Tab>
+					<Tab _selected={isMobile && { bgColor: 'terciario', color: 'fondo' }}>
 						<Heading size='lg'>Lo Social</Heading>
 					</Tab>
-					<Tab>
+					<Tab _selected={isMobile && { bgColor: 'terciario', color: 'fondo' }}>
 						<Heading size='lg'>Agroindustria</Heading>
 					</Tab>
 				</TabList>
-				<TabIndicator mt='-1.5px' height='2px' bg='cuarto' borderRadius='1px' />
+				<TabIndicator
+					display={isMobile && 'none'}
+					mt='-1.5px'
+					height='2px'
+					bg='cuarto'
+					borderRadius='1px'
+				/>
 				<TabPanels>
 					<TabPanel>
 						<Stack spacing={10}>
@@ -56,7 +69,7 @@ const Ejes = () => {
 
 					<TabPanel>
 						<Stack spacing={10}>
-							<Text fontSize='lg'  textAlign='justify'>
+							<Text fontSize='lg' textAlign='justify'>
 								La división de la historia de General Deheza en tres ejes nos
 								permite elaborar una narración más comprensible. Como
 								mencionamos anteriormente, el primer eje abarca la constitución

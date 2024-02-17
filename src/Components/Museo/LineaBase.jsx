@@ -39,10 +39,11 @@ const LineaBase = ({ events }) => {
 		<Stack mt='-10px'>
 			<Swiper
 				direction={'horizontal'}
-				slidesPerView={4}
+				slidesPerView={isMobile ? 1 : 4}
 				spaceBetween={0}
 				mousewheel={true}
 				grabCursor={true}
+				navigation={isMobile && true}
 				modules={[Mousewheel, Navigation]}
 				className='mySwiper'
 			>
@@ -52,7 +53,7 @@ const LineaBase = ({ events }) => {
 							align='center'
 							bgColor='white'
 							shadow='md'
-							h="100%"
+							h='100%'
 							p={5}
 							transition='0.2s ease'
 							_hover={{ shadow: 'lg', mt: -1 }}
@@ -103,7 +104,7 @@ const LineaBase = ({ events }) => {
 			{selectedPiece && (
 				<Modal isOpen={isOpen} onClose={onClose}>
 					<ModalOverlay backdropFilter='blur(5px)' />
-					<ModalContent p={3} minW='800px' h='auto'>
+					<ModalContent p={3} minW={isMobile ? '90%' : '800px'} h='auto' w={isMobile && "90%"}>
 						<ModalCloseButton />
 						<ModalBody paddingBlock={5}>
 							<Stack>

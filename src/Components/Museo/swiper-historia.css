@@ -8,3 +8,20 @@
 	object-fit: cover;
 	object-position: bottom;
 }
+
+.swiper-pagination-bullet {
+	background-color: #4c5249 !important;
+	width: 15px;
+	height: 15px;
+}
+
+.swiper-pagination-bullets {
+	background-color: #f2f2f2;
+	width: fit-content;
+	bottom: 0 !important;
+	padding-block: 10px;
+}
+
+.swiper-wrapper {
+	align-items: flex-start !important;
+}

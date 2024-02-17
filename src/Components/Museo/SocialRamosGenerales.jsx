@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 import './noScroll.css';
 
 // import required modules
-import { Mousewheel, Navigation } from 'swiper/modules';
+import { Mousewheel, Navigation, Pagination } from 'swiper/modules';
 import social from '../DatosLineas/DatosLoSocial';
 
 const SocialRamosGenerales = () => {
@@ -18,39 +18,40 @@ const SocialRamosGenerales = () => {
 
 	return (
 		<Stack>
-			<Stack h='500px'>
+			<Stack h={!isMobile && '500px'}>
 				<Swiper
 					direction={'horizontal'}
 					slidesPerView={1}
 					spaceBetween={30}
 					grabCursor={true}
 					mousewheel={true}
+					pagination={isMobile ? true : false}
 					navigation={isMobile ? false : true}
-					modules={[Mousewheel, Navigation]}
+					modules={[Mousewheel, Navigation, Pagination]}
 					className='mySwiper'
 				>
 					{social.map((social, index) => (
 						<SwiperSlide key={index}>
-							<Stack paddingInline='50px' direction='row' w='100%'>
-								{social.video && (
-									<iframe
-										src={social.video}
-										width='100%'
-										style={{ height: `calc(80vw * 9 / 16)` }}
-										allow='autoplay'
-									></iframe>
-								)}
+							<Stack
+								paddingInline={isMobile ? 0 : '50px'}
+								direction={isMobile ? 'column-reverse' : 'row'}
+								w='100%'
+								h='100%'
+								spacing={isMobile && 5}
+							>
 								<Stack
 									spacing={5}
 									color='negro'
 									textAlign='left'
-									mr={10}
+									mr={isMobile ? 0 : 10}
 									h='100%'
 								>
 									<Heading as='h2' color='terciario'>
 										{social.title}
 									</Heading>
-									<Text textAlign='justify'>{social.content}</Text>
+									<Text fontSize='lg' textAlign='justify'>
+										{social.content}
+									</Text>
 								</Stack>
 								{social.image && <Image src={social.image} />}
 							</Stack>

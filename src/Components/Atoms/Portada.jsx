@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
-import { Stack, Heading, Text } from '@chakra-ui/react';
+import { Stack, Heading, Text, useMediaQuery } from '@chakra-ui/react';
 
 const Portada = ({ title, img, text }) => {
+	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 	return (
 		<Stack
 			bgSize='cover'
@@ -19,8 +20,9 @@ const Portada = ({ title, img, text }) => {
 				justify='flex-end'
 				paddingBottom='60px'
 				w='100%'
+				position='relative'
 			>
-				<Heading size='3xl' color='background' textShadow='md'>
+				<Heading size='3xl' color='background' textShadow='md' zIndex={10}>
 					{title}
 				</Heading>
 				<Text
@@ -29,10 +31,22 @@ const Portada = ({ title, img, text }) => {
 					color='background'
 					textShadow='sm'
 					textAlign='justify'
+					zIndex={10}
 					css={{ textWrap: 'pretty' }}
 				>
 					{text}
 				</Text>
+				<Stack
+					position='absolute'
+					height='100%'
+					display={isMobile ? 'flex' : 'none'}
+					top={0}
+					w="100%"
+					left={0}
+					bgColor='terciario'
+					mixBlendMode='multiply'
+					zIndex={1}
+				/>
 			</Stack>
 		</Stack>
 	);

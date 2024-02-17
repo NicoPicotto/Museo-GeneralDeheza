@@ -6,7 +6,6 @@ import {
 	Drawer,
 	DrawerBody,
 	DrawerFooter,
-	DrawerHeader,
 	DrawerOverlay,
 	DrawerContent,
 	DrawerCloseButton,
@@ -20,6 +19,7 @@ import {
 	Image,
 	useMediaQuery,
 	Heading,
+	Text,
 } from '@chakra-ui/react';
 import { Link as ReachLink } from 'react-router-dom';
 import { RiMenu3Line } from 'react-icons/ri';
@@ -40,7 +40,7 @@ const Navbar = () => {
 			minH='5em'
 			top={0}
 			w='100%'
-			zIndex={10}
+			zIndex={30}
 			align='center'
 			backdropFilter='blur(5px)'
 		>
@@ -147,9 +147,6 @@ const Navbar = () => {
 					<Link as={ReachLink} to='/interactuar'>
 						<CustomButton>Interactua</CustomButton>
 					</Link>
-					{/* <Link as={ReachLink} to='/agenda'>
-						<CustomButton>Agenda</CustomButton>
-					</Link> */}
 				</Stack>
 
 				{/* Hamburger - Mobile */}
@@ -164,101 +161,93 @@ const Navbar = () => {
 				/>
 
 				{/* Drawer for mobile */}
-				<Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
+				<Drawer
+					placement={placement}
+					onClose={onClose}
+					isOpen={isOpen}
+					size='full'
+				>
 					<DrawerOverlay>
-						<DrawerContent bgColor='white'>
-							<DrawerCloseButton />
-							<DrawerHeader color='primario'>
-								Museo General Deheza
-							</DrawerHeader>
+						<DrawerContent bgColor='primario'>
+							<DrawerCloseButton color='blanco' size="lg" />
 							<DrawerBody>
 								<Stack
-									spacing={4}
-									divider={
-										<Divider
-											orientation='horizontal'
-											borderColor='secundario'
-											borderWidth={1}
-											width='100%'
-										/>
-									}
+									h='100%'
+									justify='space-around'
+									align='center'
+									paddingBlock='10%'
+									divider={<Divider borderColor='terciario' />}
 								>
-									<Link as={ReachLink} to='/visita'>
-										<Button
-											w='100%'
-											color='primario'
-											onClick={onClose}
-											variant='ghost'
-											_hover={{ bgColor: 'transparent' }}
-										>
+									<Link
+										as={ReachLink}
+										to='/visita'
+										onClick={onClose}
+										_hover={{ textDecor: 'none' }}
+									>
+										<Text fontSize='2xl' color='blanco'>
 											Visita
-										</Button>
+										</Text>
 									</Link>
-									<Link as={ReachLink} to='/museo'>
-										<Button
-											w='100%'
-											color='primario'
-											onClick={onClose}
-											variant='ghost'
-											_hover={{ bgColor: 'transparent' }}
-										>
-											El Museo
-										</Button>
+									<Link
+										as={ReachLink}
+										to='/historia'
+										onClick={onClose}
+										_hover={{ textDecor: 'none' }}
+									>
+										<Text fontSize='2xl' color='blanco'>
+											Historia
+										</Text>
 									</Link>
-									<Link as={ReachLink} to='/coleccion'>
-										<Button
-											w='100%'
-											color='primario'
-											onClick={onClose}
-											variant='ghost'
-											_hover={{ bgColor: 'transparent' }}
-										>
+									<Link
+										as={ReachLink}
+										to='/linea-de-tiempo'
+										onClick={onClose}
+										_hover={{ textDecor: 'none' }}
+									>
+										<Text fontSize='2xl' color='blanco'>
+											Línea de Tiempo
+										</Text>
+									</Link>
+									<Link
+										as={ReachLink}
+										to='/ejes'
+										onClick={onClose}
+										_hover={{ textDecor: 'none' }}
+									>
+										<Text fontSize='2xl' color='blanco'>
+											Ejes
+										</Text>
+									</Link>
+
+									<Link
+										as={ReachLink}
+										to='/coleccion'
+										onClick={onClose}
+										_hover={{ textDecor: 'none' }}
+									>
+										<Text fontSize='2xl' color='blanco'>
 											Colección
-										</Button>
+										</Text>
 									</Link>
-									<Link as={ReachLink} to='/leer'>
-										<Button
-											w='100%'
-											color='primario'
-											onClick={onClose}
-											variant='ghost'
-											_hover={{ bgColor: 'transparent' }}
-										>
-											Leer
-										</Button>
+									<Link
+										as={ReachLink}
+										to='/exhibiciones'
+										onClick={onClose}
+										_hover={{ textDecor: 'none' }}
+									>
+										<Text fontSize='2xl' color='blanco'>
+											Exhibiciones
+										</Text>
 									</Link>
-									<Link as={ReachLink} to='/mirar'>
-										<Button
-											w='100%'
-											color='primario'
-											onClick={onClose}
-											variant='ghost'
-											_hover={{ bgColor: 'transparent' }}
-										>
-											Mirar
-										</Button>
-									</Link>
-									<Link as={ReachLink} to='/escuchar'>
-										<Button
-											w='100%'
-											color='primario'
-											onClick={onClose}
-											variant='ghost'
-											_hover={{ bgColor: 'transparent' }}
-										>
-											Escuchar
-										</Button>
-									</Link>
-									<Link as={ReachLink} to='/agenda'>
-										<Button
-											w='100%'
-											color='primario'
-											onClick={onClose}
-											variant='ghost'
-											_hover={{ bgColor: 'transparent' }}
-										>
-											Agenda
-										</Button>
+									<Link
+										as={ReachLink}
+										to='/interactuar'
+										onClick={onClose}
+										_hover={{ textDecor: 'none' }}
+									>
+										<Text fontSize='2xl' color='blanco'>
+											Interactua
+										</Text>
 									</Link>
 								</Stack>
 							</DrawerBody>
