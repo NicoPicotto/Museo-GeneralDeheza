@@ -111,6 +111,7 @@ const LeerContainer = () => {
 								bgColor='primario'
 								mt={3}
 								color='fondo'
+								width={isMobile ? '100%' : 'fit-content'}
 								_hover={{ bgColor: 'terciario' }}
 								onClick={() => handleOpenModal(item)}
 							>
@@ -133,7 +134,13 @@ const LeerContainer = () => {
 									{selectedPiece.autor}
 								</Text>
 								<Divider borderColor='cuarto' />
-								<Text textAlign="justify" whiteSpace='pre-line' fontSize={isMobile ? "lg" : "md"}>{selectedPiece.contenido}</Text>
+								<Text
+									textAlign='justify'
+									whiteSpace='pre-line'
+									fontSize={isMobile ? 'lg' : 'md'}
+								>
+									{selectedPiece.contenido}
+								</Text>
 							</Stack>
 						</ModalBody>
 					</ModalContent>

@@ -199,16 +199,17 @@ const InteractuaContainer = () => {
 				<Modal
 					isOpen={isOpen}
 					onClose={onClose}
-					size={isMobile ? '5xl' : '5xl'}
+					size='5xl'
 					isCentered
 				>
 					<ModalOverlay backdropFilter='blur(5px)' />
-					<ModalContent p={3} maxW={!isMobile && '1000px'} h='auto' minW={!isMobile && "1000px"}>
-						<ModalCloseButton _focusVisible='none' />
-						<ModalBody paddingBlock={5}>
+					<ModalContent maxW={!isMobile && '1000px'} h='auto' minW={!isMobile && "1000px"} >
+						<ModalCloseButton _focusVisible='none' zIndex={10} />
+						<ModalBody p={0}>
 							<ReactCompareImage
 								leftImage={selectedPiece.bw}
 								rightImage={selectedPiece.color}
+								
 								skeleton={<Spinner />}
 							/>
 						</ModalBody>

@@ -23,7 +23,7 @@ const MirarContainer = () => {
 						overflow='hidden'
 						borderRadius={5}
 					>
-						<Stack h='100%' p={5} align='flex-start' gap={3}>
+						<Stack h='100%' p={5} align='start' gap={3}>
 							<iframe
 								width='100%'
 								height='400'
