@@ -1,9 +1,10 @@
 /* eslint-disable react/prop-types */
 import { useState, useEffect, useRef } from 'react';
-import { Stack, Button, Text, Progress } from '@chakra-ui/react';
+import { Stack, Button, Text, Progress, useMediaQuery } from '@chakra-ui/react';
 import { FaPlay, FaPause, FaRedo, FaStop } from 'react-icons/fa';
 
 const AudioCard = ({ src, description }) => {
+	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 	const [isPlaying, setIsPlaying] = useState(false);
 	const [progress, setProgress] = useState(0);
 	const audioRef = useRef(null);
@@ -50,7 +51,7 @@ const AudioCard = ({ src, description }) => {
 	return (
 		<Stack padding='1em' justify='space-between' h='100%'>
 			<Stack mb={4}>
-				<Text color='primario'>{description}</Text>
+				<Text fontSize={isMobile ? "lg" : "md"} color='primario'>{description}</Text>
 			</Stack>
 			<Stack>
 				<Progress

@@ -11,6 +11,7 @@ import {
 	Spinner,
 	Tag,
 	Text,
+	useMediaQuery,
 } from '@chakra-ui/react';
 import ReactCompareImage from 'react-compare-image';
 import img1 from '/assets/Interactuar/15-8.jpg';
@@ -80,6 +81,7 @@ import MasonryGrid from '../../Coleccion/MasonryGrid';
 
 const InteractuaContainer = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
+	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 
 	const [selectedPiece, setSelectedPiece] = useState(null);
 
@@ -160,9 +162,9 @@ const InteractuaContainer = () => {
 				&quot;Miradas&quot; por Gabriela Castro. Paralelamente se encuentran
 				fotografías antiguas convertidas a color.
 			</Text>
-			<Text pb={10} as="b" fontSize='lg' textAlign='justify'>
-				Para interactuar, seleccioná la fotografía y deslizá la
-				línea sobre la imagen observando el cambio.
+			<Text pb={10} as='b' fontSize='lg' textAlign='justify'>
+				Para interactuar, seleccioná la fotografía y deslizá la línea sobre la
+				imagen observando el cambio.
 			</Text>
 			<MasonryGrid>
 				{images.map((image) => (
@@ -194,9 +196,14 @@ const InteractuaContainer = () => {
 			</MasonryGrid>
 
 			{selectedPiece && (
-				<Modal isOpen={isOpen} onClose={onClose} size='5xl'>
+				<Modal
+					isOpen={isOpen}
+					onClose={onClose}
+					size={isMobile ? '5xl' : '5xl'}
+					isCentered
+				>
 					<ModalOverlay backdropFilter='blur(5px)' />
-					<ModalContent p={3} minW='800px' h='auto'>
+					<ModalContent p={3} maxW={!isMobile && '1000px'} h='auto' minW={!isMobile && "1000px"}>
 						<ModalCloseButton _focusVisible='none' />
 						<ModalBody paddingBlock={5}>
 							<ReactCompareImage

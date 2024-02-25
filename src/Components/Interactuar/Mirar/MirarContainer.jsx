@@ -14,7 +14,7 @@ const MirarContainer = () => {
 
 	return (
 		<Stack paddingTop='25px'>
-			<Grid templateColumns='repeat(2, 6fr)' gap={6}>
+			<Grid templateColumns={isMobile ? 'repeat(1fr)' : 'repeat(2, 6fr)'} gap={6}>
 				{items.map((item, index) => (
 					<GridItem
 						key={index}

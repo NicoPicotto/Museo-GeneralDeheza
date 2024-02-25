@@ -1,3 +1,7 @@
 .swiper-slide {
 	padding-inline: 0.5em !important;
 }
+
+.swiper-pagination {
+	position: static !important;
+}

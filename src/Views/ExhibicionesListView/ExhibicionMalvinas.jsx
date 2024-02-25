@@ -14,7 +14,7 @@ const ExhibicionMalvinas = () => {
 				title='Homenaje a Ex-Combatientes de Malvinas.'
 				img={fondoPortada}
 			/>
-			<Container alignSelf='center'>
+			<Container alignSelf='center' zIndex={5}>
 				<Stack marginTop='-50px' spacing={5}>
 					<Stack
 						color='negro'
@@ -27,7 +27,7 @@ const ExhibicionMalvinas = () => {
 						textAlign='justify'
 					>
 						<Heading size="sm" color="primario">Texto Introductorio: </Heading>
-						<Text css={{ columnCount: 2, columnGap: '40px' }}>
+						<Text css={{ columnCount: isMobile ? 1 : 2, columnGap: '40px' }}>
 							El 21 de noviembre del año 2023 se realizó un Homenaje a los Ex
 							combatientes de Malvinas en el Museo. Para dicho reconocimiento,
 							se ambientó el espacio con objetos y música del año 1982. En el

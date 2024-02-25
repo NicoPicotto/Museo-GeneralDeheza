@@ -10,6 +10,7 @@ import {
 	ModalCloseButton,
 	ModalBody,
 	useDisclosure,
+	useMediaQuery,
 } from '@chakra-ui/react';
 import MasonryGrid from './MasonryGrid';
 import { BiSolidUser } from 'react-icons/bi';
@@ -19,6 +20,7 @@ import { BsCalendar2DateFill } from 'react-icons/bs';
 const ColeccionContainer = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
 	const [selectedPiece, setSelectedPiece] = useState(null);
+	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 
 	const handleOpenModal = (piece) => {
 		setSelectedPiece(piece);
@@ -29,7 +31,12 @@ const ColeccionContainer = () => {
 		<Stack width='100%'>
 			<MasonryGrid mt='-50px'>
 				{items.map((piece, index) => (
-					<Stack onClick={() => handleOpenModal(piece)} key={index} gap={3}>
+					<Stack
+						pointerEvents={isMobile && 'none'}
+						onClick={() => handleOpenModal(piece)}
+						key={index}
+						gap={3}
+					>
 						<Image
 							key={index}
 							src={piece.img}
@@ -40,7 +47,11 @@ const ColeccionContainer = () => {
 						<Heading paddingInline={5} size='lg' color='primario'>
 							{piece.titulo}
 						</Heading>
-						<Text display={!piece.descripcion && "none"} paddingInline={5} pb={2}>
+						<Text
+							display={!piece.descripcion && 'none'}
+							paddingInline={5}
+							pb={2}
+						>
 							{piece.descripcion}
 						</Text>
 						<Stack
@@ -85,17 +96,18 @@ const ColeccionContainer = () => {
 			{selectedPiece && (
 				<Modal isOpen={isOpen} onClose={onClose}>
 					<ModalOverlay backdropFilter='blur(5px)' />
-					<ModalContent p={3} minW='800px' h='auto'>
-						<ModalCloseButton _focusVisible='none' />
-						<ModalBody paddingBlock={5}>
-							<Stack spacing={5}>
+					<ModalContent minW='800px' h='auto'>
+						<ModalCloseButton _focusVisible='none' color='white' />
+						<ModalBody p={0}>
+							<Stack>
 								<Image
 									src={selectedPiece.img}
 									alt={selectedPiece.alt}
-									borderRadius={5}
+									overflow='hidden'
+									borderTopRadius={4}
 								/>
-								<Stack>
-									<Stack mb={2}>
+								<Stack paddingInline={5} paddingBlock={3} mb={2}>
+									<Stack>
 										<Heading size='md'>{selectedPiece.titulo}</Heading>
 										<Text>{selectedPiece.descripcion}</Text>
 									</Stack>

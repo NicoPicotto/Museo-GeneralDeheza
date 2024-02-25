@@ -32,7 +32,10 @@ const App = () => {
 					<Route path='/coleccion' element={<ColeccionView />} />
 					<Route path='/exhibiciones' element={<ExhibicionesView />} />
 					<Route path='/exhibiciones/itapu' element={<ExhibicionTecnico />} />
-					<Route path='/exhibiciones/ex-combatientes' element={<ExhibicionMalvinas />} />
+					<Route
+						path='/exhibiciones/ex-combatientes'
+						element={<ExhibicionMalvinas />}
+					/>
 					<Route
 						path='/exhibiciones/patronales'
 						element={<ExhibicionPatronalesView />}

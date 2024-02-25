@@ -1,4 +1,3 @@
-import React from 'react';
 import {
 	Tabs,
 	TabList,
@@ -7,7 +6,7 @@ import {
 	Stack,
 	TabPanel,
 	TabPanels,
-	Text,
+	useMediaQuery,
 	Heading,
 } from '@chakra-ui/react';
 import LeerContainer from './Leer/LeerContainer';
@@ -16,6 +15,8 @@ import EscucharContainer from './Escuchar/EscucharContainer';
 import InteractuaContainer from './Interactua/InteractuaContainer';
 
 const Interactua = () => {
+	const [isMobile] = useMediaQuery('(max-width: 1100px)');
+
 	return (
 		<Stack>
 			<Tabs
@@ -25,32 +26,42 @@ const Interactua = () => {
 				align='center'
 				overflow='hidden'
 			>
-				<TabList gap={10} color='negro'>
-					<Tab>
+				<TabList
+					gap={isMobile ? 2 : 10}
+					color='negro'
+					flexDir={isMobile ? 'column' : 'row'}
+				>
+					<Tab _selected={isMobile && { bgColor: 'terciario', color: 'fondo' }}>
 						<Heading size='lg'>Leer</Heading>
 					</Tab>
-					<Tab>
+					<Tab _selected={isMobile && { bgColor: 'terciario', color: 'fondo' }}>
 						<Heading size='lg'>Mirar</Heading>
 					</Tab>
-					<Tab>
+					<Tab _selected={isMobile && { bgColor: 'terciario', color: 'fondo' }}>
 						<Heading size='lg'>Escuchar</Heading>
 					</Tab>
-					<Tab>
+					<Tab _selected={isMobile && { bgColor: 'terciario', color: 'fondo' }}>
 						<Heading size='lg'>Interactuar</Heading>
 					</Tab>
 				</TabList>
-				<TabIndicator mt='-1.5px' height='2px' bg='cuarto' borderRadius='1px' />
-				<TabPanels>
-					<TabPanel>
+				<TabIndicator
+					display={isMobile && 'none'}
+					mt='-1.5px'
+					height='2px'
+					bg='cuarto'
+					borderRadius='1px'
+				/>
+				<TabPanels >
+					<TabPanel p={isMobile && 0}>
 						<LeerContainer />
 					</TabPanel>
-					<TabPanel>
+					<TabPanel p={isMobile && 0}>
 						<MirarContainer />
 					</TabPanel>
-					<TabPanel>
+					<TabPanel p={isMobile && 0}>
 						<EscucharContainer />
 					</TabPanel>
-					<TabPanel>
+					<TabPanel p={isMobile && 0}>
 						<InteractuaContainer />
 					</TabPanel>
 				</TabPanels>

@@ -16,8 +16,8 @@ const ExhibicionTecnico = () => {
 				text='Instituto Técnico Adrián P. Urquía.'
 				img={fondoPortada}
 			/>
-			<Container alignSelf='center'>
-				<Stack marginTop='-50px' spacing={5} >
+			<Container alignSelf='center' zIndex={5}>
+				<Stack marginTop='-50px' spacing={5}>
 					<Stack
 						color='negro'
 						bgColor='white'
@@ -28,8 +28,10 @@ const ExhibicionTecnico = () => {
 						mb={10}
 						textAlign='justify'
 					>
-						<Heading size="sm" color="primario">Texto Introductorio: </Heading>
-						<Text css={{ columnCount: 2, columnGap: '40px' }}>
+						<Heading size='sm' color='primario'>
+							Texto Introductorio:{' '}
+						</Heading>
+						<Text css={{ columnCount: isMobile ? 1 : 2, columnGap: '40px' }}>
 							El espacio se puebla del imaginario del futuro trazado por el
 							ancestral dibujo, la línea madre de las artes, se afirma y valora;
 							educación, comunicación y estética conviven y se potencian. La
@@ -51,7 +53,7 @@ const ExhibicionTecnico = () => {
 							varios puntos de vista.”
 						</Text>
 					</Stack>
-					<SwiperExhibiciones fotos={fotos}/>
+					<SwiperExhibiciones fotos={fotos} />
 				</Stack>
 			</Container>
 		</Stack>

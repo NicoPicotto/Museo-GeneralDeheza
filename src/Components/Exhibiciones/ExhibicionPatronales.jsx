@@ -30,8 +30,11 @@ const ExhibicionPatronales = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 
 	return (
-		<Stack marginTop='-50px' spacing={5}>
-			<Grid templateColumns='repeat(2, 6fr)' gap={6}>
+		<Stack marginTop='-50px' spacing={5} zIndex={5}>
+			<Grid
+				templateColumns={isMobile ? 'repeat(1fr)' : 'repeat(2, 6fr)'}
+				gap={6}
+			>
 				{items.map((item, index) => (
 					<GridItem
 						key={index}
@@ -56,24 +59,30 @@ const ExhibicionPatronales = () => {
 			</Grid>
 			<Divider borderColor='cuarto' marginBlock='2em' />
 			<Stack>
-				<Stack h='500px'>
+				<Stack h={isMobile ? 'fit-content' : '500px'}>
 					<Swiper
 						direction={'horizontal'}
 						slidesPerView={1}
 						spaceBetween={30}
 						grabCursor={true}
 						mousewheel={true}
-						navigation={isMobile ? false : true}
+						
+						navigation={true}
 						modules={[Mousewheel, Navigation]}
 						className='mySwiper'
 					>
 						{data.map((data, index) => (
 							<SwiperSlide key={index}>
-								<Stack paddingInline='50px' direction='row' w='100%' h='100%'>
+								<Stack
+									paddingInline={isMobile ? 0 : '50px'}
+									direction={isMobile ? 'column-reverse' : 'row'}
+									w='100%'
+									h='100%'
+								>
 									<Stack
 										spacing={5}
 										color='negro'
-										mr={10}
+										mr={isMobile ? 0 : 10}
 										h='100%'
 										textAlign='justify'
 									>
@@ -82,13 +91,21 @@ const ExhibicionPatronales = () => {
 										</Heading>
 										<Text
 											fontSize={
-												data.title === 'Juegos populares' ? '15px' : 'lg'
+												data.title === 'Juegos populares' && !isMobile
+													? '15px'
+													: 'lg'
 											}
+											overflowY={isMobile && 'scroll'}
+											maxH={isMobile && '300px'}
 										>
 											{data.content}
 										</Text>
 									</Stack>
-									<Image src={data.image} />
+									<Image
+										src={data.image}
+										maxH={isMobile && '300px'}
+										objectFit='cover'
+									/>
 								</Stack>
 							</SwiperSlide>
 						))}
@@ -100,7 +117,7 @@ const ExhibicionPatronales = () => {
 				Distintos vecinos nos relatan sus experiencias sobre los festejos
 				patronales ¡disfruta lo que tienen para contarnos!
 			</Heading>
-			<Grid templateColumns='repeat(2, 6fr)' gap={6} paddingInline='50px'>
+			<Grid templateColumns={isMobile ? 'repeat(1fr)' : 'repeat(2, 6fr)'} gap={6} paddingInline={isMobile ? 0 : '50px'}>
 				{audios.map((item, index) => (
 					<GridItem
 						key={index}

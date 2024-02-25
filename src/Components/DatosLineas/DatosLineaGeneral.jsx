@@ -4,67 +4,123 @@ const events = [
 		date: '< 1893',
 		content: `EL INDIO, PRIMER HABITANTE
 
-		No existe un criterio unánime en cuanto a los orígenes de los primeros asentamientos humanos en esta zona del sur de la provincia de Córdoba. Según estudios efectuados por los jesuítas, los sobrevivientes de los querandíes de la época hispánica, después Ilamados Pampas, que en voz quechua significa Llanura. Emigraron al oeste estableciéndose en lo que hoy son las provincias de La Pampa, Rio Negro y el sur de Córdoba.
-		
-		Podríamos decir que los Ranqueles surgieron de la confluencia de numerosas tribus errantes, ocupando el sur de nuestra provincia y de Santa Fe y el oeste de Buenos Aires.
-		
-		EL CRIOLLO, PERSONAJE TRASHUMANTE 
-		
-		EI amor lo anclaba a la vida sedentaria de los pueblos que él despreciaba, la soledad insoportable, en esa geografía de infinito, lo llevó a acollarar a su china y a sus hijos, y bajo el precario techo de paja de un rancho, quedó registrada la presencia criolla de quienes fueron los segundos habitantes de estos lares. 
-		Esos asentamientos humanos, dispersos en la distancia, no intentaban conquistar esta tierra que se multiplicaba ante su mirada, no la cultivaban, que era una forma de poseerla o de vincularse con ella. Casi que la vivían en pasividad, montados en su flete, conscientes de que cada geografía pródiga lo daba todo: alimento y vivienda 
-		
-		Pero ese estilo de pampa, infinidad y libertad, quedó taponado, dando lugar a una ansiedad hasta entonces desconocida, era el temor a ser desplazados por los nuevos protagonistas que venían a incorporarse al quehacer nacional: los inmigrantes.
-		 
+		No existe un criterio unánime en cuanto a los orígenes de los primeros asentamientos humanos en esta zona del sur de la provincia de Córdoba. Según estudios efectuados por los jesuítas, los sobrevivientes de los querandíes de la época hispánica, después Ilamados Pampas, que en voz quechua significa Llanura, emigraron al oeste estableciéndose en lo que hoy son las provincias de La Pampa, Rio Negro y el sur de Córdoba.
+
+		Vivían libremente en esa llanura que les proveía todo lo necesario. Pero apareció el hombre blanco y todo fue distinto. 
+
+		Algunos murieron contagiados por la viruela, la fiebre amarilla y la sífilis que portaba el conquistador; otros fueron sometidos a realizar labores en las primeras posesiones cristianas, pero no todos se adaptaron a un nuevo sistema al que no estaban preparados, donde les tocó la peor parte; no  faltaron grupos indígenas que se integraran al blanco, dando origen a los mestizos. 
+
+		La mayoría de los pampas rechazó el modus vivendi del conquistador, distinto al de sus antepasados y, mostrando su desacuerdo, se internó en su hábitat natural: el desierto. Su organización política no constituía una nación unificada, dirigida por un gobierno central. De cualquier manera hay antecedentes de una Confederación Indígena, inspirada por el cacique pampa Culfucurá e integrada por los Pampas, Ranqueles, Araucanos, Manzaneros y Tehuelches. 
+
+		De esa manera se pretendía un frente común para protegerse de la invasión del blanco, permanente violador de los Tratados de Paz que él mismo imponía y jamás cumplía. Los Pampas eran pueblos nómades y formaban tribus independientes entre sí, con caciques propios, aglutinados bajo una única autoridad cuando las circunstancias lo imponían. 
+
+		Para ello elegían al Curaca, una especie de Cacique Mayor, seleccionado entre los jefes de mayor prestigio y condiciones de mando de las tribus reunidas.
+
+		Su vida nómade descartaba la existencia de asentamientos fijos que hubiesen podido sobrevivir al tiempo; por ello son pocos los vestigios culturales que se puedan mostrar en nuestros museos históricos. Eran sumamente habilidosos en tareas de cestería y tejido, también en trabajos en cuero; su pasión fue sin dudas la caza, cuyo producto no sólo servía de alimento, vestido y material para su vivienda, sino también para canjearla al banco por yerba, azúcar, aguardiente y tabaco, entre otras cosas. 
+
+		El principal comercio de trueque lo efectuaban desde 1670 con esos aliados circunstanciales que fueron los Aucaes, que eran nómades araucanizados que
+		provenían de Chile. Esta alianza duró hasta comienzos del siglo XVIII, interrumpida por una sangrienta lucha fratricida que culminó con la derrota de los Pampas, que sólo atinaron a buscar refugio en las entonces incipientes poblaciones cristianas donde se fueron asimilando poco a poco. 
+
+		De este fenómeno de araucanización de la pampa nacieron los Ranqueles,
+		conocidos también como Ranquelches o Ranculches, que en voz araucana significa gente de los pajonales. Podríamos decir que los Ranqueles surgieron de la confluencia de numerosas tribus errantes, ocupando el sur de nuestra provincia y de Santa Fe y el oeste de Buenos Aires.  
+
+		La definitiva araucanización de los ranqueles comenzó en 1817, cuando
+		Yanquetruz, inteligente cacique araucano recién llegado de Chile, fue declarado líder en reemplazo del desaparecido cacique Calelian. Yanquetruz demostró tener capacidad para organizar militarmente alicaídas tribus, inyectándoles un espíritu poderosamente combativo. Luego de su muerte, en 1835, una legión de caciques disputaron la herencia del gobierno de su pueblo, pero al final, dispersas y divididas, generalmente por obra de los blancos, solo pudieron resistir hasta 1878, cuando fueron abatidos por las
+		fuerzas nacionales, poseedoras de dos armas poderosísimas: la Remington y el Telégrafo. De esta manera se cumplía el plan que nació con Martin Rodriguez y que consistía en una guerra permanente, hasta el exterminio total del indígena. 
+
+		Los archivos históricos están llenos de documentos que testimonian el salvajismo incontrolable de los indios. Todos hablan de depredación y crueldad; poco escuchados son los conceptos de quienes tuvieron la oportunidad de conocer otras facetas de ellos.
+
+		Lucio Mansilla, en su "Excursión a los Indios Ranqueles", comenta, entre otras
+		cosas, que jamás observó caciques que abusasen de su poder, incluso, cualquiera de sus subalternos tenía derecho a oponerse a la arbitrariedad de su jefe. No había autoridad jurídica ni policial y las cuestiones eran resueltas
+		exclusivamente entre los interesados. El indio no toleraba el engaño ni la mentira, la repartija de sus botines se realizaba con igualdad y sin malicia. La tierra, los toldos y la caballada, al igual que el viento, las lluvias y el sol, eran de propiedad común. 
+
+		Todos los historiadores coinciden en que entre los indígenas no existía la
+		prostitución. Las mujeres eran sumamente laboriosas, sin descuidar su coquetería. Al casarse servían fielmente a su compañero, casi con sumisión total, en tanto las solteras, como las viudas, tenían plena libertad con su voluntad y con su cuerpo, sin que nadie tuviese el derecho de objetarles su conducta. 
+
+		Creían en un Espíritu del Bien, que era como un hombre invisible que adoraban a solas. Lo llamaban Cuchaentrú o Chanchao, que en su lengua significaba Padre de Todos. La deidad mala, llamada Gualichu, era la responsable de todas las desgracias, era la fuerza que hambreaba a la tribu o traía la viruela, o al ejército del blanco.  Creían también en un mundo de ultratumba, donde al morir, iban a poder beber y cazar en paz, lejos del huinca y del hambre, sobre todo si la muerte los sorprendía en un acto de coraje.
 		`,
 	},
 
 	{
-		title: 'Los Inmigrantes',
+		title: 'Habitantes Originarios',
 		date: '< 1893',
-		content: `Bajaron de los barcos. Venían a “hacer la América” y volver a sus tierras de origen, pero la mayoría de estos inmigrantes se quedó, y no sólo hicieron la América sino que pasaron a ser parte de ella.
+		content: `El CRIOLLO, PERSONAJE TRASHUMANTE
+
+		El gaucho, a similitud del indigena, vivía amando su libertad, ajeno al proyecto de país organizado que germinaba en la ciudad porteña. Para él no existía otra patria que aquella que sentía vibrar bajo sus pies, o bajo los cascos de su inseparable compañero: el caballo. 
+
+		Perteneció a un mundo que tampoco fue asimilado por la "civilización". 
+		Este enfrentamiento arrastró al país a las guerras civiles y a la desintegración
+		social. Se luchó en nombre de la libertad, del país, de la Constitución; pero en realidad, en estas guerras sólo valían los intereses mezquinos: la tierra como propiedad privada y no como pedazos de patria. 
+
+		Antes de continuar, conviene hacer notar un factor de intolerancia que llevó a la disgregación del país. La organización social que se edificaba en la Gran Ciudad tenía sus ojos puestos en las ideas civilizadoras de Europa, negando o ignorando el conflicto que, subterráneamente, comenzaba germinar con el no reconocimiento de dos mundos reales: el indigena y el criollo.
+		Quizás porque pensaron que, tarde o temprano, se ajustarían a la organización de la ciudad, los conductores del país no buscaron pautas civilizadoras de asimilación.
+
+		De esa manera el gaucho quedó apretujado entre el desierto, habitado por el
+		infiel, y la ciudad, que le iba limitando su espacio vital. Poco a poco se fue
+		arenizando en la inmensidad de la pampa, identificado con el deambular tras el arreo, la tropa, la frontera o la montonera. Esta estructura de organización social y de trabajo empujó al hombre a transitar en soledad la pampa, ausente de mujer y de familia, porque esa floreciente industria del ganado no era sedentaria, ya que cambiaba de lugar a medida que se iba consumiendo el pasto o cuando la sequía diezmaba la manada. Esta acentuación geográfica de un perfil de vida ganadera, quizás sea un argumento para comprender el repudio gauchesco a la población estable organizada. 
+
+		Dadas las guerras civiles y las luchas de frontera, eI gaucho, reclutado
+		involuntariamente por las autoridades que él rechazaba, partió al desierto y la mujer, entonces, se vio obligada a acompañarlo. Las chinas fortineras, galopando junto a sus hombres, transformaron al ejército con poblaciones trashumantes de frontera. 
+
+		Las cuestiones sentimentales no eran el eje de la vida del gaucho; otros amores lo impulsaban: el amor a la libertad, al caballo, a la auténtica justicia de hombre macho. El amor lo anclaba a la vida sedentaria de los pueblos que él despreciaba; la soledad insoportable, en esa geografía de infinito, lo llevó a acollararse a su china y bajo el precario techo de paja de un rancho, quedó registrada la presencia criolla de quienes fueron los segundos habitantes de estos lares. 
+
+		Esos asentamientos humanos, dispersos en la distancia, no intentaban conquistar esta tierra que se multiplicaba ante su mirada; no la cultivaban, que era una forma de poseerla o de vincularse con ella. Casi que la vivían en pasividad, montados en su flete, conscientes de que esa geografía pródiga lo daba todo: alimento y vivienda. 
+
+		Pero ese estilo de pampa, infinidad y libertad, quedó taponado, dando lugar a
+		una ansiedad hasta entonces desconocida, era el temor a ser desplazados por los nuevos protagonistas que venían a incorporarse al quehacer nacional: los inmigrantes. 
+
+		Ese fenómeno, desarrolló también una exaltación de la nostalgia que, en el recién llegado se manifestó con la ansiedad del regreso a su país de origen, y en el criollo, con la tristeza por su mundo de ayer que se iba yendo. 
+		`,
+	},
+
+	{
+		title: 'Los Inmigrantes - "Hacer la América"',
+		date: '< 1893',
+		content: `Bajaron de los barcos. Venían a “Hacer la América” y volver a sus tierras de origen, pero la mayoría de estos inmigrantes se quedó, y no sólo hicieron la América sino que pasaron a ser parte de ella.
 
 		Los que llegaron a estas incipientes colonias que hoy son pueblos como nuestro General Deheza, escribieron en surcos, con arados de mancera, un importante capítulo de nuestra historia. Roturaron la tierra virgen y la regaron con sus frentes sudorosas y de ella emergió el cereal, con la fuerza de un manantial.
 		
-		Sin embargo, la  integración de la corriente inmigratoria con la población nativa no fue fácil ni rápido. EI choque sociocultural demoró su convivencia armónica.
+		Sin embargo, la  integración de la corriente inmigratoria con la población nativa no fue fácil ni rápida. EI choque sociocultural demoró su convivencia armónica.
 		
-		El gringo fue despreciado por el criollo, éste lo culpaba de su desplazamiento en el campo, con ese nuevo sistema de producción basado en la agricultura, opuesto a ganadero, elegido por el gaucho. A su vez el gringo, con su cultura de trabajo sacrificado, marginó al nativo por considerarlo holgazán.
+		El gringo fue despreciado por el criollo, éste lo culpaba de su desplazamiento en el campo, con ese nuevo sistema de producción basado en la agricultura, opuesto al ganadero, elegido por el gaucho. A su vez el gringo, con su cultura de trabajo sacrificado, marginó al nativo por considerarlo holgazán.
 		
 		Lo que ignoraban ambos era que ninguno de ellos era dueño de la tierra, que ambos eran pobres, que el campesino inmigrante debía trabajar incansablemente para pagarla, con la desventaja de desconocer los secretos de su país adoptivo, sus costumbres, además de sus limitaciones idiomáticas.
 		
-		Nuestros ancestros vinieron a ganar su pan, a vivir una vida a partir de cero, a llenar sus horas con actividades realizadas con fuerza y tesón.
+		Nuestros ancestros vinieron a ganar su pan, a vivir una vida a partir de cero, a llenar sus horas con actividades realizadas con fuerza y tesón.		
 
 		UNA REALIDAD ESCRITA EN NÚMEROS - CENSO DE 1900 
 		
 		De acuerdo a los informes del Anuario de la Dirección General de Estadísticas de la Provincia de Córdoba, en el año 1900 nuestra población estaba conformada por 54 familias. Estas Cifras nos dan la pauta del importante aporte inmigratorio.
 
+		Nacionalidad - Familias
 		- Argentinas: 10
 		- Italianas: 40
 		- Alemanas: 2
 		- Suizas: 2
 
-		En los Censos del 1900 y el de 1905 descubrimos que en muchos casos el incremento poblacional superó al 200%. Si sólo contabilizamos a los mayores de 18 años el Cuadro Comparativo de habitantes en las existentes colonias rurales observamos lo siguiente: 
+		En los Censos del 1900 y el de 1905 descubrimos que en muchos casos el incremento poblacional superó al 200%. Si sólo contabilizamos a los mayores de 18 años el Cuadro Comparativo de habitantes en las existentes colonias rurales observamos lo siguiente:
 
-		LA AGRÍCOLA
-			1900: 137
-			1905: 400
-			Diferencia: 263
+		COLONIA LA AGRÍCOLA
+		Año 1900: 137
+		Año 1905: 400
+		Diferencia: 263
 		
-		SAN BERNARDO
-		1900: 169
-		1905: 315
+		COLONIA SAN BERNARDO
+		Año 1900: 169
+		Año 1905: 315
 		Diferencia: 146
 
-		CARMEN
-		1900: 47
-		1905: 60
+		COLONIA CARMEN
+		Año 1900: 47
+		Año 1905: 60
 		Diferencia: 27
 
-		SANTO TOMAS
-		1900: 6
-		1905: 10
+		COLONIA SANTO TOMAS
+		Año 1900: 6
+		Año 1905: 10
 		Diferencia: 4
 
-		Este fenómeno indudablemente está relacionado con dos factores simultáneos. Por un lado, las campañas promoviendo generosas perspectivas que ofrecían nuestras tierras para quienes desearan intentar fortuna y la otra razón era la situación caótica que se vivía en el viejo continente. El hambre y la desocupación eran realidades que golpeaban a la mayoría de los hogares mientras el fantasma de la guerra acechaba dolorosamente. 
+		Este fenómeno indudablemente está relacionado con dos factores simultáneos. Por un lado, las campañas promoviendo generosas perspectivas que ofrecían nuestras tierras para quienes desearan intentar fortuna y la otra razón era la situación caótica que se vivía en el viejo continente. El hambre y la desocupación eran realidades que golpeaban a la mayoría de los hogares mientras el fantasma de la guerra acechaba dolorosamente.  
 		`,
 	},
 	{
@@ -116,6 +172,7 @@ const events = [
 		En marzo de 1913 la oficina se instaló en el domicilio de don Juan Maria Frouté (hoy Intendente Frouté casi esquina Saavedra), quedando la atención de la misma a cargo de la señora Teresa Daviou de Frouté, precisamente la madre de nuestro primer Jefe Comunal.
 		
 		No se hubiese justificado entonces la confección de una Guia, ya que en sus comienzos sólo veintiún aparatos telefónicos comprendía la lista de abonados al servicio en las tres localidades, de los cuales sólo cinco pertenecían a nuestro pueblo, a saber: 
+		
 		1 - Ángel Racca
 		2 - Casa Cavalchini, Maino y Cia.
 		3⁃ Dionisio Urquía
@@ -124,14 +181,12 @@ const events = [
 		
 		Cinco años después, en 1918, gracias a la conexión con la Red Nacional de Telefonía, hizo posible nuestra comunicación con cualquier destino del ámbito del país. 
 		
-		La nacionalización llega en 1952 con el gobierno nacional del general Juan Domingo Perón, pasando a depender a partir de entonces de la Compañía de Teléfonos del Estado (T.E.).
-		
+		La nacionalización llega en 1952 con el gobierno nacional del general Juan Domingo Perón, pasando a depender a partir de entonces de la Compañía de Teléfonos del Estado (T.E.). 
+
 		El 13 de enero de 1956 el Poder Ejecutivo Nacional crea la Empresa Nacional de Telecomunicaciones (ENTEL).
-
 		En marzo de 1957 tras largas gestiones llevadas a cabo se dispuso la instalación del Servicio de Teléfonograma. 
-
 		En 1958 se reemplaza el viejo sistema de alambres desnudos por cables de cobre revestidos y aislados entre sí. De cualquier manera la telefonía por conmutador implicaba cierta incomodidad por las demoras a veces de varias horas de espera, la privacidad no garantizada y las transitorias deficiencias acústicas que en días de tormenta volvían inaudibles las conversaciones telefónicas.
-		El 20 de junio de 1967 se inaugura al frente la nueva sede, en calle Intendente Frouté 181 y al año siguiente es recalegonizada dado el incremento de abonados al servicio.
+		El 20 de junio de 1967 se inaugura al frente la nueva sede, en calle Intendente Frouté 181 y al año siguiente es recategorizada dado el incremento de abonados al servicio.
 		
 		A fines de 1980 se crea, por inquietud del gobierno comunal del doctor Rodolfo Coda, una comisión Vecinal Pro Telefonía Automática. Pero por tratarse de un servicio público compatible con el accionar de nuestra Cooperativa Eléctrica local, el ejecutivo municipal consideró que éste era el organismo indicado para dicha gestión.
 		
@@ -182,32 +237,36 @@ const events = [
 		`,
 	},
 	{
-		title: 'Primer Pozo Surgente',
+		title: 'Primer Pozo Surgente (Agua Potable)',
 		date: '1929',
-		content: `En los primeros años, cuando éramos una naciente aldea, el agua era extraída por medio de molinos a viento y guardada celosamente en la frescura de un aljibe, también se aprovechaba la que caía del cielo con la lluvia.
+		content: `En los primeros años, cuando éramos una naciente aldea, el agua era extraída por medio de molinos a viento y guardada celosamente en la frescura de un aljibe, también se aprovechaba la que caía del cielo con la lluvia. Entonces no existían canillas con agua potable para saciar la sed, tampoco baños con duchas. Baldes y cacerolas eran los utensilios o los más empleados para transportarla.
 
-		Entonces no existían canillas con agua potable para saciar la sed, tampoco baños con duchas para gratificar al cuerpo sudoroso. Baldes y cacerolas eran los utensilios o los más empleados para transportarla.
-		
 		Recién en 1929 la Comisión Vecinal existente encara la obra de perforación del primer
-		pozo surgente en nuestro pueblo. La excavación se lleva a cabo en la primera cuadra de la actual calle Azcuénaga.
+		pozo surgente en nuestro pueblo. La excavación se lleva a cabo en la primera cuadra de la actual calle Azcuénaga. La creciente demanda hídrica de la población urgió al gobierno municipal de don José Frouté a llamar a licitación pública para la construcción de un tanque elevador cuya capacidad alcanzó los 12.000 litros y se procedió a la perforación de otro pozo surgente.
 		
-		La creciente demanda hídrica de la población urgió al gobierno municipal de don José Frouté a llamar a licitación pública para la construcción de un tanque elevador cuya capacidad alcanzó los 12.000 litros y se procedió a la perforación de otro pozo surgente.
+		En 1942 la Dirección General de Hidráulica comienza a instalar una red de distribución de agua la cual sería alimentada por el tanque municipal construido el año anterior. Meses después, ante la demora de la compleja obra y la urgencia de proveer del vital elemento a la población, se instalaron seis canillas públicas en distintos puntos de la población. Incluso algunos aún recuerdan la existencia de baños públicos en la cercanía del tanque provistos de duchas, donde algunos vecinos, toalla y jabón en mano, solía usar de sus servicios. Años después, con recursos propios, la Municipalidad extiende la red de distribución de agua corriente a sectores barriales. Durante la gestión de Mario Montechiani, en 1954, se tendió una línea de energía eléctrica desde Aceitera General Deheza hasta el tanque municipal. Este servicio cedido gratuitamente por dicha empresa permitió el accionar de la bomba elevadora del agua potable. En esos tiempos su provisión no llegaba a satisfacer las necesidades de la población debido al reducido servicio eléctrico que proveía la usina local de la firma Cavalchini, Maino y Cia.
 		
-		En 1942 la Dirección General de Hidráulica comienza a instalar una red de distribución de agua la cual sería alimentada por el tanque municipal construido el año anterior. Meses después, ante la demora de la compleja obra y la urgencia de proveer del vital elemento a la población, se instalaron seis canillas públicas en distintos puntos de la población. Incluso algunos aún recuerdan la existencia de baños públicos en la cercanía del tanque provistos de duchas, donde algunos vecinos, toalla y jabón en mano, solía usar de sus servicios. Años después,con recursos propios, la Municipalidad extiende la red de distribución de agua corriente a sectores barriales Durante la gestión de Mario Montechiani, en 1954, se tendió una línea de energía eléctrica desde Aceitera General Deheza hasta el tanque municipal. Este servicio cedido gratuitamente por dicha Empresa permitió el accionar de la bomba elevadora del agua potable. En esos tiempos su provisión no llegaba a satisfacer las necesidades de la población debido al reducido servicio eléctrico que proveía la usina local de la firma Cavalchini, Maino y Cia.
-
 		Por su lado el Comisionado Osvaldo Bertone incorpora nuevos tramos a la red existente de distribución domiciliaria e inicia la tramitación de un nuevo tanque elevador. En 1960 el crecimiento poblacional incrementaba la demanda hídrica, por ello el Intendente Urquia hace perforar un pozo surgente de trescientos diez (310) metros de profundidad e, inmediatamente, concreta la construcción del tanque elevador de agua potable cuya capacidad de doscientos veinte mil (220.000) litros pudo cubrir con creces la necesidad imprescindible del líquido elemento en el pueblo.
-		Bajo el lema de que 'el agua corriente, la luz eléctrica y el pavimento son los pilares del trípode en el que se basa el crecimiento de nuestro pueblo" asumió su mandato el doctor Rinaldo Maino. A partir del 12 de octubre de 1963 su plan de trabajo tendió hacia esos objetivos. Respondiendo a su promesa se instalaron nuevas canillas públicas en barrio Argentino y considerando que la red existente no llegaba a satisfacer las demandas requeridas por la población, se instaló una nueva red de doce mil metros (12.000) de cañerías con setecientas (700) nuevas conexiones domiciliarias.
+		
+		Bajo el lema de que “el agua corriente, la luz eléctrica y el pavimento son los pilares del trípode en el que se basa el crecimiento de nuestro pueblo" asumió su mandato el doctor Rinaldo Maino. A partir del 12 de octubre de 1963 su plan de trabajo tendió hacia esos objetivos. Respondiendo a su promesa se instalaron nuevas canillas públicas en barrio Argentino y considerando que la red existente no llegaba a satisfacer las demandas requeridas por la población, se instaló una nueva red de doce mil metros (12.000) de cañerías con setecientas (700) nuevas conexiones domiciliarias.
+		
 		La construcción de una cañería maestra sobre la calle Berutti- Entre Ríos tuvo como finalidad optimizar la distribución de agua potable a un gran sector de la población. Realizándose además dos perforaciones para una mayor extracción del líquido elemento.
 		La administración presidida por la Intendenta Elma Scattolini, ha iniciado las gestiones ante el Ente Nacional de Obras Hídricas y Saneamiento (ENOHSA), para obtener el financiamiento de la obra "Red Troncal de la calle La Rioja". Su concreción permitiría reforzar y ampliar la red de distribución de agua potable, lo que significa una alta implicancia en mejorar la calidad de vida de ese sector de la población.
 		
-		De esta manera llegamos a la conclusión de que la Municipalidad como responsable de la provisión del servicio de agua potable, cuenta con la infraestructura adecuada a las necesidades hídricas de su población.
+		De esta manera llegamos a la conclusión de que la Municipalidad como responsable de la provisión del servicio de agua potable, cuenta con la infraestructura adecuada a las necesidades hídricas de su población.		
 		`,
 	},
-	// {
-	// 	title: 'Primer Gobierno Municipal',
-	// 	date: '1938',
-	// 	content: '????',
-	// },
+
+	{
+		title: 'Primeras Elecciones Comunales en General Deheza',
+		date: '1938',
+		content: `El electorado de General Deheza fue convocado para el domingo 4 de septiembre de 1938, a los efectos de elegir las primeras autoridades comunales. Los partidos políticos que se presentaron a la lucha electoral, fueron: La Unión Cívica Radical y el Partido Demócrata Nacional. 
+
+		El Partido Unión Cívica Radical llevó como candidato a Intendente Luis Billia. En tanto el partido Demócrata Nacional tenía por candidato a José Frouté. 
+		Realizados los comicios triunfaron los candidatos demócratas por treinta y dos (32) votos, sobre doscientos veintisiete (227) votos escrutados. 		
+		`,
+	},
+
 	{
 		title: 'Cementerio',
 		date: '1939',
@@ -265,19 +324,38 @@ const events = [
 		content: `El 15 de agosto de 1963, se inauguró en General Deheza la sucursal del Banco de la Provincia de Córdoba, con lo cual se dió solución a una vieja necesidad de la localidad, pues hasta entonces los comerciantes, industriales, colonos y vecinos debían efectuar sus operaciones bancarias en las poblaciones vecinas, trámites que se hacían un tanto dificultosos. `,
 	},
 	{
-		title: 'Casa de la Cultura',
-		date: '1986',
-		content: `Constituyendo una elogiable labor arquitectónica, se remodeló el tanque de agua pionero de la localidad, ubicado en la primera cuadra de la calle Asunción, al lado del Edificio Municipal. Éste, que había permanecido varios años en desuso, quedó convertido en la coqueta sede donde funciona a partir de entonces la Casa Municipal de la Cultura.
-		`,
-		image: '/assets/LineaGeneral/1986 - Casa de la cultura2.jpg',
-	},
-	{
 		title: 'Biblioteca Leopoldo Lugones',
 		date: '1971',
 		content:
 			'Durante el gobierno del comisionado Rinaldo Maino se creó la primera Comisión Municipal de Cultura y la Biblioteca Pública.',
 		image: '/assets/LineaGeneral/1971 - BIBLIOTECA.jpg',
 	},
+	{
+		title: 'Escuela Municipal de Deportes (Polideportivo)',
+		date: '1980',
+		content: `Durante la gestión del Intendente Rodolfo Coda, se crea la Escuela Municipal de Deportes para que los niños de la localidad tuvieran otro lugar para la práctica deportiva-recreativa, ya que en ese momento solo había una institución dedicada a la práctica del Fútbol Infantil.
+		Comenzó a funcionar en 1980 en un predio ubicado detrás del corralón municipal cedido por la Comuna. Inmediatamente se colocaron los arcos y se inició la primera disciplina que fue el Baby Fútbol. Se aprovechó que en ese momento se estaban dictando "cursos de albañilería y electricidad", de esa manera los alumnos inscriptos pudieron realizar sus prácticas al levantar las primeras paredes que tiempo después serían los vestuarios y depósitos.
+		
+		Después se construyó un playón de cemento gracias a un subsidio proveniente de la Secretaría de Deportes de la Provincia de Córdoba. Cinco años después se incorporaba la
+		disciplina de Atletismo la cual, junto al Fútbol Infantil, permitió que ciento cuarenta niños y
+		jóvenes pudiesen participar en diferentes encuentros y torneos zonales.
+		
+		Entre los años 1987 y 1990 se comienza a practicar Voleibol y Karate-do.
+		Algunos años después se adquieren terrenos ubicados en cercanías del ex Matadero, a fin de construir en el lugar el futuro “Polideportivo Municipal”. La primera etapa, en 1993, consistió en demarcar una pista de Bicicross. La obra continuó su ritmo creciente lo cual permitió inaugurar al siguiente año tres nuevas disciplinas en la Escuela Municipal: Ciclismo, Rugby y Defensa Personal Sei-Fu. Poco tiempo después se incorporarían las canchas de Fútbol y Rugby, como así también la pista de Atletismo y Ciclismo. 
+		
+		A partir de 2000 el Nuevo Polideportivo Municipal contó con una Pileta de Natación de 25 x 45 mts., un Quincho cubierto, canchas de Beach-Voley, una cancha de Baby Fútbol cercada, un Circuito o Pista de Salud, un Parque Infantil, una Cancha de Bochas construida y utilizada por adultos mayores y una Rampa para la práctica de Skate.		
+		`,
+		image: '/assets/LineaGeneral/1993 - POLIDEPORTIVO.jpg',
+	},
+
+	{
+		title: 'Casa de la Cultura',
+		date: '1986',
+		content: `Constituyendo una elogiable labor arquitectónica, se remodeló el tanque de agua pionero de la localidad, ubicado en la primera cuadra de la calle Asunción, al lado del Edificio Municipal. Éste, que había permanecido varios años en desuso, quedó convertido en la coqueta sede donde funciona a partir de entonces la Casa Municipal de la Cultura.
+		`,
+		image: '/assets/LineaGeneral/1986 - Casa de la cultura2.jpg',
+	},
+
 	{
 		title: 'A.F.I.P. Resguardo Aduanero',
 		date: '1988',
@@ -291,8 +369,16 @@ const events = [
 		title: 'Junta Nacional de Granos',
 		date: '1988',
 		content: `A poco de asumir el Intendente contador Roberto Urquía, gestionó una filial local a fin de agilizar la relación entre los productores, la Junta y todos los eslabones de la productividad agrícola. Interviene agilizando las exportaciones de cereales y oleaginosas.
-
-		Durante la gestión del presidente doctor Carlos Saúl Menem, este organismo nacional es disuelto. Tiempo después las funciones que desempeñaba esta Junta se transfieren a otro organismo: SENASA.`,
+		Durante la gestión del presidente doctor Carlos Saúl Menem, este organismo nacional fue disuelto. Tiempo después las funciones que desempeñaba esta Junta se transfieren a otro organismo: SENASA.
+		
+		OFICINA SENASA (Área Vegetal)
+		La Oficina SENASA (Área Vegetal), de General Deheza dependiente de la delegación Río Cuarto, cumple la función de fiscalización en el control de calidad y certificación fitosanitaria de embarques de cereales y oleaginosas y productos y subproductos derivados de ellos. 
+		Su radio de acción se extiende a los 200 kilómetros de nuestra localidad. Más específicamente su función se centraliza en los embarques de exportación de productos y subproductos agrícolas. 
+		
+		Entre sus objetivos está promover, fiscalizar y certificar la calidad de los vegetales, los insumos específicos de su elaboración y los productos biológicos para consumo interno, importación y exportación. 
+		
+		En lo referente a la Sanidad efectúa un severo control sobre la presunta presencia de residuos de agroquímicos y contaminantes, fijando para ello sus niveles de tolerancia humana. Además instrumenta programas preventivos a fin de radicar y controlar las plagas agrícolas.
+		`,
 	},
 	{
 		title: 'Polideportivo Municipal',
@@ -316,12 +402,13 @@ const events = [
 		date: '2000',
 		content: `Inicia su actividad al asumir el contador Roberto Daniel Urquía como Senador Provincial, en representación del Departamento Juárez Celman, ejerciendo la Presidencia de la Comisión de Presupuesto de la Cámara de Senadores. Cabe acotar que la Reforma Constitucional de nuestra Provincia modificó al Ente Legislativo que anteriormente constaba de dos Cámaras, la de Senadores y la de Diputados, fusionándose en un solo órgano Unicameral, pasando a denominarse a sus miembros con el rango de Legisladores.
 
-		Esta Oficina Legislativa obra como medio vinculante entre Representantes y Representados. A través de ella se recepta las inquietudes de los habitantes y municipios del Departamento y a la vez se informa del accionar legislativo.
+		Esta Oficina Legislativa obra como medio vinculante entre Representantes y Representados. A través de ella se receptan las inquietudes de los habitantes y municipios del Departamento y a la vez se informa del accionar legislativo.
 		
 		Cuando el Legislador Urquía se integra a la política del ámbito nacional, en carácter de Senador representante de la Provincia de Córdoba, esta Oficina continuó su actividad de índole comunitario, forjándose en su seno Instituciones y Proyectos dignos de mención:
 		- Fundación Multiplicar
 		- Oficina SENASA General Deheza (área animal)
-		- Centro de Formación y Evaluación Técnica (conjuntamente con la Asociación Empresarial General Deheza y el Instituto Técnico "Adrián P. Urquia"
+		- Centro de Formación y Evaluación Técnica (conjuntamente con la Asociación Empresarial General Deheza y el Instituto Técnico "Adrián P. Urquia").
+		
 		`,
 	},
 	{
@@ -335,15 +422,13 @@ const events = [
 		`,
 	},
 	{
-		title: 'Oficina SENASA',
+		title: 'Oficina SENASA (Área Animal)',
 		date: '2003',
-		content: `La Oficina SENASA (Área Vegetal), de General Deheza dependiente de la delegación Río Cuarto, cumple la función de fiscalización en el control de calidad y certificación fitosanitaria de embarques de cereales y oleaginosas y productos y subproductos derivados de ellos. 
+		content: `Sus actividades comienzan con la emisión de la ex Guías hoy D.T.A (Derecho de Tránsito Animal) que anteriormente la Municipalidad era la encargada de extenderlo. Previo a ello la Fundación Multiplicar había asumido la responsabilidad en la región del Plan de Vacunación Antiaftosa, en cumplimentación con los requisitos fijados por la Unión Europea para la exportación de carne Argentina.
 
-		Su radio de acción se extiende a los 200 kilómetros de nuestra localidad. Más específicamente su función se centraliza en los embarques de exportación de productos y subproductos agrícolas. 
+		La Secretaría de Agricultura y Ganadería de la provincia de Córdoba autorizó en 2003 para que esta Oficina pueda efectuar todo lo concerniente a Boletos de Marca y/o Señal de Ganado. Tarea que años después extiende su jurisdicción a la localidad de Las Perdices.
 		
-		Entre sus objetivos está promover, fiscalizar y certificar la calidad de los vegetales, los insumos específicos de su elaboración y los productos biológicos para consumo interno, importación y exportación. 
-		
-		En lo referente a la Sanidad efectúa un severo control sobre la presunta presencia de residuos de agroquímicos y contaminantes, fijando para ello sus niveles de tolerancia humana. Además instrumenta programas preventivos a fin de radicar y controlar las plagas agrícolas. 
+		A partir del 6 de julio de 2007 esta Delegación asciende de categoría constituyéndose como Oficina SENASA en carácter de cabecera regional comprendiendo su atención a Charras, Carnerillo, General Cabrera, General Deheza, Las Perdices y Dalmacio Vélez. Entre sus atribuciones está la de certificar el Derecho de Tránsito Animal, habilitación de camiones de carga de animales, controles sanitarios, inspecciones bromatológicas.		
 		`,
 	},
 	{

@@ -8,17 +8,21 @@ import {
 	Button,
 	Link,
 	Divider,
+	useMediaQuery
 } from '@chakra-ui/react';
 import { Link as ReachLink } from 'react-router-dom';
 import list from './ExhibicionesList';
 import { BiSolidUser } from 'react-icons/bi';
 
 const ExhibicionesContainer = () => {
+
+	const [isMobile] = useMediaQuery('(max-width: 1100px)');
+
 	return (
 		<Grid
-			templateColumns='repeat(2, 6fr)'
+			templateColumns={isMobile ? 'repeat(1fr)' : 'repeat(2, 6fr)'}
 			gap={6}
-			
+			zIndex={5}
 			marginTop='-50px'
 		>
 			{list.map((item, index) => (
