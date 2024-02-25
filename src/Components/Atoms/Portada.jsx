@@ -6,12 +6,12 @@ const Portada = ({ title, img, text }) => {
 	return (
 		<Stack
 			bgSize='cover'
-			h='500px'
-			bgImage={`linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 80%), url(${img})`}
+		h={isMobile ? 'fit-content' : '500px'}
+			bgImage={!isMobile && `linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 80%), url(${img})`}
 			bgPos='bottom'
 			align='center'
 			bgAttachment='fixed'
-			bgColor='cuarto'
+			bgColor='terciario'
 		>
 			<Stack
 				maxW='1420px'
@@ -20,15 +20,16 @@ const Portada = ({ title, img, text }) => {
 				justify='flex-end'
 				paddingBottom='60px'
 				w='100%'
+				pt={isMobile && '6.5em'}
 				position='relative'
 			>
-				<Heading size='3xl' color='background' textShadow='md' zIndex={10}>
+				<Heading size='3xl' color='white' textShadow='md' zIndex={10}>
 					{title}
 				</Heading>
 				<Text
 					maxW='70ch'
 					fontSize='lg'
-					color='background'
+					color='white'
 					textShadow='sm'
 					textAlign='justify'
 					zIndex={10}
