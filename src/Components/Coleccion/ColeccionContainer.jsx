@@ -71,7 +71,7 @@ const ColeccionContainer = () => {
 								>
 									{' '}
 									<BsCalendar2DateFill />
-									<Text fontSize='sm'>{piece.date}</Text>
+									<Text fontSize='xs'>{piece.date}</Text>
 								</Stack>
 							)}
 							{piece.donador && (
@@ -85,7 +85,7 @@ const ColeccionContainer = () => {
 								>
 									{' '}
 									<BiSolidUser />
-									<Text fontSize='sm'>{piece.donador}</Text>
+									<Text fontSize='xs'>{piece.donador}</Text>
 								</Stack>
 							)}
 						</Stack>
