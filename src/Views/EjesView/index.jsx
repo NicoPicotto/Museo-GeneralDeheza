@@ -12,7 +12,7 @@ const EjesView = () => {
     <Stack justify='center'>
       <Portada
         title='Ejes'
-        text='El museo está ordenado de una manera específica para mejorar su comprensión, es decir, organizamos la historia de General Deheza en tres ejes: las instituciones, lo social y lo agroindustrial.'
+        text='El museo está ordenado de una manera específica para mejorar su comprensión, es decir, organizamos la historia de General Deheza en tres ejes: las instituciones, lo agroindustrial y lo social.'
         img={fondoPortada}
       />
       <Container alignSelf='center'>

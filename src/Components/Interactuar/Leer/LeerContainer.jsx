@@ -66,7 +66,7 @@ const LeerContainer = () => {
               <Heading size='md' color='primario' textAlign='left'>
                 {item.titulo}
               </Heading>
-              <Stack
+              {/* <Stack
                 direction={isMobile ? "column" : "row"}
                 align={isMobile ? "left" : "center"}
                 w={isMobile ? "100%" : "fit-content"}
@@ -97,7 +97,7 @@ const LeerContainer = () => {
                     {item.categoria}
                   </Text>
                 </Stack>
-              </Stack>
+              </Stack> */}
 
               <Divider borderColor='cuarto' />
               <Stack>

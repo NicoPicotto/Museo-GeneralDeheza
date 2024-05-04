@@ -163,9 +163,9 @@ const InteractuaContainer = () => {
         Actuar en la página nos hace sentir que somos parte y que nuestra
         idiosincrasia está latente en nuestros ancestros, en nosotros y en
         nuestras próximas generaciones. Este espacio te invita a contemplar
-        algunas transformaciones urbanas de General Deheza mediante las
-        fotografías de la muestra &quot;Miradas&quot; por Gabriela Castro y
-        fotografías antiguas convertidas a color.
+        algunas fotografías antiguas convertidas a color y transformaciones
+        urbanas de General Deheza mediante la exhibición &quot;Miradas&quot; de
+        Gabriela Castro.
       </Text>
       <Text pb={10} as='b' fontSize='lg' textAlign='justify'>
         Para interactuar, deberás seleccionar la fotografía y deslizar la línea

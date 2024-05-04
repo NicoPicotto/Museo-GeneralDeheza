@@ -45,7 +45,7 @@ const coleccion = [
     img: "assets/Coleccion/28-vestido.jpg",
   },
   {
-    titulo: "Radio",
+    titulo: "Radio, Auriculares y Parlante",
     date: 1920,
     donador: "Santiago Giuliano",
     descripcion:
