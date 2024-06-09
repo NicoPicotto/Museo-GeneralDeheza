@@ -1,8 +1,7 @@
-import React from "react";
 import { Stack } from "@chakra-ui/react";
 import Container from "../../Components/Atoms/Container";
 import Portada from "../../Components/Atoms/Portada";
-import fondoPortada from "/assets/Portadas/interactuar.webp";
+import fondoPortada from "/assets/Portadas/intractuar.jpg";
 import Interactua from "../../Components/Interactuar";
 
 const InteractuarView = () => {

@@ -3,7 +3,7 @@ import { Stack, useMediaQuery } from '@chakra-ui/react';
 import Container from '../../Components/Atoms/Container';
 import LineaBase from '../../Components/Museo/LineaBase';
 import Portada from '../../Components/Atoms/Portada';
-import fondoPortada from '/assets/Portadas/linea.jpg';
+import fondoPortada from '/assets/Portadas/linea-museo.jpg';
 import events from '../../Components/DatosLineas/DatosLineaGeneral';
 
 const LineaDeTiempoView = () => {

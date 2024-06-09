@@ -25,7 +25,7 @@ const exhibiciones = [
 	// 	slug: 'talleres',
 	// },
 	{
-		titulo: 'Homenaje a ex combatientes de Malvinas',
+		titulo: 'Homenaje a Ex Combatientes de Malvinas',
 		autor: 'Municipalidad General Deheza',
 		shortDescription:
 			`El 21 de noviembre del año 2023 se realizó un Homenaje a los Ex combatientes de Malvinas en el Museo. Para dicho reconocimiento, se ambientó el espacio con objetos y música del año 1982.  En el montaje se encontraban impresiones de periódicos y revistas originales junto a objetos prestados y donados por los veteranos.`,

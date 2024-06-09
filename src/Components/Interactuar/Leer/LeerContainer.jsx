@@ -66,38 +66,6 @@ const LeerContainer = () => {
               <Heading size='md' color='primario' textAlign='left'>
                 {item.titulo}
               </Heading>
-              {/* <Stack
-                direction={isMobile ? "column" : "row"}
-                align={isMobile ? "left" : "center"}
-                w={isMobile ? "100%" : "fit-content"}
-              >
-                <Stack
-                  direction='row'
-                  align='center'
-                  bgColor='cuarto'
-                  paddingInline={3}
-                  paddingBlock={1}
-                  borderRadius={4}
-                >
-                  {" "}
-                  <BiSolidUser />
-                  <Text fontSize='sm'>{item.autor}</Text>
-                </Stack>
-
-                <Stack
-                  direction='row'
-                  align='center'
-                  bgColor='terciario'
-                  paddingInline={3}
-                  paddingBlock={1}
-                  borderRadius={4}
-                >
-                  <BiSolidPurchaseTag color='white' />
-                  <Text fontSize='sm' color='white'>
-                    {item.categoria}
-                  </Text>
-                </Stack>
-              </Stack> */}
 
               <Divider borderColor='cuarto' />
               <Stack>

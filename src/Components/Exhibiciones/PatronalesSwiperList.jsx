@@ -7,7 +7,7 @@ const data = [
 	},
 	{
 		title: 'Familia Pionera',
-		content: `Esa fecha fue sugerida por una familia pionera que era devota practicante católica. Se trataba de doña María Rosso y sus hijos, de apellido Siccardi. Ello se debía a la veneración a la Virgen del Pilón, patrona de Moretto (Turin), tierra natal de doña Maria Rosso.
+		content: `Esa fecha fue sugerida por una familia pionera que era devota practicante católica. Se trataba de doña María Rosso y sus hijos, de apellido Siccardi. Ello se debía a la veneración a la Virgen del Pilón, patrona de Moretto (Turín), tierra natal de doña María Rosso.
 		`,
 		image: '/assets/Exhibiciones/02/02-rosso.png',
 	},
@@ -31,7 +31,7 @@ const data = [
 		title: 'Juegos populares',
 		content: `Eran tradicionales los juegos populares, como el palo enjabonado, las carreras de embolsados, el pavo oculto, el chancho engrasado. la carrera de sortijas, la cinchada entre solteros y casados, la carrera de la copa de vino, la botella japonesa, la infaltable cinchada de caballos y las carreras de caballos lerdos... Contagiando alegría, la banda de música recorría las calles del pueblo, precedida por un emocionado Eduardo Dusserre, un querido y recordado vecino que, con su alma de eterno niño, compartía profundamente el sentimiento de fiesta que embargaba al pueblo.
 
-		Era común que esas fiestas convocaran a fotógrafos que arribaban desde Río Cuarto con sus enormes cámaras con trípode para satisfacer el deseo de los vecinos de perpetuar en una fotografía aquellos momentos vividos. También era infaltable la llegada de "Cruz Montiel", el pícaro lustrin que, con su equipo profesional, ofrece su servicio de "lustre espejo" a los presumidos bailarines que ansiaban lucir sus "timbos" acharolados en la pista de la Sociedad Italiana.
+		Era común que esas fiestas convocaran a fotógrafos que arribaban desde Río Cuarto con sus enormes cámaras con trípode para satisfacer el deseo de los vecinos de perpetuar en una fotografía aquellos momentos vividos. También era infaltable la llegada de "Cruz Montiel", el pícaro lustrín que, con su equipo profesional, ofrece su servicio de "lustre espejo" a los presumidos bailarines que ansiaban lucir sus "timbos" acharolados en la pista de la Sociedad Italiana.
 
 		Las Fiestas de Agosto constituyeron, sin dudas, un sentimiento que fue símbolo del localismo dehecino, hacedor del progreso que hoy nos enorgullece.
         `,
