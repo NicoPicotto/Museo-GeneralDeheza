@@ -13,8 +13,8 @@ const HistoriaView = () => {
             title='Historia'
             text='Remontamos a los orígenes del edificio de nuestra Casa de la Cultura hasta la creación del Museo de General Deheza.'
             img={fondoPortada}
-            bgSize='contain'
-            bgPos='top'
+            bgSize="contain"
+            bgPos="top"
          />
          <Container alignSelf='center'>
             <Introduccion />
