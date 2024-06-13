@@ -18,7 +18,7 @@ const Interactua = () => {
 	const [isMobile] = useMediaQuery('(max-width: 1100px)');
 
 	return (
-		<Stack>
+		<Stack pb="2em">
 			<Tabs
 				position='relative'
 				variant='unstyled'

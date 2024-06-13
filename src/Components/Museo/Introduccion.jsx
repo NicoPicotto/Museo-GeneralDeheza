@@ -16,7 +16,7 @@ const Introduccion = () => {
     const [isMobile] = useMediaQuery("(max-width: 1100px)");
 
     return (
-        <Stack marginTop='-50px' spacing={5} zIndex={2}>
+        <Stack marginTop='-50px' spacing={5} zIndex={2} pb="2em">
             <Stack
                 color='negro'
                 bgColor='white'

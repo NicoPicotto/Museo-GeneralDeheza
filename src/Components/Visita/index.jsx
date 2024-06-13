@@ -18,7 +18,7 @@ import {
 const Visita = () => {
   const [isMobile] = useMediaQuery("(max-width: 1100px)");
   return (
-    <Stack h='100%' marginTop='-50px' zIndex={2}>
+    <Stack h='100%' marginTop='-50px' zIndex={2} pb="2em">
       <Grid
         templateColumns={isMobile ? "repeat(1, 1fr)" : "repeat(3, 1fr)"}
         gap={3}

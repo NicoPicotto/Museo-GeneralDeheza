@@ -56,7 +56,7 @@ const MainContent = () => {
                 <Route path='/interactuar' element={<InteractuarView />} />
                 <Route path='/escuchar' element={<EscucharView />} />
             </Routes>
-            {!hideFooterPaths.includes(location.pathname) && <Footer />}
+            {/* {!hideFooterPaths.includes(location.pathname) && <Footer />} */}
         </>
     );
 };

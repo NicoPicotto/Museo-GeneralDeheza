@@ -24,6 +24,7 @@ const ExhibicionesContainer = () => {
 			gap={6}
 			zIndex={5}
 			marginTop='-50px'
+			pb="2em"
 		>
 			{list.map((item, index) => (
 				<GridItem
