@@ -175,7 +175,7 @@ const Navbar = () => {
 									h='100%'
 									justify='space-around'
 									align='center'
-									paddingBlock='10%'
+									paddingBlock='20%'
 									divider={<Divider borderColor='terciario' />}
 								>
 									<Link
