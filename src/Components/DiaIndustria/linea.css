@@ -1,0 +1,13 @@
+.swiper-slide {
+	padding-inline: 0.5em !important;
+}
+
+.swiper-button-prev:after {
+	font-size: 30px;
+	padding-right: 20px;
+}
+
+.swiper-button-next:after {
+	font-size: 30px;
+	padding-left: 20px;
+}
