@@ -35,15 +35,32 @@ const LineaIndustria = ({ events }) => {
       setSelectedPiece(piece);
       onOpen();
    };
+
+   //Funciones auxiliares para los assets
+   const isImage = (url) => {
+      return /\.(jpeg|jpg|gif|png|svg)$/.test(url);
+   };
+
+   const isYouTubeLink = (url) => {
+      return /youtube\.com|youtu\.be/.test(url);
+   };
+
+   const extractYouTubeId = (url) => {
+      const regExp =
+         /^.*(youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+      const match = url.match(regExp);
+      return match && match[2].length === 11 ? match[2] : null;
+   };
+
    return (
-      <Stack mt='-10px'>
+      <Stack mt='1rem'>
          <Swiper
             direction={"horizontal"}
             slidesPerView={isMobile ? 1 : 4}
             spaceBetween={0}
             mousewheel={true}
             grabCursor={true}
-            navigation={isMobile && true}
+            navigation={true}
             modules={[Mousewheel, Navigation]}
             className='mySwiper'
          >
@@ -60,54 +77,137 @@ const LineaIndustria = ({ events }) => {
                         {data.date}
                      </Heading>
                      <Box
-                        mt="17px"
+                        mt='20px'
                         bgColor='secundario'
                         position='absolute'
                         w='120%'
-                        h='10px'
+                        h='5px'
                         mb='10px'
                      />
                      <Stack
                         bgColor='white'
                         shadow='md'
-                        p={5}
+                        mt='1rem'
+                        transition='0.2s ease'
+                        _hover={{ transform: "scale(1.02)", shadow: "lg" }}
+                        p='2.5rem'
                         align='center'
+                        justify='center'
+                        gap='1rem'
+                        w='100%'
+                        borderRadius='full'
                         h={isMobile ? "auto" : "18em"}
                      >
-                        <Heading size='md'>{data.title}</Heading>
-                        <Text
-                           noOfLines={8}
-                           overflow='hidden'
-                           textOverflow='ellipsis'
-                           display='-webkit-box'
-                        >
-                           {data.content}
-                        </Text>
+                        <Heading mt='-1rem' size='md'>
+                           {data.title}
+                        </Heading>
+                        <Image
+                           src={data.logo}
+                           objectFit='contain !important'
+                           w='80% !important'
+                           h='fit-content !important'
+                           minH='50%'
+                           objectPosition='center !important'
+                        />
                      </Stack>
                   </Stack>
                </SwiperSlide>
             ))}
          </Swiper>
          {selectedPiece && (
-            <Modal isOpen={isOpen} onClose={onClose}>
+            <Modal isOpen={isOpen} onClose={onClose} isCentered>
                <ModalOverlay backdropFilter='blur(5px)' />
                <ModalContent
                   p={3}
-                  minW={isMobile ? "90%" : "800px"}
+                  minW={isMobile ? "90%" : "80dvw"}
                   h='auto'
                   w={isMobile && "90%"}
                >
-                  <ModalCloseButton />
+                  <ModalCloseButton autoFocus={false} />
                   <ModalBody paddingBlock={5}>
-                     <Stack>
-                        <Heading size='md' color='primario'>
-                           {selectedPiece.date} - {selectedPiece.title}
-                        </Heading>
-                        <Divider borderColor='cuarto' />
-                        <Text whiteSpace='pre-line' fontSize='lg'>
-                           {selectedPiece.content}
-                        </Text>
-                        <Image src={selectedPiece.image} />
+                     <Stack direction='row' gap='1rem'>
+                        <Stack
+                           w={
+                              selectedPiece?.assets?.length > 1 ? "50%" : "100%"
+                           }
+                        >
+                           <Heading size='md' color='primario'>
+                              {selectedPiece.date} - {selectedPiece.title}
+                           </Heading>
+
+                           <Divider borderColor='cuarto' />
+                           <Stack>
+                              <Text whiteSpace='pre-line' fontSize='lg'>
+                                 {selectedPiece.content}
+                              </Text>
+                           </Stack>
+                        </Stack>
+                        <Stack
+                           w='50%'
+                           display={
+                              selectedPiece?.assets?.length > 1
+                                 ? "block"
+                                 : "none"
+                           }
+                        >
+                           <Swiper
+                              direction={"horizontal"}
+                              slidesPerView={1}
+                              spaceBetween={0}
+                              mousewheel={true}
+                              grabCursor={true}
+                              navigation={true}
+                              modules={[Mousewheel, Navigation]}
+                              className='mySwiper'
+                           >
+                              {selectedPiece.assets &&
+                                 selectedPiece.assets.map((asset, index) => {
+                                    let content;
+
+                                    if (isImage(asset)) {
+                                       content = (
+                                          <Image
+                                             src={asset}
+                                             alt={`asset-${index}`}
+                                             maxW='100%'
+                                             borderRadius='md'
+                                          />
+                                       );
+                                    } else if (isYouTubeLink(asset)) {
+                                       const videoId = extractYouTubeId(asset);
+                                       content = (
+                                          <Box
+                                             position='relative'
+                                             w='100%'
+                                             h='100%' // Mantiene la proporción 16:9
+                                          >
+                                             <iframe
+                                                src={`https://www.youtube.com/embed/${videoId}`}
+                                                frameBorder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowFullScreen
+                                                style={{
+                                                   position: "absolute",
+                                                   top: 0,
+                                                   left: 0,
+                                                   width: "100%",
+                                                   height: "100%",
+                                                }}
+                                             ></iframe>
+                                          </Box>
+                                       );
+                                    } else {
+                                       return null; // Si el asset no es reconocido, no renderiza nada
+                                    }
+
+                                    return (
+                                       <SwiperSlide key={index}>
+                                          {content}
+                                       </SwiperSlide>
+                                    );
+                                 })}
+                           </Swiper>
+                        </Stack>
                      </Stack>
                   </ModalBody>
                </ModalContent>

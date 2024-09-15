@@ -1,7 +1,7 @@
 import { Stack, Heading, Text, useMediaQuery } from "@chakra-ui/react";
 import Container from "../../Components/Atoms/Container";
-import events from "../../Components/DatosLineas/DatosLineaGeneral";
-import LineaIndustria from '../../Components/DiaIndustria/LineaIndustria';
+import events from "../../Components/DiaIndustria/DatosLineaIndustria";
+import LineaIndustria from "../../Components/DiaIndustria/LineaIndustria";
 
 const DiaIndustriaView = () => {
    const [isMobile] = useMediaQuery("(max-width: 1100px)");

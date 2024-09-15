@@ -1,13 +1,17 @@
 .swiper-slide {
-	padding-inline: 0.5em !important;
+   padding-inline: 0.5em !important;
 }
 
 .swiper-button-prev:after {
-	font-size: 30px;
-	padding-right: 20px;
+   font-size: 30px;
+   padding-top: 40px;
+   padding-right: 20px;
+   color: gray.600
 }
 
 .swiper-button-next:after {
-	font-size: 30px;
-	padding-left: 20px;
+   font-size: 30px;
+   padding-top: 40px;
+   padding-left: 30px;
+   color: gray.600
 }
