@@ -7,7 +7,7 @@ const DiaIndustriaView = () => {
    const [isMobile] = useMediaQuery("(max-width: 1100px)");
 
    return (
-      <Stack justify='center'>
+      <Stack justify='center' bgColor='negro' minH='100vh'>
          <Container mt='6em' alignSelf='center'>
             <Stack
                maxW='1420px'
@@ -18,14 +18,15 @@ const DiaIndustriaView = () => {
                w='100%'
                pt={isMobile && "6.5em"}
                position='relative'
+               mt="-2rem"
             >
-               <Heading size='xl' color='primario' textShadow='md' zIndex={10}>
+               <Heading size='xl' color='blanco' textShadow='md' zIndex={10}>
                   Industrias con 50 Años de Trayectoria
                </Heading>
                <Text
                   maxW='90ch'
                   fontSize='lg'
-                  color='primario'
+                  color='blanco'
                   textShadow='sm'
                   textAlign='center'
                   zIndex={10}

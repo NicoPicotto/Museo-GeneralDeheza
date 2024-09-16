@@ -28,6 +28,7 @@ import { Mousewheel, Navigation } from "swiper/modules";
 
 const LineaIndustria = ({ events }) => {
    const [isMobile] = useMediaQuery("(max-width: 1100px)");
+   const [isTablet] = useMediaQuery("(max-width: 1200px)");
    const { isOpen, onOpen, onClose } = useDisclosure();
    const [selectedPiece, setSelectedPiece] = useState(null);
 
@@ -53,10 +54,10 @@ const LineaIndustria = ({ events }) => {
    };
 
    return (
-      <Stack mt='1rem'>
+      <Stack mt='3rem'>
          <Swiper
             direction={"horizontal"}
-            slidesPerView={isMobile ? 1 : 4}
+            slidesPerView={isMobile ? 1 : 5}
             spaceBetween={0}
             mousewheel={true}
             grabCursor={true}
@@ -73,42 +74,46 @@ const LineaIndustria = ({ events }) => {
                      marginBlock={4}
                      onClick={() => handleOpenModal(data)}
                   >
-                     <Heading zIndex={2} color='terciario'>
+                     <Heading zIndex={2} color='blanco'>
                         {data.date}
                      </Heading>
                      <Box
                         mt='20px'
-                        bgColor='secundario'
+                        bgColor='primario'
                         position='absolute'
-                        w='120%'
+                        w='200%'
                         h='5px'
                         mb='10px'
                      />
                      <Stack
-                        bgColor='white'
-                        shadow='md'
-                        mt='1rem'
+                        //bgColor='white'
+                        //shadow='md'
+
                         transition='0.2s ease'
-                        _hover={{ transform: "scale(1.02)", shadow: "lg" }}
-                        p='2.5rem'
+                        _hover={{ transform: "scale(1.02)" }}
+                        paddingInline='2rem'
+                        paddingTop='3rem'
                         align='center'
-                        justify='center'
                         gap='1rem'
                         w='100%'
                         borderRadius='full'
-                        h={isMobile ? "auto" : "18em"}
+                        h='auto'
                      >
-                        <Heading mt='-1rem' size='md'>
+                        <Heading
+                           mt='-1rem'
+                           color='blanco'
+                           size={isTablet ? "sm" : "md"}
+                        >
                            {data.title}
                         </Heading>
-                        <Image
+                        {/* <Image
                            src={data.logo}
                            objectFit='contain !important'
                            w='80% !important'
                            h='fit-content !important'
                            minH='50%'
                            objectPosition='center !important'
-                        />
+                        /> */}
                      </Stack>
                   </Stack>
                </SwiperSlide>
@@ -121,6 +126,7 @@ const LineaIndustria = ({ events }) => {
                   p={3}
                   minW={isMobile ? "90%" : "80dvw"}
                   h='auto'
+                  maxH='90dvh'
                   w={isMobile && "90%"}
                >
                   <ModalCloseButton autoFocus={false} />
@@ -137,7 +143,10 @@ const LineaIndustria = ({ events }) => {
 
                            <Divider borderColor='cuarto' />
                            <Stack>
-                              <Text whiteSpace='pre-line' fontSize='lg'>
+                              <Text
+                                 whiteSpace='pre-line'
+                                 fontSize={isTablet ? "sm" : "lg"}
+                              >
                                  {selectedPiece.content}
                               </Text>
                            </Stack>
@@ -170,7 +179,9 @@ const LineaIndustria = ({ events }) => {
                                              src={asset}
                                              alt={`asset-${index}`}
                                              maxW='100%'
+                                             maxH='70dvh'
                                              borderRadius='md'
+                                             pointerEvents='none'
                                           />
                                        );
                                     } else if (isYouTubeLink(asset)) {

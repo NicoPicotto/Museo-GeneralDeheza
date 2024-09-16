@@ -27,6 +27,15 @@ Fundada en 1931 en General Deheza, Córdoba, Gastaldi Hnos es pionera en el nego
       logo: "./assets/DiaIndustria/Frigorifico/logo.png",
       content: `Con más de 50 años de experiencia en la industria cárnica, comercializan y exportan productos porcinos y vacunos desde el centro de la Argentina. 
 `,
+      assets: [
+         "./assets/DiaIndustria/Frigorifico/FRIGORIFICO_01.jpg",
+         "./assets/DiaIndustria/Frigorifico/FRIGORIFICO_02.jpg",
+         "./assets/DiaIndustria/Frigorifico/FRIGORIFICO_03.jpg",
+         "./assets/DiaIndustria/Frigorifico/FRIGORIFICO_04.jpg",
+         "./assets/DiaIndustria/Frigorifico/FRIGORIFICO_05.jpg",
+         "./assets/DiaIndustria/Frigorifico/FRIGORIFICO_06.jpg",
+         "./assets/DiaIndustria/Frigorifico/FRIGORIFICO_07.jpg",
+      ],
    },
    {
       title: "Transporte Magallanes",
@@ -34,6 +43,16 @@ Fundada en 1931 en General Deheza, Córdoba, Gastaldi Hnos es pionera en el nego
       logo: "./assets/DiaIndustria/Magallanes/logo.jpg",
       content: `Transporte Magallanes es una de las flotas de camiones más reconocidas de la ciudad. Bajo la iniciativa de Carolina Marengo y Nicéforo Magallanes, comenzó su actividad en el año 1946. En su histórica esquina de calles Liniers y Juan José Paso, continúan con su ejercicio hoy su tercera generación, siendo ellos Francisco y Roberto Magallanes.
    `,
+      assets: [
+         "./assets/DiaIndustria/Magallanes/MAGALLANES_01.jpg",
+         "./assets/DiaIndustria/Magallanes/MAGALLANES_02.jpg",
+         "./assets/DiaIndustria/Magallanes/MAGALLANES_03.jpg",
+         "./assets/DiaIndustria/Magallanes/MAGALLANES_04.jpg",
+         "./assets/DiaIndustria/Magallanes/MAGALLANES_05.jpg",
+         "./assets/DiaIndustria/Magallanes/MAGALLANES_06.jpg",
+         "./assets/DiaIndustria/Magallanes/MAGALLANES_07.jpg",
+         "./assets/DiaIndustria/Magallanes/MAGALLANES_08.jpg",
+      ],
    },
    {
       title: "Aceitera General Deheza (AGD)",
@@ -44,6 +63,20 @@ Fue la primera industria alimenticia argentina en recibir un reconocimiento de l
 
 Hoy, AGD es un moderno complejo agroindustrial que exhibe un posicionamiento único en el mercado argentino y mundial por sus niveles de integración, diversificación y tecnología. Que brinda oportunidades laborales en muchas provincias dado su crecimiento.
 `,
+      assets: [
+         "./assets/DiaIndustria/AGD/AGD_01.jpg",
+         "./assets/DiaIndustria/AGD/AGD_02.jpg",
+         "./assets/DiaIndustria/AGD/AGD_03.jpg",
+         "./assets/DiaIndustria/AGD/AGD_04.jpg",
+         "./assets/DiaIndustria/AGD/AGD_05.jpg",
+         "./assets/DiaIndustria/AGD/AGD_06.jpg",
+         "./assets/DiaIndustria/AGD/AGD_07.jpg",
+         "./assets/DiaIndustria/AGD/AGD_08.jpg",
+         "./assets/DiaIndustria/AGD/AGD_09.jpg",
+         "./assets/DiaIndustria/AGD/AGD_10.jpg",
+         "./assets/DiaIndustria/AGD/AGD_11.jpg",
+         "./assets/DiaIndustria/AGD/AGD_12.jpg",
+      ],
    },
    {
       title: "Imprenta Koltsch",
@@ -54,6 +87,12 @@ En su recorrido por la vida se encuentra con José Frouté, visionario que siemp
 
 Taller que se volvió su pasión. Pasión que transmitió a su hijo, quien tuvo el gran desafío de continuar con el desarrollo de la imprenta ante la llegada de la tecnología, reinventó cada puesto de trabajo para mantenerla viva. Fruto de ello, la imprenta en la informalidad fue reconocida como la imprenta del Chamaco. Con la llegada de una nueva etapa de la vida, la del disfrutar de todo lo sembrado, Chamaco le pasa el legado a su yerno Mauricio Caisutti, y hoy sigue vigente en las manos de Antonio Yanucci.
 `,
+      assets: [
+         "./assets/DiaIndustria/Koltsch/KOLTSCH_01.jpg",
+         "./assets/DiaIndustria/Koltsch/KOLTSCH_02.jpg",
+         "./assets/DiaIndustria/Koltsch/KOLTSCH_03.jpg",
+         "./assets/DiaIndustria/Koltsch/KOLTSCH_04.jpg",
+      ],
    },
    {
       title: "La Firmeza",
@@ -66,6 +105,13 @@ La carpintería se desarrollaba en pleno centro de la localidad, sobre calle San
 
 El propio crecimiento y la incorporación de nuevas máquinas, llevó a reestructurar los lugares de trabajo, poniendo en evidencia la necesidad de buscar un nuevo lugar a donde instalar la fábrica. Lugar que le permita seguir creciendo, así fue como hoy ubicada en zona mixta de General Deheza, continúa su crecimiento dirigido por Lucas.
 `,
+      assets: [
+         "./assets/DiaIndustria/LaFirmeza/LAFIRMEZA_01.jpg",
+         "./assets/DiaIndustria/LaFirmeza/LAFIRMEZA_02.jpg",
+         "./assets/DiaIndustria/LaFirmeza/LAFIRMEZA_03.jpg",
+         "./assets/DiaIndustria/LaFirmeza/LAFIRMEZA_04.jpg",
+         "./assets/DiaIndustria/LaFirmeza/LAFIRMEZA_05.jpg",
+      ],
    },
    {
       title: "Industria de la Construcción - Luis Ramon Genesio",
