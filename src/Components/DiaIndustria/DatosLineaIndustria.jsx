@@ -1,6 +1,6 @@
 const events = [
    {
-      title: "Molino Gastaldi",
+      title: "Gastaldi Hnos",
       date: "1931",
       logo: "./assets/DiaIndustria/Gastaldi/logo.png",
       content: `En medio de la gran depresión iniciada en el año 1929 nace Molinos Gastaldi S.A. con una capacidad de molienda de 15 toneladas por día. Los hermanos Ángel, Antonio, Gabriel y Santiago Gastaldi, y su cuñado Luis Macario, afrontan con visión y coraje el desafío de crear una empresa agroindustrial.
@@ -32,9 +32,6 @@ Fundada en 1931 en General Deheza, Córdoba, Gastaldi Hnos es pionera en el nego
          "./assets/DiaIndustria/Frigorifico/FRIGORIFICO_02.jpg",
          "./assets/DiaIndustria/Frigorifico/FRIGORIFICO_03.jpg",
          "./assets/DiaIndustria/Frigorifico/FRIGORIFICO_04.jpg",
-         "./assets/DiaIndustria/Frigorifico/FRIGORIFICO_05.jpg",
-         "./assets/DiaIndustria/Frigorifico/FRIGORIFICO_06.jpg",
-         "./assets/DiaIndustria/Frigorifico/FRIGORIFICO_07.jpg",
       ],
    },
    {
@@ -46,19 +43,14 @@ Fundada en 1931 en General Deheza, Córdoba, Gastaldi Hnos es pionera en el nego
       assets: [
          "./assets/DiaIndustria/Magallanes/MAGALLANES_01.jpg",
          "./assets/DiaIndustria/Magallanes/MAGALLANES_02.jpg",
-         "./assets/DiaIndustria/Magallanes/MAGALLANES_03.jpg",
-         "./assets/DiaIndustria/Magallanes/MAGALLANES_04.jpg",
-         "./assets/DiaIndustria/Magallanes/MAGALLANES_05.jpg",
-         "./assets/DiaIndustria/Magallanes/MAGALLANES_06.jpg",
-         "./assets/DiaIndustria/Magallanes/MAGALLANES_07.jpg",
-         "./assets/DiaIndustria/Magallanes/MAGALLANES_08.jpg",
       ],
    },
    {
-      title: "Aceitera General Deheza (AGD)",
+      title: "Aceitera General Deheza",
       date: "1948",
       logo: "./assets/DiaIndustria/AGD/logo.jpeg",
       content: `Adrián P. Urquía y 19 pioneros que lo acompañaron concretaron su sueño el 22 de julio de 1948. La planta comenzó a funcionar con seis prensas usadas el 22 de julio de 1948.
+
 Fue la primera industria alimenticia argentina en recibir un reconocimiento de la Organización de las Naciones Unidas por preservar el medio ambiente.
 
 Hoy, AGD es un moderno complejo agroindustrial que exhibe un posicionamiento único en el mercado argentino y mundial por sus niveles de integración, diversificación y tecnología. Que brinda oportunidades laborales en muchas provincias dado su crecimiento.
@@ -68,34 +60,21 @@ Hoy, AGD es un moderno complejo agroindustrial que exhibe un posicionamiento ún
          "./assets/DiaIndustria/AGD/AGD_02.jpg",
          "./assets/DiaIndustria/AGD/AGD_03.jpg",
          "./assets/DiaIndustria/AGD/AGD_04.jpg",
-         "./assets/DiaIndustria/AGD/AGD_05.jpg",
-         "./assets/DiaIndustria/AGD/AGD_06.jpg",
-         "./assets/DiaIndustria/AGD/AGD_07.jpg",
-         "./assets/DiaIndustria/AGD/AGD_08.jpg",
-         "./assets/DiaIndustria/AGD/AGD_09.jpg",
-         "./assets/DiaIndustria/AGD/AGD_10.jpg",
-         "./assets/DiaIndustria/AGD/AGD_11.jpg",
-         "./assets/DiaIndustria/AGD/AGD_12.jpg",
       ],
    },
    {
-      title: "Imprenta Koltsch",
+      title: "La Imprenta",
       date: "1950",
       logo: "./assets/DiaIndustria/Koltsch/logo.jpg",
       content: `Alberto Carlos Koltsch estudió para ser tipógrafo en Córdoba, soñando con trabajar del arte que implica crear gráficas, recibiendose en 1934.
-En su recorrido por la vida se encuentra con José Frouté, visionario que siempre miraba el más allá buscando progresar y ayudar a quien esté dispuesto a crecer. Él fue quien con su persuasión lo anima a instalar el primer taller gráfico en la localidad de General Deheza, siendo pionero así de la industria de la imprenta.
+En su recorrido por la vida se encuentra con José Frouté, visionario que siempre miraba el más allá buscando progresar y ayudar a quien esté dispuesto a crecer. Fue quien con su persuasión lo anima a instalar el primer taller gráfico en la localidad de General Deheza, siendo pionero así de la industria de la imprenta.
 
 Taller que se volvió su pasión. Pasión que transmitió a su hijo, quien tuvo el gran desafío de continuar con el desarrollo de la imprenta ante la llegada de la tecnología, reinventó cada puesto de trabajo para mantenerla viva. Fruto de ello, la imprenta en la informalidad fue reconocida como la imprenta del Chamaco. Con la llegada de una nueva etapa de la vida, la del disfrutar de todo lo sembrado, Chamaco le pasa el legado a su yerno Mauricio Caisutti, y hoy sigue vigente en las manos de Antonio Yanucci.
 `,
-      assets: [
-         "./assets/DiaIndustria/Koltsch/KOLTSCH_01.jpg",
-         "./assets/DiaIndustria/Koltsch/KOLTSCH_02.jpg",
-         "./assets/DiaIndustria/Koltsch/KOLTSCH_03.jpg",
-         "./assets/DiaIndustria/Koltsch/KOLTSCH_04.jpg",
-      ],
+      assets: ["./assets/DiaIndustria/Koltsch/KOLTSCH_01.jpg"],
    },
    {
-      title: "La Firmeza",
+      title: "Carpintería La Firmeza",
       date: "1955",
       logo: "./assets/DiaIndustria/LaFirmeza/logo.png",
       content: `En el año 1951 en la esquina de las calles Santa Fe y Bv San Martín, nació “La Firmeza”. Hector Bedolla, fundaba la carpintería que sentaría precedentes, por esos años, en la comunidad de General Deheza. Años más tarde, sería el mentor de la “tabla de planchar plegadiza”, que registraría como propia y que llevó la marca registrada de “La Firmeza”. 
@@ -109,61 +88,68 @@ El propio crecimiento y la incorporación de nuevas máquinas, llevó a reestruc
          "./assets/DiaIndustria/LaFirmeza/LAFIRMEZA_01.jpg",
          "./assets/DiaIndustria/LaFirmeza/LAFIRMEZA_02.jpg",
          "./assets/DiaIndustria/LaFirmeza/LAFIRMEZA_03.jpg",
-         "./assets/DiaIndustria/LaFirmeza/LAFIRMEZA_04.jpg",
-         "./assets/DiaIndustria/LaFirmeza/LAFIRMEZA_05.jpg",
       ],
    },
    {
       title: "Industria de la Construcción - Luis Ramon Genesio",
       date: "1956",
       logo: "./assets/DiaIndustria/Genesio/logo.jpg",
-      content: `Ya con sus 13 años en el campo, Luis, acompañaba a su familia en todos los trabajos propios del campo. Con el tiempo comienza a trabajar en el pueblo junto a Beloni lavando valdes y es ahí donde recibe su apodo con el cual se lo reconocería en la industria de la construcción hasta el día de hoy: ”FLETACHO”.
+      content: `Ya con sus 13 años en el campo, Luis, acompañaba a su familia en todos los trabajos propios del campo. Con el tiempo comienza a trabajar en el pueblo junto a Beloni lavando valdes y es ahí donde recibe su apodo con el cual se lo reconocería en la industria de la construcción hasta el día de hoy: “Fletacho”.
 
 Su vida no sólo se resume en la albañilería, también trabajó en la plomería descubriendo que su vocación era ser independiente y albañil. Y dentro de la albañilería aprendió de sus pares para distinguirse como frentista, fue muy solicitado por su especialidad en colocación de piedras, donde ponía en juego su creatividad  y su habilidad de artista.
 
-Siempre en su desarrollo tuvo presente las palabras de un sabio compañero de trabajo, que compartió en una comida de obra…. “Quiere lo que haces, y se convertirá en una obra de arte”.
+Siempre en su desarrollo tuvo presente las palabras de un sabio compañero de trabajo, que compartió en una comida de obra. “Quiere lo que haces, y se convertirá en una obra de arte”.
 
 Así fue como Fletacho, a la par de ingenieros, arquitectos, patrones con su clara convicción de diferenciarse por la calidad, con mente abierta a aprender, fue creciendo, capitalizando cada experiencia,  llegando a ser un referente de la industria y formador de muchos albañiles que hoy trabajan en nuestra localidad.
+
 `,
    },
    {
-      title: "Cooperativa Eléctrica General Deheza",
+      title: "Cooperativa Eléctrica",
       date: "1958",
       logo: "./assets/DiaIndustria/CEGD/logo.png",
       content: `Es una institución con más de 60 años de trayectoria. En la actualidad, prestan servicios de Energía Eléctrica, Internet, Telefonía, Televisión, Auditorio y Cloacas. Comprometidos con sus asociados, están en permanente expansión y desarrollo, buscando satisfacer las principales necesidades de toda la población.`,
+      assets: [
+         "./assets/DiaIndustria/CEGD/CEGD_01.jpg",
+         "./assets/DiaIndustria/CEGD/CEGD_02.jpg",
+      ],
    },
    {
-      title: "Aguadas y Pre Moldeados Foglizzo",
+      title: "Aguadas y Premoldeados Foglizzo",
       date: "1958",
       logo: "./assets/DiaIndustria/Foglizzo/logo.jpeg",
       content: `Don Elvio, allá por el año 1958 siendo empleado de la ferretería de Cavalchini Maino. Tiene la invitación y motivación de su hermano Aldo, quien era albañil en ese entonces, para crear una sociedad e instalar la primera fábrica de mosaicos denominada Aldo y Ruben Foglizzo. Aldo aportaba el capital y Elvio el trabajo, así fue como para cuidar su capital comienzan la fábrica con un galpón asentado en barro, con el pensamiento de que si no andaba, se podría destruir sin arriesgar demasiado. Pasaron los años, y ese galpón se convirtió en “la fábrica de mosaicos”. Años que no fueron fáciles, el agente de despegue fue un tema que desde primer momento les fue difícil pulir, mucho dinero invertido y pocos resultados buenos, luego mucha producción y poca ventas. Pero ellos tenían claro su objetivo y seguían apostando. Pusieron los pisos en el cementerio local, obra que les llevó muchos años, ya que ellos tenían una capacidad de producción diaria de 20 mts de mosaicos.
 
 Con el tiempo, comenzaron a aparecer pedidos de insumos relacionados con la elaboración de mosaicos, motivando a Aldo y Elvio a ir incorporando la venta de materiales de construcción.
-
 Tiempo después con la llegada de Rubén a General Deheza, quien regresaba del servicio militar, Aldo se retira de la sociedad dando lugar a que Rubén ingrese a la firma y le de su impronta, cambiando así la razón social a Elvio y Ruben Foglizzo. Él motivado por apoyar la actividad ganadera introduce los premoldeados de hormigón y más tarde, observando que la industrialización llegaba a la fabricación de mosaicos, comienza a incursionar en la industria de los Mármoles, creando la primer maquina de cortar marmol e incorporando dicho rubro a la industria.
 
 Con el fallecimiento de Elvio, Ruben continúa la firma acompañado por su familia, denominando la misma Aguadas y Premoldeados Foglizzo, recordando los orígenes de la misma y las motivaciones que lo llevaron ser parte.
 `,
+      assets: [
+         "./assets/DiaIndustria/Foglizzo/FOGLIZZO_01.jpg",
+         "./assets/DiaIndustria/Foglizzo/FOGLIZZO_02.jpg",
+      ],
    },
    {
-      title: "Baterías Siccardi",
+      title: "Siccardi",
       date: "1961",
       logo: "./assets/DiaIndustria/Siccardi/logo.jpg",
-      content: `El dueño y fundador de la pequeña fábrica de baterías era el señor Enrique Siccardi. La misma se encontraba ubicada a metros de la plaza central de General Deheza. Fue Enrique Siccardi, el espíritu emprendedor, de los que en aquellos tiempos se denominaba “Baterías Enérgica”. Llevaba adelante una producción promedio de 50 a 55 baterías por mes. Su intención era que ésta se perfilara como un negocio familiar, y es así que en el año 1970, Jorge Siccardi, el actual dueño, comienza a tener un lugar en la fábrica, donde obtiene experiencia como ayudante de su abuelo en la fabricación de baterías. 
-Jorge trabajó allí hasta el año 1973 ya que, por razones particulares, debió abandonar la empresa. 
+      content: `El dueño y fundador de la pequeña fábrica de baterías era el señor Enrique Siccardi, cuya ubicación original estaba a metros de la plaza central de General Deheza. Enrique, con su espíritu emprendedor, fundó “Baterías Enérgica”, y se encargaba personalmente de una producción mensual de 50 a 55 baterías, fabricadas de manera manual. Desde el principio, su visión era que esta fábrica se convirtiera en un negocio familiar. Es por esto que en 1970, su nieto, Jorge Siccardi, actual propietario, comenzó a involucrarse en la empresa desde niño, adquiriendo experiencia como ayudante de su abuelo en la fabricación de baterías.
 
-En el año 1989, a raíz del fallecimiento de Don Enrique Siccardi, su nieto Jorge hereda parte de la fábrica de baterías. En ese entonces decidió abandonar el trabajo que realizaba y comprarle la parte a sus hermanos. Comenzó a administrar la fábrica bajo el mismo nombre, manteniendo la producción de 55 baterías por mes. 
+Jorge trabajó allí hasta 1973, cuando tuvo que priorizar sus estudios. Sin embargo, en 1989, tras el fallecimiento de Enrique, Jorge heredó parte de la fábrica. En ese momento, decidió dejar su trabajo y comenzó administrar la fábrica bajo el mismo nombre y manteniendo una producción de 55 baterías mensuales. Con una administración eficiente, la producción aumentó progresivamente hasta alcanzar las 70 baterías mensuales en 1995, lo que permitió la construcción de un nuevo edificio. En 1999, Jorge realizó una importante ampliación, alcanzando un total de 190 metros cuadrados cubiertos.
 
-Fue aumentando paulatinamente año tras año hasta llegar a 70 baterías mensuales, lo que hizo que en 1995 construyera un nuevo edificio para su fábrica. Gracias a una buena administración pudo en 1999 realizar una buena ampliación que totalizaba un edificio de 190 metros cuadrados cubiertos. Al siguiente año anexó nuevas unidades de negocios, como la reventa y colocación de escapes para cualquier tipo de vehículos y extendió la venta de baterías hacia la región, utilizando revendedores en otras localidades. Para ese entonces, la producción de baterías creció a 100 por mes. 
-En estos 60 años de trayectoria, la fábrica mantuvo a miembros de la familia dedicados a la misma. En un momento dado, se denominó “Super Enérgica”. Actualmente, a Jorge lo acompañan su hijo y esposa, en lo que ahora se denomina “Siccardi”.
+Al año siguiente, incorporó nuevas líneas de negocio, como la reventa y colocación de escapes para todo tipo de vehículos, y expandió la venta de baterías a otras localidades a través de revendedores. Para ese entonces, la producción mensual había crecido a 100 baterías.
+
+En 2005, Leonardo Siccardi, hijo de Jorge, se incorporó formalmente a la empresa, aunque desde pequeño ya colaboraba en diversas tareas. Su llegada amplió las actividades de la fábrica, sumando el servicio de electricidad del automotor y la fabricación y venta de agua desmineralizada. A lo largo de más de 60 años de trayectoria, la empresa ha mantenido una fuerte participación familiar en su gestión, con Cristina López, esposa de Jorge, siempre a su lado. En un punto de su historia, la fábrica adoptó el nombre "Super Enérgica" y, actualmente, opera bajo el nombre "Siccardi".
+
 `,
    },
-   {
-      title: "Pulverizaciones Abrile",
-      date: "1967",
-      logo: "./assets/DiaIndustria/Abrile/logo.jpg",
-      content: `Abrile Pulverizaciones” Dio inicio a su actividad en el año 1967, producto de la iniciativa de Santiago Abrile padre. Una de las empresas más solicitadas en la región y en la provincia para las fumigaciones agropecuarias. Actualmente, permanece al mando de su hijo menor, Alejandro.`,
-   },
+   // {
+   //    title: "Pulverizaciones Abrile",
+   //    date: "1967",
+   //    logo: "./assets/DiaIndustria/Abrile/logo.jpg",
+   //    content: `Abrile Pulverizaciones” Dio inicio a su actividad en el año 1967, producto de la iniciativa de Santiago Abrile padre. Una de las empresas más solicitadas en la región y en la provincia para las fumigaciones agropecuarias. Actualmente, permanece al mando de su hijo menor, Alejandro.`,
+   // },
    {
       title: "Industrias Caffaratti",
       date: "1971",
@@ -202,19 +188,10 @@ En el año 2010, la empresa trasladó sus operaciones a un galpón más amplio u
 Esta dedicación al trabajo y el legado de excelencia han sido transmitidos a las siguientes generaciones. Hoy en día, sus hijos, Ariel y Germán, así como su nieto, Agustín, forman parte de la empresa, continuando con la tradición familiar. Gracias a este esfuerzo conjunto, la empresa sigue operando con éxito, brindando empleo a numerosas familias y contribuyendo al desarrollo de la comunidad.
 `,
    },
-   {
-      title: "Ataúdes Larovere",
-      date: "1972",
-      logo: "./assets/DiaIndustria/Larovere/logo.png",
-      content: `Casa Larovere fue fundada en 1972 por el Sr. Nélido Larovere, originalmente dedicada al pulido y refacción de capillas ardientes. Por aquellos años, no existían salas velatorias, por lo que cada empresa (cochería) debía tener un buen stock de capillas en condiciones óptimas.
 
-Con el paso del tiempo y los cambios que se fueron efectuando tanto económica como comercialmente, Nélido comenzó a ver la necesidad de ampliar sus servicios, así como también, de mejorar la calidad de los mismos.
-Desde la aparición de las Salas Velatorias y las primeras Cooperativas, y ya de la mano de uno de los hijos de Don Nélido, la empresa fue creciendo y expandiendo sus fronteras. Así hoy conducida por la tercera generación logra brindar un servicio integral (fabricación de insumos funerarios, hospitalarios, morgues y cementerios) y permanente a todas las empresas ligadas al rubro.
-`,
-   },
    {
-      title: "Ataúdes Frouté",
-      date: "1973",
+      title: "Frouté Ataúdes",
+      date: "1971",
       logo: "./assets/DiaIndustria/Froute/logo.jpg",
       content: `Corría el año 1968, cuando el cuñado de Juan Frouté, don Fernando Vendramini en su espíritu inquieto, creativo inventó entre tantas cosas los ataúdes de plástico, producto muy novedoso para la época. Juan “Pepe” Froute impulsado por el entusiasmo de su cuñado, se radica en General Deheza en el año 1971 e instala la primera fábrica de ataúdes en la esquina de Saavedra y José Frouté. Esquina tan emblemática para nuestra comunidad ya que allí funcionaba la oficina de teléfono y el correo.
 
@@ -223,8 +200,36 @@ Pepe dejó de lado su profesión de Agrónomo, para abocarse de lleno a esta ind
 Con el paso del tiempo la fábrica se trasladó a su actual ubicación sobre Ruta Nacional 158. Pepe cuando no pudo continuar con la fábrica, inspirado en todo lo que había aprendido y convencido de que seguía siendo una industria con futuro motivó a sus empleados a unirse y hacerse cargo de manera cooperativa de la misma. Hoy fruto de ello y en manos del hijo de unos de sus empleados continúa fabricando y produciendo para un gran mercado.
 `,
    },
+   //    {
+   //       title: "Plásticos Reforzados Larovere",
+   //       date: "1972",
+   //       logo: "./assets/DiaIndustria/Larovere/logo.png",
+   //       content: `Casa Larovere fue fundada en 1972 por el Sr. Nélido Larovere, originalmente dedicada al pulido y refacción de capillas ardientes. Por aquellos años, no existían salas velatorias, por lo que cada empresa (cochería) debía tener un buen stock de capillas en condiciones óptimas.
+
+   // Con el paso del tiempo y los cambios que se fueron efectuando tanto económica como comercialmente, Nélido comenzó a ver la necesidad de ampliar sus servicios, así como también, de mejorar la calidad de los mismos.
+   // Desde la aparición de las Salas Velatorias y las primeras Cooperativas, y ya de la mano de uno de los hijos de Don Nélido, la empresa fue creciendo y expandiendo sus fronteras. Así hoy conducida por la tercera generación logra brindar un servicio integral (fabricación de insumos funerarios, hospitalarios, morgues y cementerios) y permanente a todas las empresas ligadas al rubro.
+   // `,
+   //    },
    {
-      title: "Osvaldo Gómez",
+      title: "Sergio G. Billia Contratista Rural",
+      date: "1972",
+      logo: "./assets/DiaIndustria/Gomez/logo.jpeg",
+      content: `Con tan solo 17 años, corriendo el mes de noviembre del año 1972, Sergio debe ponerse al frente de la empresa familiar CONTRATISTA RURAL, dado el fallecimiento de su padre Heraldo en un accidente. Sergio  se encontraba cursando el último año de mecánico en la escuela de trabajo Domingo Faustino Sarmiento de Villa María, pero a partir de ese día tuvo una nueva responsabilidad.
+
+No estaba solo, a su lado siempre incondicional estaba su madre Elvira Audrito y su hermana Nelva. 
+
+Con 6 cosechadoras GEMA sale a trabajar el 15 de noviembre de 1972 apoyado en los empleados, hacia La Pampa marchando pueblo a pueblo llegando hasta Coronel Suarez, para cumplir con los trabajos de su padre. Desde ese día se propuso la meta de trabajar y progresar como lo realizó hasta el día de hoy; pero como a todos los tiempos nunca le fueron fáciles, pasó por situaciones difíciles con tropiezos económicos, cosechas flacas, secas, meses sin ver la familia, entre tantas otras cosas.
+
+En la década del 80, incorpora un nuevo rubro, la explotación agropecuaria, arrendando campos en sociedad, y un tiempo después adquiere un campo comenzando la explotación de manera independiente hasta el día de hoy.
+
+En 1983, forma su familia con su esposa Cristina Torre; ella fue y es su apoyo, junto con sus hijos.
+
+Allá por los 90 por necesidad de traslado de las cosechadoras incorpora un camión carretón, iniciando así una nueva rama en la prestación de servicios de transporte de maquinarias y granos.
+En la actualidad cuenta con 25 empleados para desarrollar la agricultura, ganadería, transporte y la tarea de contratista rural en diferentes puntos de la provincia de Cba, San Luis y La Pampa.
+`,
+   },
+   {
+      title: "Taller electromecánico José O. Gómez e hijos",
       date: "1974",
       logo: "./assets/DiaIndustria/Gomez/logo.jpeg",
       content: `Luego de trabajar en la industria del automotor desde los 12 años en Villa Maria y en Mar del Plata, General Deheza lo recibe a Osvaldo, el Negro Gomez como todos hoy lo conocen, acompañado por Mary,  quienes hacían eco a la invitación de su suegro, quien veía en la localidad una clara oportunidad laboral.

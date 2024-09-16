@@ -120,21 +120,28 @@ const LineaIndustria = ({ events }) => {
             ))}
          </Swiper>
          {selectedPiece && (
-            <Modal isOpen={isOpen} onClose={onClose} isCentered>
+            <Modal
+               isOpen={isOpen}
+               onClose={onClose}
+               isCentered
+               autoFocus={false}
+            >
                <ModalOverlay backdropFilter='blur(5px)' />
                <ModalContent
                   p={3}
                   minW={isMobile ? "90%" : "80dvw"}
                   h='auto'
-                  maxH='90dvh'
+                  maxH={isMobile ? "auto" : "90dvh"}
                   w={isMobile && "90%"}
                >
                   <ModalCloseButton autoFocus={false} />
                   <ModalBody paddingBlock={5}>
-                     <Stack direction='row' gap='1rem'>
+                     <Stack direction={isMobile ? "column" : "row"} gap='1rem'>
                         <Stack
                            w={
-                              selectedPiece?.assets?.length > 1 ? "50%" : "100%"
+                              selectedPiece?.assets?.length > 0 && !isMobile
+                                 ? "50%"
+                                 : "100%"
                            }
                         >
                            <Heading size='md' color='primario'>
@@ -142,19 +149,19 @@ const LineaIndustria = ({ events }) => {
                            </Heading>
 
                            <Divider borderColor='cuarto' />
-                           <Stack>
-                              <Text
-                                 whiteSpace='pre-line'
-                                 fontSize={isTablet ? "sm" : "lg"}
-                              >
+                           <Stack
+                              maxH='70dvh' // Limitar la altura del contenido de texto
+                              overflowY='scroll' // Habilitar scroll cuando el texto sea demasiado largo
+                           >
+                              <Text whiteSpace='pre-line' fontSize={"md"}>
                                  {selectedPiece.content}
                               </Text>
                            </Stack>
                         </Stack>
                         <Stack
-                           w='50%'
+                           w={isMobile ? "100%" : "50%"}
                            display={
-                              selectedPiece?.assets?.length > 1
+                              selectedPiece?.assets?.length > 0
                                  ? "block"
                                  : "none"
                            }
@@ -179,6 +186,9 @@ const LineaIndustria = ({ events }) => {
                                              src={asset}
                                              alt={`asset-${index}`}
                                              maxW='100%'
+                                             objectFit='contain !important'
+                                             h='100%'
+                                             objectPosition='center !important'
                                              maxH='70dvh'
                                              borderRadius='md'
                                              pointerEvents='none'
