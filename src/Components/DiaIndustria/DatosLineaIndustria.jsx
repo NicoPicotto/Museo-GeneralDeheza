@@ -1,6 +1,6 @@
 const events = [
    {
-      title: "Gastaldi Hnos",
+      title: "Gastaldi Hnos.",
       date: "1931",
       logo: "./assets/DiaIndustria/Gastaldi/logo.png",
       content: `En medio de la gran depresión iniciada en el año 1929 nace Molinos Gastaldi S.A. con una capacidad de molienda de 15 toneladas por día. Los hermanos Ángel, Antonio, Gabriel y Santiago Gastaldi, y su cuñado Luis Macario, afrontan con visión y coraje el desafío de crear una empresa agroindustrial.
@@ -212,6 +212,11 @@ Pepe dejó de lado su profesión de Agrónomo, para abocarse de lleno a esta ind
 
 Con el paso del tiempo la fábrica se trasladó a su actual ubicación sobre Ruta Nacional 158. Pepe cuando no pudo continuar con la fábrica, inspirado en todo lo que había aprendido y convencido de que seguía siendo una industria con futuro motivó a sus empleados a unirse y hacerse cargo de manera cooperativa de la misma. Hoy fruto de ello y en manos del hijo de unos de sus empleados continúa fabricando y produciendo para un gran mercado.
 `,
+      assets: [
+         "./assets/DiaIndustria/Froute/FROUTE_01.jpg",
+         "./assets/DiaIndustria/Froute/FROUTE_02.jpg",
+         "./assets/DiaIndustria/Froute/FROUTE_03.jpg",
+      ],
    },
    //    {
    //       title: "Plásticos Reforzados Larovere",
@@ -240,6 +245,11 @@ En 1983, forma su familia con su esposa Cristina Torre; ella fue y es su apoyo, 
 Allá por los 90 por necesidad de traslado de las cosechadoras incorpora un camión carretón, iniciando así una nueva rama en la prestación de servicios de transporte de maquinarias y granos.
 En la actualidad cuenta con 25 empleados para desarrollar la agricultura, ganadería, transporte y la tarea de contratista rural en diferentes puntos de la provincia de Cba, San Luis y La Pampa.
 `,
+      assets: [
+         "https://www.youtube.com/watch?v=IECS9AAxzHg",
+         "https://www.youtube.com/watch?v=ZWa8-OLbvoI",
+         "https://www.youtube.com/watch?v=h3aTs8s1uC8",
+      ],
    },
    {
       title: "Taller electromecánico José O. Gómez e hijos",
@@ -253,6 +263,11 @@ Día a día, el taller tomaba fuerzas, los clientes volvían, lo recomendaban da
 
 Hoy ese pequeño taller que compartía espacio con el hogar familiar tiene su propio espacio, sobre calle Balcarce, genera puestos de trabajo, inspira a otros a generar sus propias empresas, brinda una amplia gama de servicios afines a la industria de la electromecánica.
 `,
+      assets: [
+         "./assets/DiaIndustria/Gomez/GOMEZ_01.jpg",
+         "./assets/DiaIndustria/Gomez/GOMEZ_02.jpg",
+         "./assets/DiaIndustria/Gomez/GOMEZ_03.jpg",
+      ],
    },
 ];
 

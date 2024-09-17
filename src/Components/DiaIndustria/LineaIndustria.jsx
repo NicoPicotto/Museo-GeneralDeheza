@@ -71,7 +71,12 @@ const LineaIndustria = ({ events }) => {
                      position='relative'
                      transition='0.2s ease'
                      cursor='pointer'
+                     h='100%'
                      marginBlock={4}
+                     align='center'
+                     _hover={{
+                        ".title-slide": { transform: "scale(1.05)" },
+                     }}
                      onClick={() => handleOpenModal(data)}
                   >
                      <Heading zIndex={2} color='blanco'>
@@ -85,15 +90,16 @@ const LineaIndustria = ({ events }) => {
                         h='5px'
                         mb='10px'
                      />
+
                      <Stack
                         //bgColor='white'
                         //shadow='md'
 
                         transition='0.2s ease'
-                        _hover={{ transform: "scale(1.02)" }}
+                        className='title-slide'
                         paddingInline='2rem'
-                        paddingTop='3rem'
                         align='center'
+                        paddingTop='1.5rem'
                         gap='1rem'
                         w='100%'
                         borderRadius='full'
@@ -102,7 +108,8 @@ const LineaIndustria = ({ events }) => {
                         <Heading
                            mt='-1rem'
                            color='blanco'
-                           size={isTablet ? "sm" : "md"}
+                           fontFamily={`'PT Sans', sans-serif;`}
+                           fontSize={isTablet ? "sm" : "1.4rem"}
                         >
                            {data.title}
                         </Heading>
@@ -131,7 +138,7 @@ const LineaIndustria = ({ events }) => {
                   p={3}
                   minW={isMobile ? "90%" : "80dvw"}
                   h='auto'
-                  maxH={isMobile ? "auto" : "90dvh"}
+                  //maxH={isMobile ? "auto" : "90dvh"}
                   w={isMobile && "90%"}
                >
                   <ModalCloseButton autoFocus={false} />
@@ -151,7 +158,7 @@ const LineaIndustria = ({ events }) => {
                            <Divider borderColor='cuarto' />
                            <Stack
                               maxH='70dvh' // Limitar la altura del contenido de texto
-                              overflowY='scroll' // Habilitar scroll cuando el texto sea demasiado largo
+                              overflowY='auto' // Habilitar scroll cuando el texto sea demasiado largo
                            >
                               <Text whiteSpace='pre-line' fontSize={"md"}>
                                  {selectedPiece.content}
@@ -174,7 +181,7 @@ const LineaIndustria = ({ events }) => {
                               grabCursor={true}
                               navigation={true}
                               modules={[Mousewheel, Navigation]}
-                              className='mySwiper'
+                              className='mySwiper2'
                            >
                               {selectedPiece.assets &&
                                  selectedPiece.assets.map((asset, index) => {
