@@ -168,6 +168,14 @@ Así Héctor, fundador, visionario, emprendedor, comenzó armando aberturas para
 
 Hoy conducida por la segunda generación, sigue apoyando al desarrollo local bajo la denominación  Dirige SA.
 `,
+      assets: [
+         "./assets/DiaIndustria/Caffaratti/CAFFARATTI_01.jpg",
+         "./assets/DiaIndustria/Caffaratti/CAFFARATTI_02.jpg",
+         "./assets/DiaIndustria/Caffaratti/CAFFARATTI_03.jpg",
+         "./assets/DiaIndustria/Caffaratti/CAFFARATTI_04.jpg",
+         "./assets/DiaIndustria/Caffaratti/CAFFARATTI_05.jpg",
+         "./assets/DiaIndustria/Caffaratti/CAFFARATTI_06.jpg",
+      ],
    },
    {
       title: "Industria Bertero Juan Carlos",
@@ -187,6 +195,11 @@ En el año 2010, la empresa trasladó sus operaciones a un galpón más amplio u
 
 Esta dedicación al trabajo y el legado de excelencia han sido transmitidos a las siguientes generaciones. Hoy en día, sus hijos, Ariel y Germán, así como su nieto, Agustín, forman parte de la empresa, continuando con la tradición familiar. Gracias a este esfuerzo conjunto, la empresa sigue operando con éxito, brindando empleo a numerosas familias y contribuyendo al desarrollo de la comunidad.
 `,
+      assets: [
+         "./assets/DiaIndustria/Bertero/BERTERO_01.jpg",
+         "./assets/DiaIndustria/Bertero/BERTERO_02.jpg",
+         "./assets/DiaIndustria/Bertero/BERTERO_03.jpg",
+      ],
    },
 
    {

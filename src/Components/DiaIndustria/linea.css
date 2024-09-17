@@ -6,12 +6,12 @@
    font-size: 30px;
    padding-top: 40px;
    padding-right: 20px;
-   color: gray.600
+   color: gray.600;
 }
 
 .swiper-button-next:after {
    font-size: 30px;
    padding-top: 40px;
    padding-left: 30px;
-   color: gray.600
+   color: gray.600;
 }
