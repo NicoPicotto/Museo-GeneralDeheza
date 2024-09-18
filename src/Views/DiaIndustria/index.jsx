@@ -1,13 +1,24 @@
-import { Stack, Heading, Text, useMediaQuery } from "@chakra-ui/react";
+import { Stack, Heading, Text, useMediaQuery, Image } from "@chakra-ui/react";
 import Container from "../../Components/Atoms/Container";
 import events from "../../Components/DiaIndustria/DatosLineaIndustria";
 import LineaIndustria from "../../Components/DiaIndustria/LineaIndustria";
+import fondo from "/assets/DiaIndustria/fondo-industria.jpg";
 
 const DiaIndustriaView = () => {
    const [isMobile] = useMediaQuery("(max-width: 1100px)");
 
    return (
-      <Stack justify='center' bgColor='negro' minH='100vh'>
+      <Stack justify='center' bgColor='negro' minH='100vh' position='relative'>
+         <Image
+            position='absolute'
+            m='auto'
+            objectFit='cover'
+            opacity={0.15}
+            src={fondo}
+            alt='bg'
+            w='100%'
+            h='100%'
+         />
          <Container mt='6em' alignSelf='center'>
             <Stack
                maxW='1420px'
@@ -18,7 +29,7 @@ const DiaIndustriaView = () => {
                w='100%'
                pt={isMobile && "6.5em"}
                position='relative'
-               mt="-2rem"
+               mt='-2rem'
             >
                <Heading size='xl' color='blanco' textShadow='md' zIndex={10}>
                   Industrias con 50 Años de Trayectoria

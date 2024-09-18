@@ -140,6 +140,7 @@ const LineaIndustria = ({ events }) => {
                   h='auto'
                   //maxH={isMobile ? "auto" : "90dvh"}
                   w={isMobile && "90%"}
+                  bgColor="fondo"
                >
                   <ModalCloseButton autoFocus={false} />
                   <ModalBody paddingBlock={5}>
