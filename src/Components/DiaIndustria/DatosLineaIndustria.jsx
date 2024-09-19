@@ -25,6 +25,12 @@ Llamando a la innovación, en 1990 se incorporó Ariel, hijo de Roberto, quien t
 
 En la actualidad, la firma Bainotti fabrica la totalidad de sus productos con materias plásticas reciclables y maquinaria computarizada de última tecnología incursionando al futuro con una producción de cepilleria industrial e institucional de alta eficiencia.
 `,
+      assets: [
+         "./assets/DiaIndustria/Bainoti/BAINOTTI_01.jpg",
+         "./assets/DiaIndustria/Bainoti/BAINOTTI_02.jpg",
+         "./assets/DiaIndustria/Bainoti/BAINOTTI_03.jpg",
+         "./assets/DiaIndustria/Bainoti/BAINOTTI_04.jpg",
+      ],
    },
 
    {
@@ -286,6 +292,8 @@ Allá por los 90 por necesidad de traslado de las cosechadoras incorpora un cami
 En la actualidad cuenta con 25 empleados para desarrollar la agricultura, ganadería, transporte y la tarea de contratista rural en diferentes puntos de la provincia de Cba, San Luis y La Pampa.
 `,
       assets: [
+         "./assets/DiaIndustria/Billia/BILLIA_01.jpg",
+         "./assets/DiaIndustria/Billia/BILLIA_01.jpg",
          "https://www.youtube.com/watch?v=IECS9AAxzHg",
          "https://www.youtube.com/watch?v=ZWa8-OLbvoI",
          "https://www.youtube.com/watch?v=h3aTs8s1uC8",
