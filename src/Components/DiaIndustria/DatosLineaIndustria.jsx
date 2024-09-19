@@ -17,7 +17,13 @@ Fundada en 1931 en General Deheza, Córdoba, Gastaldi Hnos es pionera en el nego
       title: "Fábrica de Escobas Bainotti",
       date: "1935",
       logo: "./assets/DiaIndustria/Bainoti/logo.png",
-      content: `En el año 1934, nace una nueva empresa en la comunidad dehecina, Mateo Luis Bainotti, empezaba a incursionar en la fabricación de artículos de limpieza. Comenzando por escobas y fábrica de jabón y detergente, hoy teniendo una gran variedad de productos a la venta. Más de trescientos productos y con una carta con más de mil variantes. Un proyecto con visión a futuro que hoy lleva adelante su hijo y nieto.
+      content: `Allá por 1922, arribó en territorio dehecino Tomaso Bainotti. Con el paso de los años Tomaso y su hijo Mateo Luis emprendieron en la fabricación manual de jabón y demás productos de limpieza. Es allí en 1935 cuando la familia logró, desde el Gobierno Nacional, conseguir la titularidad de la marca “Cavour”.
+
+Luego, en 1968, se incorporó a la empresa Roberto, hijo de Mateo, quien impulsó el crecimiento de la empresa hacia la provincia de Córdoba con una amplia carpeta de diferentes artículos de limpieza.
+
+Llamando a la innovación, en 1990 se incorporó Ariel, hijo de Roberto, quien trajo consigo tecnologías de producción en serie y la expansión de la empresa al resto del país.
+
+En la actualidad, la firma Bainotti fabrica la totalidad de sus productos con materias plásticas reciclables y maquinaria computarizada de última tecnología incursionando al futuro con una producción de cepilleria industrial e institucional de alta eficiencia.
 `,
    },
 
@@ -140,6 +146,15 @@ Al año siguiente, incorporó nuevas líneas de negocio, como la reventa y coloc
 
 En 2005, Leonardo Siccardi, hijo de Jorge, se incorporó formalmente a la empresa, aunque desde pequeño ya colaboraba en diversas tareas. Su llegada amplió las actividades de la fábrica, sumando el servicio de electricidad del automotor y la fabricación y venta de agua desmineralizada. A lo largo de más de 60 años de trayectoria, la empresa ha mantenido una fuerte participación familiar en su gestión, con Cristina López, esposa de Jorge, siempre a su lado. En un punto de su historia, la fábrica adoptó el nombre "Super Enérgica" y, actualmente, opera bajo el nombre "Siccardi".
 `,
+      assets: [
+         "./assets/DiaIndustria/Siccardi/SICCARDI_01.jpg",
+         "./assets/DiaIndustria/Siccardi/SICCARDI_02.jpg",
+         "./assets/DiaIndustria/Siccardi/SICCARDI_03.jpg",
+         "./assets/DiaIndustria/Siccardi/SICCARDI_04.jpg",
+         "./assets/DiaIndustria/Siccardi/SICCARDI_05.jpg",
+         "./assets/DiaIndustria/Siccardi/SICCARDI_06.jpg",
+         "./assets/DiaIndustria/Siccardi/SICCARDI_07.jpg",
+      ],
    },
    {
       title: "Abrile Aviación Agrícola",
@@ -149,6 +164,12 @@ En 2005, Leonardo Siccardi, hijo de Jorge, se incorporó formalmente a la empres
 
 Su esposa Edith, sus hijos Santiago y Alejandro quien ahora sigue con la actividad, fueron y son acérrimos colaboradores y puntales para que hoy la Empresa siga adelante.
 `,
+      assets: [
+         "./assets/DiaIndustria/Abrile/AVRILE_01.jpg",
+         "./assets/DiaIndustria/Abrile/AVRILE_02.jpg",
+         "./assets/DiaIndustria/Abrile/AVRILE_03.jpg",
+         "./assets/DiaIndustria/Abrile/AVRILE_04.jpg",
+      ],
    },
    {
       title: "Plásticos Reforzados Larovere",
@@ -161,22 +182,35 @@ Su principal actividad fue la fabricación de ataúdes de fibra de vidrio, un pr
 Es importante destacar que la esposa de Pedro, Graciela Negri, fue un pilar fundamental en su vida y en el desarrollo de la empresa. Su apoyo incondicional y su visión compartida fueron cruciales para el crecimiento y la estabilidad de la empresa, ayudando a forjar un ambiente de trabajo basado en la confianza y el respeto mutuo. Con el paso de los años, la empresa sigue vigente.
 
 Bajo la dirección de un equipo comprometido con los valores de su fundador, ha explorado nuevas alternativas de producción, diversificando su oferta y adaptándose a las demandas cambiantes del mercado. Esta capacidad de innovación ha permitido a la empresa mantenerse relevante y competitiva, siempre con la mirada puesta en el futuro. Hoy en día, la firma es liderada por las hijas de Pedro, Valeria y Mónica, quienes han asumido el legado familiar con gran responsabilidad y dedicación honrando la memoria de Pedro, y garantizando que la empresa siga prosperando en un entorno en constante cambio.`,
+      assets: [
+         "./assets/DiaIndustria/LaroverePlasticos/PLASTICOSLAROVERE_01.jpg",
+         "./assets/DiaIndustria/LaroverePlasticos/PLASTICOSLAROVERE_02.jpg",
+         "./assets/DiaIndustria/LaroverePlasticos/PLASTICOSLAROVERE_03.jpg",
+         "./assets/DiaIndustria/LaroverePlasticos/PLASTICOSLAROVERE_04.jpg",
+         "./assets/DiaIndustria/LaroverePlasticos/PLASTICOSLAROVERE_05.jpg",
+         "./assets/DiaIndustria/LaroverePlasticos/PLASTICOSLAROVERE_06.jpg",
+      ],
    },
    {
-      title: "Gutierrez Amoblamientos & Herrajes",
+      title: "Gutiérrez Amoblamientos & Herrajes",
       date: "1971",
       logo: "./assets/DiaIndustria/Larovere/logo.png",
-      content: `Todo se remonta a un emprendimiento familiar, más precisamente a un emprendimiento entre hermanos que decidieron comenzar a trabajar en sociedad con Tito Billia, en un antiguo edificio ubicado donde hoy funciona la nueva Biblioteca Municipal. Luego se independizaron, con mucho esfuerzo pudieron comprar las primeras máquinas y alquilar un galpón para comenzar su propia historia como Muebles Gutierrez.
+      content: `Todo se remonta a un emprendimiento familiar, más precisamente a un emprendimiento entre hermanos que decidieron comenzar a trabajar en sociedad con Tito Billia, en un antiguo edificio ubicado donde hoy funciona la nueva Biblioteca Municipal. Luego se independizaron, con mucho esfuerzo pudieron comprar las primeras máquinas y alquilar un galpón para comenzar su propia historia como Muebles Gutiérrez.
 
 Un tiempo más tarde, fruto del crecimiento constante pudieron comprar terrenos y construir los galpones que albergarían la fábrica. Más adelante, por cuestiones de la vida, cada hermano comenzó a tomar su rumbo.
 
-Actualmente, Gutiérrez Amoblamiento & Herrajes le corresponde a Luis Antonio Gutierrez e hijas, quienes se distinguen por la construcción de amoblamientos a medida en placa y a la venta de todo tipo de herrajes y accesorios para el hogar.`,
+Actualmente, Gutiérrez Amoblamiento & Herrajes le corresponde a Luis Antonio Gutiérrez e hijas, quienes se distinguen por la construcción de amoblamientos a medida en placa y a la venta de todo tipo de herrajes y accesorios para el hogar.`,
+      assets: [
+         "./assets/DiaIndustria/Gutierrez/GUTIERREZ_01.jpg",
+         "./assets/DiaIndustria/Gutierrez/GUTIERREZ_02.jpg",
+         "./assets/DiaIndustria/Gutierrez/GUTIERREZ_03.jpg",
+      ],
    },
    {
       title: "Industrias Caffaratti",
       date: "1971",
       logo: "./assets/DiaIndustria/Caffaratti/logo.jpeg",
-      content: `Allá por 1971, Héctor Caffaratti, se desempeñaba como Tornero en IMET, pero en búsqueda de su desarrollo personal y profesional, comenzó a buscar nuevos rumbos. Al comienzo fueron largas jornadas, terminaba con sus obligaciones en IMET y comenzaba su creaciones a partir de arreglos de herrería, ajuste en puertas y ventanas. Jornadas en las que su hermano Omar lo acompañaba y asesoraba. Así fue como de a poco, viaje tras viaje, logró comprar piezas plegadas y construir aberturas que vendía en la localidad. 
+      content: `Allá por 1971, Héctor Caffaratti, se desempeñaba como Tornero en IMET, pero en búsqueda de su desarrollo personal y profesional, comenzó a buscar nuevos rumbos. Al comienzo fueron largas jornadas, terminaba con sus obligaciones en IMET y comenzaban su creaciones a partir de arreglos de herrería, ajuste en puertas y ventanas. Jornadas en las que su hermano Omar lo acompañaba y asesoraba. Así fue como de a poco, viaje tras viaje, logró comprar piezas plegadas y construir aberturas que vendía en la localidad. 
 
 Héctor, alimentando un sueño y explotando su creatividad, improvisó una máquina de pintar con una maquinista de “flit”, las que se sacan para matar mosquitos, ya que las aberturas debían salir pintadas, pero no había soplete. Luego se fue perfeccionando y construyó otra con un tarro de filtro de aceite viejo. El trabajo extra creció, dándole confianza a su proyecto, fue así como renunció y comenzó Industrias Caffaratti.
 
@@ -193,6 +227,8 @@ Hoy conducida por la segunda generación, sigue apoyando al desarrollo local baj
          "./assets/DiaIndustria/Caffaratti/CAFFARATTI_04.jpg",
          "./assets/DiaIndustria/Caffaratti/CAFFARATTI_05.jpg",
          "./assets/DiaIndustria/Caffaratti/CAFFARATTI_06.jpg",
+         "./assets/DiaIndustria/Caffaratti/CAFFARATTI_07.jpg",
+         "./assets/DiaIndustria/Caffaratti/CAFFARATTI_08.jpg",
       ],
    },
    {
@@ -219,7 +255,7 @@ Esta dedicación al trabajo y el legado de excelencia han sido transmitidos a la
    },
 
    {
-      title: "Frouté Ataúdes",
+      title: "Froute Ataúdes",
       date: "1971",
       logo: "./assets/DiaIndustria/Froute/logo.jpg",
       content: `Corría el año 1968, cuando el cuñado de Juan Froute, don Fernando Vendramini en su espíritu inquieto e innovador, inventó entre tantas cosas los ataúdes de plástico, producto muy novedoso para la época. Juan Froute impulsado por el entusiasmo de su cuñado, se radica en General Deheza en el año 1971 e instala la primera fábrica de ataúdes en la esquina de Saavedra y José Froute. Esquina tan emblemática para la comunidad ya que allí funcionaba la oficina de teléfono y el correo.
@@ -262,6 +298,11 @@ En la actualidad cuenta con 25 empleados para desarrollar la agricultura, ganade
       content: `Casa Larovere fue fundada en 1972 por el Sr. Nélido Larovere, originalmente dedicada al pulido y refacción de capillas ardientes. Por aquellos años, no existían salas velatorias, por lo que cada empresa (cochería) debía tener un buen stock de capillas en condiciones óptimas.
 Con el paso del tiempo y los cambios que se fueron efectuando tanto económica como comercialmente, Nélido comenzó a ver la necesidad de ampliar sus servicios, así como también, de mejorar la calidad de los mismos.
 Desde la aparición de las Salas Velatorias y las primeras Cooperativas, y ya de la mano de uno de los hijos de Don Nélido, la empresa fue creciendo y expandiendo sus fronteras. Así hoy conducida por la tercera generación logra brindar un servicio integral (fabricación de insumos funerarios, hospitalarios, morgues y cementerios) y permanente a todas las empresas ligadas al rubro.`,
+      assets: [
+         "./assets/DiaIndustria/Larovere/CASALAROVERE_01.jpg",
+         "./assets/DiaIndustria/Larovere/CASALAROVERE_02.jpg",
+         "./assets/DiaIndustria/Larovere/CASALAROVERE_03.jpg",
+      ],
    },
    {
       title: "Taller electromecánico José O. Gómez e hijos",
@@ -271,7 +312,7 @@ Desde la aparición de las Salas Velatorias y las primeras Cooperativas, y ya de
 
 Día a día, el taller tomaba fuerzas, los clientes volvían, lo recomendaban dada la calidad de trabajo, la cordialidad en el trato, la responsabilidad en lo que se hacía. Lo que le implicaba trabajar sin mirar el reloj, sin importar el día que marcaba el calendario. Siempre acompañado de Mary y posteriormente de la familia que ambos construyeron, y que de a poco, se fue incorporando al taller formando lo que hoy es Taller Electromecanico Gómez.
 
-En la actualidad, ese pequeño taller que compartía espacio con el hogar familiar tiene su propio espacio, sobre calle Balcarce. Genera puestos de trabajo, inspira a otros a generar sus propias empresas y brinda una amplia gama de servicios afines a la industria de la electromecánica.
+En la actualidad, ese pequeño taller que compartía espacio con el hogar familiar tiene su propio espacio, sobre calle Balcarce. Genera puestos de trabajo, inspira a otros a generar sus propias empresas y brinda una amplia gama de servicios afines a la industria de la electromecanica.
 `,
       assets: [
          "./assets/DiaIndustria/Gomez/GOMEZ_01.jpg",
