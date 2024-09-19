@@ -293,7 +293,7 @@ En la actualidad cuenta con 25 empleados para desarrollar la agricultura, ganade
 `,
       assets: [
          "./assets/DiaIndustria/Billia/BILLIA_01.jpg",
-         "./assets/DiaIndustria/Billia/BILLIA_02.jpg",
+         "./assets/DiaIndustria/Billia/BILLIA_02.jpeg",
          "https://www.youtube.com/watch?v=IECS9AAxzHg",
          "https://www.youtube.com/watch?v=ZWa8-OLbvoI",
          "https://www.youtube.com/watch?v=h3aTs8s1uC8",
